@@ -1,7 +1,3554 @@
 {
-    "Charaters": [
+    "seasons": [
         {
-            "name" : 
+            "spring": [{
+                "charaters": [{
+                    "name": "Alex",
+                    "schedule": "",
+                    "birthday": "Summer 13",
+                    "gifts": [{
+                        "love": "Complete Breakfast, Salmon Dinner",
+                        "like": "All Universal Likes, All Eggs (except Void Egg)",
+                        "neutral": "All Universal Neutrals, All Fruit (except Fruit Tree Fruit & Salmonberry), All Milk, Common Mushroom, Daffodil, Dandelion, Ginger, Hazelnut, Leek, Magna Cap, Morel, Purple Mushroom, Snow Yam, Winter Root, ",
+                        "hate": "Salmonberry, Wild Horseradish, Holly, Quartz"
+                    }],
+                    "heart_events": [{
+                        "2h": "On a sunny summer day, visit the beach when Alex is there.",
+                        "3h": "",
+                        "4h": "Enter town between 9am and 4pm.",
+                        "5h": "Enter Alex's house when he's there",
+                        "6h": "Enter Alex's house when he's there",
+                        "7h": "",
+                        "8h": "On a sunny day, visit the beach when Alex is there. He is only scheduled to go to the beach in summer, but may pass by on the way to the Ginger Island resort in any season after it is completed.",
+                        "9h": "",
+                        "10h": "Alex will send you a letter to meet him at the Saloon after dark. After receiving the letter, enter the Saloon between 7pm and 10pm.",
+                        "11h": "",
+                        "12h": "",
+                        "13h": "",
+                        "14h": "Exit the Farmhouse in year 2+ between 6am and 8:20am on any day other than Sunday. You must have 5,000g available."
+                    }]
+                },
+                    {
+                        "name": "Elliott",
+                        "schedule": "",
+                        "birthday": "",
+                        "gifts": [{
+                            "love": "",
+                            "like": "",
+                            "neutral": "",
+                            "hate": ""
+                        }],
+                        "heart_events": [{
+                            "2h": "",
+                            "3h": "",
+                            "4h": "",
+                            "5h": "",
+                            "6h": "",
+                            "7h": "",
+                            "8h": "",
+                            "9h": "",
+                            "10h": "",
+                            "11h": "",
+                            "12h": "",
+                            "13h": "",
+                            "14h": ""
+                        }]
+                    },
+                    {
+                        "name": "Harvey",
+                        "schedule": "",
+                        "birthday": "",
+                        "gifts": [{
+                            "love": "",
+                            "like": "",
+                            "neutral": "",
+                            "hate": ""
+                        }],
+                        "heart_events": [{
+                            "2h": "",
+                            "3h": "",
+                            "4h": "",
+                            "5h": "",
+                            "6h": "",
+                            "7h": "",
+                            "8h": "",
+                            "9h": "",
+                            "10h": "",
+                            "11h": "",
+                            "12h": "",
+                            "13h": "",
+                            "14h": ""
+                        }]
+                    },
+                    {
+                        "name": "Sam",
+                        "schedule": "",
+                        "birthday": "",
+                        "gifts": [{
+                            "love": "",
+                            "like": "",
+                            "neutral": "",
+                            "hate": ""
+                        }],
+                        "heart_events": [{
+                            "2h": "",
+                            "3h": "",
+                            "4h": "",
+                            "5h": "",
+                            "6h": "",
+                            "7h": "",
+                            "8h": "",
+                            "9h": "",
+                            "10h": "",
+                            "11h": "",
+                            "12h": "",
+                            "13h": "",
+                            "14h": ""
+                        }]
+                    },
+                    {
+                        "name": "Sebastian",
+                        "schedule": "",
+                        "birthday": "",
+                        "gifts": [{
+                            "love": "",
+                            "like": "",
+                            "neutral": "",
+                            "hate": ""
+                        }],
+                        "heart_events": [{
+                            "2h": "",
+                            "3h": "",
+                            "4h": "",
+                            "5h": "",
+                            "6h": "",
+                            "7h": "",
+                            "8h": "",
+                            "9h": "",
+                            "10h": "",
+                            "11h": "",
+                            "12h": "",
+                            "13h": "",
+                            "14h": ""
+                        }]
+                    },
+                    {
+                        "name": "Shane",
+                        "schedule": "",
+                        "birthday": "",
+                        "gifts": [{
+                            "love": "",
+                            "like": "",
+                            "neutral": "",
+                            "hate": ""
+                        }],
+                        "heart_events": [{
+                            "2h": "",
+                            "3h": "",
+                            "4h": "",
+                            "5h": "",
+                            "6h": "",
+                            "7h": "",
+                            "8h": "",
+                            "9h": "",
+                            "10h": "",
+                            "11h": "",
+                            "12h": "",
+                            "13h": "",
+                            "14h": ""
+                        }]
+                    },
+                    {
+                        "name": "Abigail",
+                        "schedule": "",
+                        "birthday": "",
+                        "gifts": [{
+                            "love": "",
+                            "like": "",
+                            "neutral": "",
+                            "hate": ""
+                        }],
+                        "heart_events": [{
+                            "2h": "",
+                            "3h": "",
+                            "4h": "",
+                            "5h": "",
+                            "6h": "",
+                            "7h": "",
+                            "8h": "",
+                            "9h": "",
+                            "10h": "",
+                            "11h": "",
+                            "12h": "",
+                            "13h": "",
+                            "14h": ""
+                        }]
+                    },
+                    {
+                        "name": "Emily",
+                        "schedule": "",
+                        "birthday": "",
+                        "gifts": [{
+                            "love": "",
+                            "like": "",
+                            "neutral": "",
+                            "hate": ""
+                        }],
+                        "heart_events": [{
+                            "2h": "",
+                            "3h": "",
+                            "4h": "",
+                            "5h": "",
+                            "6h": "",
+                            "7h": "",
+                            "8h": "",
+                            "9h": "",
+                            "10h": "",
+                            "11h": "",
+                            "12h": "",
+                            "13h": "",
+                            "14h": ""
+                        }]
+                    },
+                    {
+                        "name": "Haley",
+                        "schedule": "",
+                        "birthday": "",
+                        "gifts": [{
+                            "love": "",
+                            "like": "",
+                            "neutral": "",
+                            "hate": ""
+                        }],
+                        "heart_events": [{
+                            "2h": "",
+                            "3h": "",
+                            "4h": "",
+                            "5h": "",
+                            "6h": "",
+                            "7h": "",
+                            "8h": "",
+                            "9h": "",
+                            "10h": "",
+                            "11h": "",
+                            "12h": "",
+                            "13h": "",
+                            "14h": ""
+                        }]
+                    },
+                    {
+                        "name": "Leah",
+                        "schedule": "",
+                        "birthday": "",
+                        "gifts": [{
+                            "love": "",
+                            "like": "",
+                            "neutral": "",
+                            "hate": ""
+                        }],
+                        "heart_events": [{
+                            "2h": "",
+                            "3h": "",
+                            "4h": "",
+                            "5h": "",
+                            "6h": "",
+                            "7h": "",
+                            "8h": "",
+                            "9h": "",
+                            "10h": "",
+                            "11h": "",
+                            "12h": "",
+                            "13h": "",
+                            "14h": ""
+                        }]
+                    },
+                    {
+                        "name": "Maru",
+                        "schedule": "",
+                        "birthday": "",
+                        "gifts": [{
+                            "love": "",
+                            "like": "",
+                            "neutral": "",
+                            "hate": ""
+                        }],
+                        "heart_events": [{
+                            "2h": "",
+                            "3h": "",
+                            "4h": "",
+                            "5h": "",
+                            "6h": "",
+                            "7h": "",
+                            "8h": "",
+                            "9h": "",
+                            "10h": "",
+                            "11h": "",
+                            "12h": "",
+                            "13h": "",
+                            "14h": ""
+                        }]
+                    },
+                    {
+                        "name": "Penny",
+                        "schedule": "",
+                        "birthday": "",
+                        "gifts": [{
+                            "love": "",
+                            "like": "",
+                            "neutral": "",
+                            "hate": ""
+                        }],
+                        "heart_events": [{
+                            "2h": "",
+                            "3h": "",
+                            "4h": "",
+                            "5h": "",
+                            "6h": "",
+                            "7h": "",
+                            "8h": "",
+                            "9h": "",
+                            "10h": "",
+                            "11h": "",
+                            "12h": "",
+                            "13h": "",
+                            "14h": ""
+                        }]
+                    },
+                    {
+                        "name": "Caroline",
+                        "schedule": "",
+                        "birthday": "",
+                        "gifts": [{
+                            "love": "",
+                            "like": "",
+                            "neutral": "",
+                            "hate": ""
+                        }],
+                        "heart_events": [{
+                            "2h": "",
+                            "3h": "",
+                            "4h": "",
+                            "5h": "",
+                            "6h": "",
+                            "7h": "",
+                            "8h": "",
+                            "9h": "",
+                            "10h": "",
+                            "11h": "",
+                            "12h": "",
+                            "13h": "",
+                            "14h": ""
+                        }]
+                    },
+                    {
+                        "name": "Clint",
+                        "schedule": "",
+                        "birthday": "",
+                        "gifts": [{
+                            "love": "",
+                            "like": "",
+                            "neutral": "",
+                            "hate": ""
+                        }],
+                        "heart_events": [{
+                            "2h": "",
+                            "3h": "",
+                            "4h": "",
+                            "5h": "",
+                            "6h": "",
+                            "7h": "",
+                            "8h": "",
+                            "9h": "",
+                            "10h": "",
+                            "11h": "",
+                            "12h": "",
+                            "13h": "",
+                            "14h": ""
+                        }]
+                    },
+                    {
+                        "name": "Demetrius",
+                        "schedule": "",
+                        "birthday": "",
+                        "gifts": [{
+                            "love": "",
+                            "like": "",
+                            "neutral": "",
+                            "hate": ""
+                        }],
+                        "heart_events": [{
+                            "2h": "",
+                            "3h": "",
+                            "4h": "",
+                            "5h": "",
+                            "6h": "",
+                            "7h": "",
+                            "8h": "",
+                            "9h": "",
+                            "10h": "",
+                            "11h": "",
+                            "12h": "",
+                            "13h": "",
+                            "14h": ""
+                        }]
+                    },
+                    {
+                        "name": "Dwarf",
+                        "schedule": "",
+                        "birthday": "",
+                        "gifts": [{
+                            "love": "",
+                            "like": "",
+                            "neutral": "",
+                            "hate": ""
+                        }],
+                        "heart_events": [{
+                            "2h": "",
+                            "3h": "",
+                            "4h": "",
+                            "5h": "",
+                            "6h": "",
+                            "7h": "",
+                            "8h": "",
+                            "9h": "",
+                            "10h": "",
+                            "11h": "",
+                            "12h": "",
+                            "13h": "",
+                            "14h": ""
+                        }]
+                    },
+                    {
+                        "name": "Evelyn",
+                        "schedule": "",
+                        "birthday": "",
+                        "gifts": [{
+                            "love": "",
+                            "like": "",
+                            "neutral": "",
+                            "hate": ""
+                        }],
+                        "heart_events": [{
+                            "2h": "",
+                            "3h": "",
+                            "4h": "",
+                            "5h": "",
+                            "6h": "",
+                            "7h": "",
+                            "8h": "",
+                            "9h": "",
+                            "10h": "",
+                            "11h": "",
+                            "12h": "",
+                            "13h": "",
+                            "14h": ""
+                        }]
+                    },
+                    {
+                        "name": "George",
+                        "schedule": "",
+                        "birthday": "",
+                        "gifts": [{
+                            "love": "",
+                            "like": "",
+                            "neutral": "",
+                            "hate": ""
+                        }],
+                        "heart_events": [{
+                            "2h": "",
+                            "3h": "",
+                            "4h": "",
+                            "5h": "",
+                            "6h": "",
+                            "7h": "",
+                            "8h": "",
+                            "9h": "",
+                            "10h": "",
+                            "11h": "",
+                            "12h": "",
+                            "13h": "",
+                            "14h": ""
+                        }]
+                    },
+                    {
+                        "name": "Gus",
+                        "schedule": "",
+                        "birthday": "",
+                        "gifts": [{
+                            "love": "",
+                            "like": "",
+                            "neutral": "",
+                            "hate": ""
+                        }],
+                        "heart_events": [{
+                            "2h": "",
+                            "3h": "",
+                            "4h": "",
+                            "5h": "",
+                            "6h": "",
+                            "7h": "",
+                            "8h": "",
+                            "9h": "",
+                            "10h": "",
+                            "11h": "",
+                            "12h": "",
+                            "13h": "",
+                            "14h": ""
+                        }]
+                    },
+                    {
+                        "name": "Jas",
+                        "schedule": "",
+                        "birthday": "",
+                        "gifts": [{
+                            "love": "",
+                            "like": "",
+                            "neutral": "",
+                            "hate": ""
+                        }],
+                        "heart_events": [{
+                            "2h": "",
+                            "3h": "",
+                            "4h": "",
+                            "5h": "",
+                            "6h": "",
+                            "7h": "",
+                            "8h": "",
+                            "9h": "",
+                            "10h": "",
+                            "11h": "",
+                            "12h": "",
+                            "13h": "",
+                            "14h": ""
+                        }]
+                    },
+                    {
+                        "name": "Jodi",
+                        "schedule": "",
+                        "birthday": "",
+                        "gifts": [{
+                            "love": "",
+                            "like": "",
+                            "neutral": "",
+                            "hate": ""
+                        }],
+                        "heart_events": [{
+                            "2h": "",
+                            "3h": "",
+                            "4h": "",
+                            "5h": "",
+                            "6h": "",
+                            "7h": "",
+                            "8h": "",
+                            "9h": "",
+                            "10h": "",
+                            "11h": "",
+                            "12h": "",
+                            "13h": "",
+                            "14h": ""
+                        }]
+                    },
+                    {
+                        "name": "Kent",
+                        "schedule": "",
+                        "birthday": "",
+                        "gifts": [{
+                            "love": "",
+                            "like": "",
+                            "neutral": "",
+                            "hate": ""
+                        }],
+                        "heart_events": [{
+                            "2h": "",
+                            "3h": "",
+                            "4h": "",
+                            "5h": "",
+                            "6h": "",
+                            "7h": "",
+                            "8h": "",
+                            "9h": "",
+                            "10h": "",
+                            "11h": "",
+                            "12h": "",
+                            "13h": "",
+                            "14h": ""
+                        }]
+                    },
+                    {
+                        "name": "Krobus",
+                        "schedule": "",
+                        "birthday": "",
+                        "gifts": [{
+                            "love": "",
+                            "like": "",
+                            "neutral": "",
+                            "hate": ""
+                        }],
+                        "heart_events": [{
+                            "2h": "",
+                            "3h": "",
+                            "4h": "",
+                            "5h": "",
+                            "6h": "",
+                            "7h": "",
+                            "8h": "",
+                            "9h": "",
+                            "10h": "",
+                            "11h": "",
+                            "12h": "",
+                            "13h": "",
+                            "14h": ""
+                        }]
+                    },
+                    {
+                        "name": "Leo",
+                        "schedule": "",
+                        "birthday": "",
+                        "gifts": [{
+                            "love": "",
+                            "like": "",
+                            "neutral": "",
+                            "hate": ""
+                        }],
+                        "heart_events": [{
+                            "2h": "",
+                            "3h": "",
+                            "4h": "",
+                            "5h": "",
+                            "6h": "",
+                            "7h": "",
+                            "8h": "",
+                            "9h": "",
+                            "10h": "",
+                            "11h": "",
+                            "12h": "",
+                            "13h": "",
+                            "14h": ""
+                        }]
+                    },
+                    {
+                        "name": "Lewis",
+                        "schedule": "",
+                        "birthday": "",
+                        "gifts": [{
+                            "love": "",
+                            "like": "",
+                            "neutral": "",
+                            "hate": ""
+                        }],
+                        "heart_events": [{
+                            "2h": "",
+                            "3h": "",
+                            "4h": "",
+                            "5h": "",
+                            "6h": "",
+                            "7h": "",
+                            "8h": "",
+                            "9h": "",
+                            "10h": "",
+                            "11h": "",
+                            "12h": "",
+                            "13h": "",
+                            "14h": ""
+                        }]
+                    },
+                    {
+                        "name": "Linus",
+                        "schedule": "",
+                        "birthday": "",
+                        "gifts": [{
+                            "love": "",
+                            "like": "",
+                            "neutral": "",
+                            "hate": ""
+                        }],
+                        "heart_events": [{
+                            "2h": "",
+                            "3h": "",
+                            "4h": "",
+                            "5h": "",
+                            "6h": "",
+                            "7h": "",
+                            "8h": "",
+                            "9h": "",
+                            "10h": "",
+                            "11h": "",
+                            "12h": "",
+                            "13h": "",
+                            "14h": ""
+                        }]
+                    },
+                    {
+                        "name": "Marnie",
+                        "schedule": "",
+                        "birthday": "",
+                        "gifts": [{
+                            "love": "",
+                            "like": "",
+                            "neutral": "",
+                            "hate": ""
+                        }],
+                        "heart_events": [{
+                            "2h": "",
+                            "3h": "",
+                            "4h": "",
+                            "5h": "",
+                            "6h": "",
+                            "7h": "",
+                            "8h": "",
+                            "9h": "",
+                            "10h": "",
+                            "11h": "",
+                            "12h": "",
+                            "13h": "",
+                            "14h": ""
+                        }]
+                    },
+                    {
+                        "name": "Pam",
+                        "schedule": "",
+                        "birthday": "",
+                        "gifts": [{
+                            "love": "",
+                            "like": "",
+                            "neutral": "",
+                            "hate": ""
+                        }],
+                        "heart_events": [{
+                            "2h": "",
+                            "3h": "",
+                            "4h": "",
+                            "5h": "",
+                            "6h": "",
+                            "7h": "",
+                            "8h": "",
+                            "9h": "",
+                            "10h": "",
+                            "11h": "",
+                            "12h": "",
+                            "13h": "",
+                            "14h": ""
+                        }]
+                    },
+                    {
+                        "name": "Pierre",
+                        "schedule": "",
+                        "birthday": "",
+                        "gifts": [{
+                            "love": "",
+                            "like": "",
+                            "neutral": "",
+                            "hate": ""
+                        }],
+                        "heart_events": [{
+                            "2h": "",
+                            "3h": "",
+                            "4h": "",
+                            "5h": "",
+                            "6h": "",
+                            "7h": "",
+                            "8h": "",
+                            "9h": "",
+                            "10h": "",
+                            "11h": "",
+                            "12h": "",
+                            "13h": "",
+                            "14h": ""
+                        }]
+                    },
+                    {
+                        "name": "Robin",
+                        "schedule": "",
+                        "birthday": "",
+                        "gifts": [{
+                            "love": "",
+                            "like": "",
+                            "neutral": "",
+                            "hate": ""
+                        }],
+                        "heart_events": [{
+                            "2h": "",
+                            "3h": "",
+                            "4h": "",
+                            "5h": "",
+                            "6h": "",
+                            "7h": "",
+                            "8h": "",
+                            "9h": "",
+                            "10h": "",
+                            "11h": "",
+                            "12h": "",
+                            "13h": "",
+                            "14h": ""
+                        }]
+                    },
+                    {
+                        "name": "Sandy",
+                        "schedule": "",
+                        "birthday": "",
+                        "gifts": [{
+                            "love": "",
+                            "like": "",
+                            "neutral": "",
+                            "hate": ""
+                        }],
+                        "heart_events": [{
+                            "2h": "",
+                            "3h": "",
+                            "4h": "",
+                            "5h": "",
+                            "6h": "",
+                            "7h": "",
+                            "8h": "",
+                            "9h": "",
+                            "10h": "",
+                            "11h": "",
+                            "12h": "",
+                            "13h": "",
+                            "14h": ""
+                        }]
+                    },
+                    {
+                        "name": "Vincent",
+                        "schedule": "",
+                        "birthday": "",
+                        "gifts": [{
+                            "love": "",
+                            "like": "",
+                            "neutral": "",
+                            "hate": ""
+                        }],
+                        "heart_events": [{
+                            "2h": "",
+                            "3h": "",
+                            "4h": "",
+                            "5h": "",
+                            "6h": "",
+                            "7h": "",
+                            "8h": "",
+                            "9h": "",
+                            "10h": "",
+                            "11h": "",
+                            "12h": "",
+                            "13h": "",
+                            "14h": ""
+                        }]
+                    },
+                    {
+                        "name": "Willy",
+                        "schedule": "",
+                        "birthday": "",
+                        "gifts": [{
+                            "love": "",
+                            "like": "",
+                            "neutral": "",
+                            "hate": ""
+                        }],
+                        "heart_events": [{
+                            "2h": "",
+                            "3h": "",
+                            "4h": "",
+                            "5h": "",
+                            "6h": "",
+                            "7h": "",
+                            "8h": "",
+                            "9h": "",
+                            "10h": "",
+                            "11h": "",
+                            "12h": "",
+                            "13h": "",
+                            "14h": ""
+                        }]
+                    },
+                    {
+                        "name": "Wizard",
+                        "schedule": "",
+                        "birthday": "",
+                        "gifts": [{
+                            "love": "",
+                            "like": "",
+                            "neutral": "",
+                            "hate": ""
+                        }],
+                        "heart_events": [{
+                            "2h": "",
+                            "3h": "",
+                            "4h": "",
+                            "5h": "",
+                            "6h": "",
+                            "7h": "",
+                            "8h": "",
+                            "9h": "",
+                            "10h": "",
+                            "11h": "",
+                            "12h": "",
+                            "13h": "",
+                            "14h": ""
+                        }]
+                    }
+                ]
+            }],
+            "summer": [{
+                "charaters": [{
+                    "name": "Alex",
+                    "schedule": "",
+                    "birthday": "Summer 13",
+                    "gifts": [{
+                        "love": "Complete Breakfast, Salmon Dinner",
+                        "like": "All Universal Likes, All Eggs (except Void Egg)",
+                        "neutral": "All Universal Neutrals, All Fruit (except Fruit Tree Fruit & Salmonberry), All Milk, Common Mushroom, Daffodil, Dandelion, Ginger, Hazelnut, Leek, Magna Cap, Morel, Purple Mushroom, Snow Yam, Winter Root, ",
+                        "hate": "Salmonberry, Wild Horseradish, Holly, Quartz"
+                    }],
+                    "heart_events": [{
+                        "2h": "On a sunny summer day, visit the beach when Alex is there.",
+                        "3h": "",
+                        "4h": "Enter town between 9am and 4pm.",
+                        "5h": "Enter Alex's house when he's there",
+                        "6h": "Enter Alex's house when he's there",
+                        "7h": "",
+                        "8h": "On a sunny day, visit the beach when Alex is there. He is only scheduled to go to the beach in summer, but may pass by on the way to the Ginger Island resort in any season after it is completed.",
+                        "9h": "",
+                        "10h": "Alex will send you a letter to meet him at the Saloon after dark. After receiving the letter, enter the Saloon between 7pm and 10pm.",
+                        "11h": "",
+                        "12h": "",
+                        "13h": "",
+                        "14h": "Exit the Farmhouse in year 2+ between 6am and 8:20am on any day other than Sunday. You must have 5,000g available."
+                    }]
+                },
+                    {
+                        "name": "Elliott",
+                        "schedule": "",
+                        "birthday": "",
+                        "gifts": [{
+                            "love": "",
+                            "like": "",
+                            "neutral": "",
+                            "hate": ""
+                        }],
+                        "heart_events": [{
+                            "2h": "",
+                            "3h": "",
+                            "4h": "",
+                            "5h": "",
+                            "6h": "",
+                            "7h": "",
+                            "8h": "",
+                            "9h": "",
+                            "10h": "",
+                            "11h": "",
+                            "12h": "",
+                            "13h": "",
+                            "14h": ""
+                        }]
+                    },
+                    {
+                        "name": "Harvey",
+                        "schedule": "",
+                        "birthday": "",
+                        "gifts": [{
+                            "love": "",
+                            "like": "",
+                            "neutral": "",
+                            "hate": ""
+                        }],
+                        "heart_events": [{
+                            "2h": "",
+                            "3h": "",
+                            "4h": "",
+                            "5h": "",
+                            "6h": "",
+                            "7h": "",
+                            "8h": "",
+                            "9h": "",
+                            "10h": "",
+                            "11h": "",
+                            "12h": "",
+                            "13h": "",
+                            "14h": ""
+                        }]
+                    },
+                    {
+                        "name": "Sam",
+                        "schedule": "",
+                        "birthday": "",
+                        "gifts": [{
+                            "love": "",
+                            "like": "",
+                            "neutral": "",
+                            "hate": ""
+                        }],
+                        "heart_events": [{
+                            "2h": "",
+                            "3h": "",
+                            "4h": "",
+                            "5h": "",
+                            "6h": "",
+                            "7h": "",
+                            "8h": "",
+                            "9h": "",
+                            "10h": "",
+                            "11h": "",
+                            "12h": "",
+                            "13h": "",
+                            "14h": ""
+                        }]
+                    },
+                    {
+                        "name": "Sebastian",
+                        "schedule": "",
+                        "birthday": "",
+                        "gifts": [{
+                            "love": "",
+                            "like": "",
+                            "neutral": "",
+                            "hate": ""
+                        }],
+                        "heart_events": [{
+                            "2h": "",
+                            "3h": "",
+                            "4h": "",
+                            "5h": "",
+                            "6h": "",
+                            "7h": "",
+                            "8h": "",
+                            "9h": "",
+                            "10h": "",
+                            "11h": "",
+                            "12h": "",
+                            "13h": "",
+                            "14h": ""
+                        }]
+                    },
+                    {
+                        "name": "Shane",
+                        "schedule": "",
+                        "birthday": "",
+                        "gifts": [{
+                            "love": "",
+                            "like": "",
+                            "neutral": "",
+                            "hate": ""
+                        }],
+                        "heart_events": [{
+                            "2h": "",
+                            "3h": "",
+                            "4h": "",
+                            "5h": "",
+                            "6h": "",
+                            "7h": "",
+                            "8h": "",
+                            "9h": "",
+                            "10h": "",
+                            "11h": "",
+                            "12h": "",
+                            "13h": "",
+                            "14h": ""
+                        }]
+                    },
+                    {
+                        "name": "Abigail",
+                        "schedule": "",
+                        "birthday": "",
+                        "gifts": [{
+                            "love": "",
+                            "like": "",
+                            "neutral": "",
+                            "hate": ""
+                        }],
+                        "heart_events": [{
+                            "2h": "",
+                            "3h": "",
+                            "4h": "",
+                            "5h": "",
+                            "6h": "",
+                            "7h": "",
+                            "8h": "",
+                            "9h": "",
+                            "10h": "",
+                            "11h": "",
+                            "12h": "",
+                            "13h": "",
+                            "14h": ""
+                        }]
+                    },
+                    {
+                        "name": "Emily",
+                        "schedule": "",
+                        "birthday": "",
+                        "gifts": [{
+                            "love": "",
+                            "like": "",
+                            "neutral": "",
+                            "hate": ""
+                        }],
+                        "heart_events": [{
+                            "2h": "",
+                            "3h": "",
+                            "4h": "",
+                            "5h": "",
+                            "6h": "",
+                            "7h": "",
+                            "8h": "",
+                            "9h": "",
+                            "10h": "",
+                            "11h": "",
+                            "12h": "",
+                            "13h": "",
+                            "14h": ""
+                        }]
+                    },
+                    {
+                        "name": "Haley",
+                        "schedule": "",
+                        "birthday": "",
+                        "gifts": [{
+                            "love": "",
+                            "like": "",
+                            "neutral": "",
+                            "hate": ""
+                        }],
+                        "heart_events": [{
+                            "2h": "",
+                            "3h": "",
+                            "4h": "",
+                            "5h": "",
+                            "6h": "",
+                            "7h": "",
+                            "8h": "",
+                            "9h": "",
+                            "10h": "",
+                            "11h": "",
+                            "12h": "",
+                            "13h": "",
+                            "14h": ""
+                        }]
+                    },
+                    {
+                        "name": "Leah",
+                        "schedule": "",
+                        "birthday": "",
+                        "gifts": [{
+                            "love": "",
+                            "like": "",
+                            "neutral": "",
+                            "hate": ""
+                        }],
+                        "heart_events": [{
+                            "2h": "",
+                            "3h": "",
+                            "4h": "",
+                            "5h": "",
+                            "6h": "",
+                            "7h": "",
+                            "8h": "",
+                            "9h": "",
+                            "10h": "",
+                            "11h": "",
+                            "12h": "",
+                            "13h": "",
+                            "14h": ""
+                        }]
+                    },
+                    {
+                        "name": "Maru",
+                        "schedule": "",
+                        "birthday": "",
+                        "gifts": [{
+                            "love": "",
+                            "like": "",
+                            "neutral": "",
+                            "hate": ""
+                        }],
+                        "heart_events": [{
+                            "2h": "",
+                            "3h": "",
+                            "4h": "",
+                            "5h": "",
+                            "6h": "",
+                            "7h": "",
+                            "8h": "",
+                            "9h": "",
+                            "10h": "",
+                            "11h": "",
+                            "12h": "",
+                            "13h": "",
+                            "14h": ""
+                        }]
+                    },
+                    {
+                        "name": "Penny",
+                        "schedule": "",
+                        "birthday": "",
+                        "gifts": [{
+                            "love": "",
+                            "like": "",
+                            "neutral": "",
+                            "hate": ""
+                        }],
+                        "heart_events": [{
+                            "2h": "",
+                            "3h": "",
+                            "4h": "",
+                            "5h": "",
+                            "6h": "",
+                            "7h": "",
+                            "8h": "",
+                            "9h": "",
+                            "10h": "",
+                            "11h": "",
+                            "12h": "",
+                            "13h": "",
+                            "14h": ""
+                        }]
+                    },
+                    {
+                        "name": "Caroline",
+                        "schedule": "",
+                        "birthday": "",
+                        "gifts": [{
+                            "love": "",
+                            "like": "",
+                            "neutral": "",
+                            "hate": ""
+                        }],
+                        "heart_events": [{
+                            "2h": "",
+                            "3h": "",
+                            "4h": "",
+                            "5h": "",
+                            "6h": "",
+                            "7h": "",
+                            "8h": "",
+                            "9h": "",
+                            "10h": "",
+                            "11h": "",
+                            "12h": "",
+                            "13h": "",
+                            "14h": ""
+                        }]
+                    },
+                    {
+                        "name": "Clint",
+                        "schedule": "",
+                        "birthday": "",
+                        "gifts": [{
+                            "love": "",
+                            "like": "",
+                            "neutral": "",
+                            "hate": ""
+                        }],
+                        "heart_events": [{
+                            "2h": "",
+                            "3h": "",
+                            "4h": "",
+                            "5h": "",
+                            "6h": "",
+                            "7h": "",
+                            "8h": "",
+                            "9h": "",
+                            "10h": "",
+                            "11h": "",
+                            "12h": "",
+                            "13h": "",
+                            "14h": ""
+                        }]
+                    },
+                    {
+                        "name": "Demetrius",
+                        "schedule": "",
+                        "birthday": "",
+                        "gifts": [{
+                            "love": "",
+                            "like": "",
+                            "neutral": "",
+                            "hate": ""
+                        }],
+                        "heart_events": [{
+                            "2h": "",
+                            "3h": "",
+                            "4h": "",
+                            "5h": "",
+                            "6h": "",
+                            "7h": "",
+                            "8h": "",
+                            "9h": "",
+                            "10h": "",
+                            "11h": "",
+                            "12h": "",
+                            "13h": "",
+                            "14h": ""
+                        }]
+                    },
+                    {
+                        "name": "Dwarf",
+                        "schedule": "",
+                        "birthday": "",
+                        "gifts": [{
+                            "love": "",
+                            "like": "",
+                            "neutral": "",
+                            "hate": ""
+                        }],
+                        "heart_events": [{
+                            "2h": "",
+                            "3h": "",
+                            "4h": "",
+                            "5h": "",
+                            "6h": "",
+                            "7h": "",
+                            "8h": "",
+                            "9h": "",
+                            "10h": "",
+                            "11h": "",
+                            "12h": "",
+                            "13h": "",
+                            "14h": ""
+                        }]
+                    },
+                    {
+                        "name": "Evelyn",
+                        "schedule": "",
+                        "birthday": "",
+                        "gifts": [{
+                            "love": "",
+                            "like": "",
+                            "neutral": "",
+                            "hate": ""
+                        }],
+                        "heart_events": [{
+                            "2h": "",
+                            "3h": "",
+                            "4h": "",
+                            "5h": "",
+                            "6h": "",
+                            "7h": "",
+                            "8h": "",
+                            "9h": "",
+                            "10h": "",
+                            "11h": "",
+                            "12h": "",
+                            "13h": "",
+                            "14h": ""
+                        }]
+                    },
+                    {
+                        "name": "George",
+                        "schedule": "",
+                        "birthday": "",
+                        "gifts": [{
+                            "love": "",
+                            "like": "",
+                            "neutral": "",
+                            "hate": ""
+                        }],
+                        "heart_events": [{
+                            "2h": "",
+                            "3h": "",
+                            "4h": "",
+                            "5h": "",
+                            "6h": "",
+                            "7h": "",
+                            "8h": "",
+                            "9h": "",
+                            "10h": "",
+                            "11h": "",
+                            "12h": "",
+                            "13h": "",
+                            "14h": ""
+                        }]
+                    },
+                    {
+                        "name": "Gus",
+                        "schedule": "",
+                        "birthday": "",
+                        "gifts": [{
+                            "love": "",
+                            "like": "",
+                            "neutral": "",
+                            "hate": ""
+                        }],
+                        "heart_events": [{
+                            "2h": "",
+                            "3h": "",
+                            "4h": "",
+                            "5h": "",
+                            "6h": "",
+                            "7h": "",
+                            "8h": "",
+                            "9h": "",
+                            "10h": "",
+                            "11h": "",
+                            "12h": "",
+                            "13h": "",
+                            "14h": ""
+                        }]
+                    },
+                    {
+                        "name": "Jas",
+                        "schedule": "",
+                        "birthday": "",
+                        "gifts": [{
+                            "love": "",
+                            "like": "",
+                            "neutral": "",
+                            "hate": ""
+                        }],
+                        "heart_events": [{
+                            "2h": "",
+                            "3h": "",
+                            "4h": "",
+                            "5h": "",
+                            "6h": "",
+                            "7h": "",
+                            "8h": "",
+                            "9h": "",
+                            "10h": "",
+                            "11h": "",
+                            "12h": "",
+                            "13h": "",
+                            "14h": ""
+                        }]
+                    },
+                    {
+                        "name": "Jodi",
+                        "schedule": "",
+                        "birthday": "",
+                        "gifts": [{
+                            "love": "",
+                            "like": "",
+                            "neutral": "",
+                            "hate": ""
+                        }],
+                        "heart_events": [{
+                            "2h": "",
+                            "3h": "",
+                            "4h": "",
+                            "5h": "",
+                            "6h": "",
+                            "7h": "",
+                            "8h": "",
+                            "9h": "",
+                            "10h": "",
+                            "11h": "",
+                            "12h": "",
+                            "13h": "",
+                            "14h": ""
+                        }]
+                    },
+                    {
+                        "name": "Kent",
+                        "schedule": "",
+                        "birthday": "",
+                        "gifts": [{
+                            "love": "",
+                            "like": "",
+                            "neutral": "",
+                            "hate": ""
+                        }],
+                        "heart_events": [{
+                            "2h": "",
+                            "3h": "",
+                            "4h": "",
+                            "5h": "",
+                            "6h": "",
+                            "7h": "",
+                            "8h": "",
+                            "9h": "",
+                            "10h": "",
+                            "11h": "",
+                            "12h": "",
+                            "13h": "",
+                            "14h": ""
+                        }]
+                    },
+                    {
+                        "name": "Krobus",
+                        "schedule": "",
+                        "birthday": "",
+                        "gifts": [{
+                            "love": "",
+                            "like": "",
+                            "neutral": "",
+                            "hate": ""
+                        }],
+                        "heart_events": [{
+                            "2h": "",
+                            "3h": "",
+                            "4h": "",
+                            "5h": "",
+                            "6h": "",
+                            "7h": "",
+                            "8h": "",
+                            "9h": "",
+                            "10h": "",
+                            "11h": "",
+                            "12h": "",
+                            "13h": "",
+                            "14h": ""
+                        }]
+                    },
+                    {
+                        "name": "Leo",
+                        "schedule": "",
+                        "birthday": "",
+                        "gifts": [{
+                            "love": "",
+                            "like": "",
+                            "neutral": "",
+                            "hate": ""
+                        }],
+                        "heart_events": [{
+                            "2h": "",
+                            "3h": "",
+                            "4h": "",
+                            "5h": "",
+                            "6h": "",
+                            "7h": "",
+                            "8h": "",
+                            "9h": "",
+                            "10h": "",
+                            "11h": "",
+                            "12h": "",
+                            "13h": "",
+                            "14h": ""
+                        }]
+                    },
+                    {
+                        "name": "Lewis",
+                        "schedule": "",
+                        "birthday": "",
+                        "gifts": [{
+                            "love": "",
+                            "like": "",
+                            "neutral": "",
+                            "hate": ""
+                        }],
+                        "heart_events": [{
+                            "2h": "",
+                            "3h": "",
+                            "4h": "",
+                            "5h": "",
+                            "6h": "",
+                            "7h": "",
+                            "8h": "",
+                            "9h": "",
+                            "10h": "",
+                            "11h": "",
+                            "12h": "",
+                            "13h": "",
+                            "14h": ""
+                        }]
+                    },
+                    {
+                        "name": "Linus",
+                        "schedule": "",
+                        "birthday": "",
+                        "gifts": [{
+                            "love": "",
+                            "like": "",
+                            "neutral": "",
+                            "hate": ""
+                        }],
+                        "heart_events": [{
+                            "2h": "",
+                            "3h": "",
+                            "4h": "",
+                            "5h": "",
+                            "6h": "",
+                            "7h": "",
+                            "8h": "",
+                            "9h": "",
+                            "10h": "",
+                            "11h": "",
+                            "12h": "",
+                            "13h": "",
+                            "14h": ""
+                        }]
+                    },
+                    {
+                        "name": "Marnie",
+                        "schedule": "",
+                        "birthday": "",
+                        "gifts": [{
+                            "love": "",
+                            "like": "",
+                            "neutral": "",
+                            "hate": ""
+                        }],
+                        "heart_events": [{
+                            "2h": "",
+                            "3h": "",
+                            "4h": "",
+                            "5h": "",
+                            "6h": "",
+                            "7h": "",
+                            "8h": "",
+                            "9h": "",
+                            "10h": "",
+                            "11h": "",
+                            "12h": "",
+                            "13h": "",
+                            "14h": ""
+                        }]
+                    },
+                    {
+                        "name": "Pam",
+                        "schedule": "",
+                        "birthday": "",
+                        "gifts": [{
+                            "love": "",
+                            "like": "",
+                            "neutral": "",
+                            "hate": ""
+                        }],
+                        "heart_events": [{
+                            "2h": "",
+                            "3h": "",
+                            "4h": "",
+                            "5h": "",
+                            "6h": "",
+                            "7h": "",
+                            "8h": "",
+                            "9h": "",
+                            "10h": "",
+                            "11h": "",
+                            "12h": "",
+                            "13h": "",
+                            "14h": ""
+                        }]
+                    },
+                    {
+                        "name": "Pierre",
+                        "schedule": "",
+                        "birthday": "",
+                        "gifts": [{
+                            "love": "",
+                            "like": "",
+                            "neutral": "",
+                            "hate": ""
+                        }],
+                        "heart_events": [{
+                            "2h": "",
+                            "3h": "",
+                            "4h": "",
+                            "5h": "",
+                            "6h": "",
+                            "7h": "",
+                            "8h": "",
+                            "9h": "",
+                            "10h": "",
+                            "11h": "",
+                            "12h": "",
+                            "13h": "",
+                            "14h": ""
+                        }]
+                    },
+                    {
+                        "name": "Robin",
+                        "schedule": "",
+                        "birthday": "",
+                        "gifts": [{
+                            "love": "",
+                            "like": "",
+                            "neutral": "",
+                            "hate": ""
+                        }],
+                        "heart_events": [{
+                            "2h": "On a sunny summer day, visit the beach when Alex is there.",
+                            "3h": "",
+                            "4h": "Enter town between 9am and 4pm.",
+                            "5h": "Enter Alex's house when he's there",
+                            "6h": "Enter Alex's house when he's there",
+                            "7h": "",
+                            "8h": "On a sunny day, visit the beach when Alex is there. He is only scheduled to go to the beach in summer, but may pass by on the way to the Ginger Island resort in any season after it is completed.",
+                            "9h": "",
+                            "10h": "Alex will send you a letter to meet him at the Saloon after dark. After receiving the letter, enter the Saloon between 7pm and 10pm.",
+                            "11h": "",
+                            "12h": "",
+                            "13h": "",
+                            "14h": "Exit the Farmhouse in year 2+ between 6am and 8:20am on any day other than Sunday. You must have 5,000g available."
+                        }]
+                    },
+                    {
+                        "name": "Sandy",
+                        "schedule": "",
+                        "birthday": "",
+                        "gifts": [{
+                            "love": "",
+                            "like": "",
+                            "neutral": "",
+                            "hate": ""
+                        }],
+                        "heart_events": [{
+                            "2h": "",
+                            "3h": "",
+                            "4h": "",
+                            "5h": "",
+                            "6h": "",
+                            "7h": "",
+                            "8h": "",
+                            "9h": "",
+                            "10h": "",
+                            "11h": "",
+                            "12h": "",
+                            "13h": "",
+                            "14h": ""
+                        }]
+                    },
+                    {
+                        "name": "Vincent",
+                        "schedule": "",
+                        "birthday": "",
+                        "gifts": [{
+                            "love": "",
+                            "like": "",
+                            "neutral": "",
+                            "hate": ""
+                        }],
+                        "heart_events": [{
+                            "2h": "",
+                            "3h": "",
+                            "4h": "",
+                            "5h": "",
+                            "6h": "",
+                            "7h": "",
+                            "8h": "",
+                            "9h": "",
+                            "10h": "",
+                            "11h": "",
+                            "12h": "",
+                            "13h": "",
+                            "14h": ""
+                        }]
+                    },
+                    {
+                        "name": "Willy",
+                        "schedule": "",
+                        "birthday": "",
+                        "gifts": [{
+                            "love": "",
+                            "like": "",
+                            "neutral": "",
+                            "hate": ""
+                        }],
+                        "heart_events": [{
+                            "2h": "",
+                            "3h": "",
+                            "4h": "",
+                            "5h": "",
+                            "6h": "",
+                            "7h": "",
+                            "8h": "",
+                            "9h": "",
+                            "10h": "",
+                            "11h": "",
+                            "12h": "",
+                            "13h": "",
+                            "14h": ""
+                        }]
+                    },
+                    {
+                        "name": "Wizard",
+                        "schedule": "",
+                        "birthday": "",
+                        "gifts": [{
+                            "love": "",
+                            "like": "",
+                            "neutral": "",
+                            "hate": ""
+                        }],
+                        "heart_events": [{
+                            "2h": "",
+                            "3h": "",
+                            "4h": "",
+                            "5h": "",
+                            "6h": "",
+                            "7h": "",
+                            "8h": "",
+                            "9h": "",
+                            "10h": "",
+                            "11h": "",
+                            "12h": "",
+                            "13h": "",
+                            "14h": ""
+                        }]
+                    }
+                ]
+            }],
+            "fall": [{
+                "charaters": [{
+                    "name": "Alex",
+                    "schedule": "",
+                    "birthday": "Summer 13",
+                    "gifts": [{
+                        "love": "Complete Breakfast, Salmon Dinner",
+                        "like": "All Universal Likes, All Eggs (except Void Egg)",
+                        "neutral": "All Universal Neutrals, All Fruit (except Fruit Tree Fruit & Salmonberry), All Milk, Common Mushroom, Daffodil, Dandelion, Ginger, Hazelnut, Leek, Magna Cap, Morel, Purple Mushroom, Snow Yam, Winter Root, ",
+                        "hate": "Salmonberry, Wild Horseradish, Holly, Quartz"
+                    }],
+                    "heart_events": [{
+                        "2h": "",
+                        "3h": "",
+                        "4h": "",
+                        "5h": "",
+                        "6h": "",
+                        "7h": "",
+                        "8h": "",
+                        "9h": "",
+                        "10h": "",
+                        "11h": "",
+                        "12h": "",
+                        "13h": "",
+                        "14h": ""
+                    }]
+                },
+                    {
+                        "name": "Elliott",
+                        "schedule": "",
+                        "birthday": "",
+                        "gifts": [{
+                            "love": "",
+                            "like": "",
+                            "neutral": "",
+                            "hate": ""
+                        }],
+                        "heart_events": [{
+                            "2h": "",
+                            "3h": "",
+                            "4h": "",
+                            "5h": "",
+                            "6h": "",
+                            "7h": "",
+                            "8h": "",
+                            "9h": "",
+                            "10h": "",
+                            "11h": "",
+                            "12h": "",
+                            "13h": "",
+                            "14h": ""
+                        }]
+                    },
+                    {
+                        "name": "Harvey",
+                        "schedule": "",
+                        "birthday": "",
+                        "gifts": [{
+                            "love": "",
+                            "like": "",
+                            "neutral": "",
+                            "hate": ""
+                        }],
+                        "heart_events": [{
+                            "2h": "",
+                            "3h": "",
+                            "4h": "",
+                            "5h": "",
+                            "6h": "",
+                            "7h": "",
+                            "8h": "",
+                            "9h": "",
+                            "10h": "",
+                            "11h": "",
+                            "12h": "",
+                            "13h": "",
+                            "14h": ""
+                        }]
+                    },
+                    {
+                        "name": "Sam",
+                        "schedule": "",
+                        "birthday": "",
+                        "gifts": [{
+                            "love": "",
+                            "like": "",
+                            "neutral": "",
+                            "hate": ""
+                        }],
+                        "heart_events": [{
+                            "2h": "",
+                            "3h": "",
+                            "4h": "",
+                            "5h": "",
+                            "6h": "",
+                            "7h": "",
+                            "8h": "",
+                            "9h": "",
+                            "10h": "",
+                            "11h": "",
+                            "12h": "",
+                            "13h": "",
+                            "14h": ""
+                        }]
+                    },
+                    {
+                        "name": "Sebastian",
+                        "schedule": "",
+                        "birthday": "",
+                        "gifts": [{
+                            "love": "",
+                            "like": "",
+                            "neutral": "",
+                            "hate": ""
+                        }],
+                        "heart_events": [{
+                            "2h": "",
+                            "3h": "",
+                            "4h": "",
+                            "5h": "",
+                            "6h": "",
+                            "7h": "",
+                            "8h": "",
+                            "9h": "",
+                            "10h": "",
+                            "11h": "",
+                            "12h": "",
+                            "13h": "",
+                            "14h": ""
+                        }]
+                    },
+                    {
+                        "name": "Shane",
+                        "schedule": "",
+                        "birthday": "",
+                        "gifts": [{
+                            "love": "",
+                            "like": "",
+                            "neutral": "",
+                            "hate": ""
+                        }],
+                        "heart_events": [{
+                            "2h": "",
+                            "3h": "",
+                            "4h": "",
+                            "5h": "",
+                            "6h": "",
+                            "7h": "",
+                            "8h": "",
+                            "9h": "",
+                            "10h": "",
+                            "11h": "",
+                            "12h": "",
+                            "13h": "",
+                            "14h": ""
+                        }]
+                    },
+                    {
+                        "name": "Abigail",
+                        "schedule": "",
+                        "birthday": "",
+                        "gifts": [{
+                            "love": "",
+                            "like": "",
+                            "neutral": "",
+                            "hate": ""
+                        }],
+                        "heart_events": [{
+                            "2h": "",
+                            "3h": "",
+                            "4h": "",
+                            "5h": "",
+                            "6h": "",
+                            "7h": "",
+                            "8h": "",
+                            "9h": "",
+                            "10h": "",
+                            "11h": "",
+                            "12h": "",
+                            "13h": "",
+                            "14h": ""
+                        }]
+                    },
+                    {
+                        "name": "Emily",
+                        "schedule": "",
+                        "birthday": "",
+                        "gifts": [{
+                            "love": "",
+                            "like": "",
+                            "neutral": "",
+                            "hate": ""
+                        }],
+                        "heart_events": [{
+                            "2h": "",
+                            "3h": "",
+                            "4h": "",
+                            "5h": "",
+                            "6h": "",
+                            "7h": "",
+                            "8h": "",
+                            "9h": "",
+                            "10h": "",
+                            "11h": "",
+                            "12h": "",
+                            "13h": "",
+                            "14h": ""
+                        }]
+                    },
+                    {
+                        "name": "Haley",
+                        "schedule": "",
+                        "birthday": "",
+                        "gifts": [{
+                            "love": "",
+                            "like": "",
+                            "neutral": "",
+                            "hate": ""
+                        }],
+                        "heart_events": [{
+                            "2h": "",
+                            "3h": "",
+                            "4h": "",
+                            "5h": "",
+                            "6h": "",
+                            "7h": "",
+                            "8h": "",
+                            "9h": "",
+                            "10h": "",
+                            "11h": "",
+                            "12h": "",
+                            "13h": "",
+                            "14h": ""
+                        }]
+                    },
+                    {
+                        "name": "Leah",
+                        "schedule": "",
+                        "birthday": "",
+                        "gifts": [{
+                            "love": "",
+                            "like": "",
+                            "neutral": "",
+                            "hate": ""
+                        }],
+                        "heart_events": [{
+                            "2h": "",
+                            "3h": "",
+                            "4h": "",
+                            "5h": "",
+                            "6h": "",
+                            "7h": "",
+                            "8h": "",
+                            "9h": "",
+                            "10h": "",
+                            "11h": "",
+                            "12h": "",
+                            "13h": "",
+                            "14h": ""
+                        }]
+                    },
+                    {
+                        "name": "Maru",
+                        "schedule": "",
+                        "birthday": "",
+                        "gifts": [{
+                            "love": "",
+                            "like": "",
+                            "neutral": "",
+                            "hate": ""
+                        }],
+                        "heart_events": [{
+                            "2h": "",
+                            "3h": "",
+                            "4h": "",
+                            "5h": "",
+                            "6h": "",
+                            "7h": "",
+                            "8h": "",
+                            "9h": "",
+                            "10h": "",
+                            "11h": "",
+                            "12h": "",
+                            "13h": "",
+                            "14h": ""
+                        }]
+                    },
+                    {
+                        "name": "Penny",
+                        "schedule": "",
+                        "birthday": "",
+                        "gifts": [{
+                            "love": "",
+                            "like": "",
+                            "neutral": "",
+                            "hate": ""
+                        }],
+                        "heart_events": [{
+                            "2h": "",
+                            "3h": "",
+                            "4h": "",
+                            "5h": "",
+                            "6h": "",
+                            "7h": "",
+                            "8h": "",
+                            "9h": "",
+                            "10h": "",
+                            "11h": "",
+                            "12h": "",
+                            "13h": "",
+                            "14h": ""
+                        }]
+                    },
+                    {
+                        "name": "Caroline",
+                        "schedule": "",
+                        "birthday": "",
+                        "gifts": [{
+                            "love": "",
+                            "like": "",
+                            "neutral": "",
+                            "hate": ""
+                        }],
+                        "heart_events": [{
+                            "2h": "",
+                            "3h": "",
+                            "4h": "",
+                            "5h": "",
+                            "6h": "",
+                            "7h": "",
+                            "8h": "",
+                            "9h": "",
+                            "10h": "",
+                            "11h": "",
+                            "12h": "",
+                            "13h": "",
+                            "14h": ""
+                        }]
+                    },
+                    {
+                        "name": "Clint",
+                        "schedule": "",
+                        "birthday": "",
+                        "gifts": [{
+                            "love": "",
+                            "like": "",
+                            "neutral": "",
+                            "hate": ""
+                        }],
+                        "heart_events": [{
+                            "2h": "",
+                            "3h": "",
+                            "4h": "",
+                            "5h": "",
+                            "6h": "",
+                            "7h": "",
+                            "8h": "",
+                            "9h": "",
+                            "10h": "",
+                            "11h": "",
+                            "12h": "",
+                            "13h": "",
+                            "14h": ""
+                        }]
+                    },
+                    {
+                        "name": "Demetrius",
+                        "schedule": "",
+                        "birthday": "",
+                        "gifts": [{
+                            "love": "",
+                            "like": "",
+                            "neutral": "",
+                            "hate": ""
+                        }],
+                        "heart_events": [{
+                            "2h": "",
+                            "3h": "",
+                            "4h": "",
+                            "5h": "",
+                            "6h": "",
+                            "7h": "",
+                            "8h": "",
+                            "9h": "",
+                            "10h": "",
+                            "11h": "",
+                            "12h": "",
+                            "13h": "",
+                            "14h": ""
+                        }]
+                    },
+                    {
+                        "name": "Dwarf",
+                        "schedule": "",
+                        "birthday": "",
+                        "gifts": [{
+                            "love": "",
+                            "like": "",
+                            "neutral": "",
+                            "hate": ""
+                        }],
+                        "heart_events": [{
+                            "2h": "",
+                            "3h": "",
+                            "4h": "",
+                            "5h": "",
+                            "6h": "",
+                            "7h": "",
+                            "8h": "",
+                            "9h": "",
+                            "10h": "",
+                            "11h": "",
+                            "12h": "",
+                            "13h": "",
+                            "14h": ""
+                        }]
+                    },
+                    {
+                        "name": "Evelyn",
+                        "schedule": "",
+                        "birthday": "",
+                        "gifts": [{
+                            "love": "",
+                            "like": "",
+                            "neutral": "",
+                            "hate": ""
+                        }],
+                        "heart_events": [{
+                            "2h": "",
+                            "3h": "",
+                            "4h": "",
+                            "5h": "",
+                            "6h": "",
+                            "7h": "",
+                            "8h": "",
+                            "9h": "",
+                            "10h": "",
+                            "11h": "",
+                            "12h": "",
+                            "13h": "",
+                            "14h": ""
+                        }]
+                    },
+                    {
+                        "name": "George",
+                        "schedule": "",
+                        "birthday": "",
+                        "gifts": [{
+                            "love": "",
+                            "like": "",
+                            "neutral": "",
+                            "hate": ""
+                        }],
+                        "heart_events": [{
+                            "2h": "",
+                            "3h": "",
+                            "4h": "",
+                            "5h": "",
+                            "6h": "",
+                            "7h": "",
+                            "8h": "",
+                            "9h": "",
+                            "10h": "",
+                            "11h": "",
+                            "12h": "",
+                            "13h": "",
+                            "14h": ""
+                        }]
+                    },
+                    {
+                        "name": "Gus",
+                        "schedule": "",
+                        "birthday": "",
+                        "gifts": [{
+                            "love": "",
+                            "like": "",
+                            "neutral": "",
+                            "hate": ""
+                        }],
+                        "heart_events": [{
+                            "2h": "",
+                            "3h": "",
+                            "4h": "",
+                            "5h": "",
+                            "6h": "",
+                            "7h": "",
+                            "8h": "",
+                            "9h": "",
+                            "10h": "",
+                            "11h": "",
+                            "12h": "",
+                            "13h": "",
+                            "14h": ""
+                        }]
+                    },
+                    {
+                        "name": "Jas",
+                        "schedule": "",
+                        "birthday": "",
+                        "gifts": [{
+                            "love": "",
+                            "like": "",
+                            "neutral": "",
+                            "hate": ""
+                        }],
+                        "heart_events": [{
+                            "2h": "",
+                            "3h": "",
+                            "4h": "",
+                            "5h": "",
+                            "6h": "",
+                            "7h": "",
+                            "8h": "",
+                            "9h": "",
+                            "10h": "",
+                            "11h": "",
+                            "12h": "",
+                            "13h": "",
+                            "14h": ""
+                        }]
+                    },
+                    {
+                        "name": "Jodi",
+                        "schedule": "",
+                        "birthday": "",
+                        "gifts": [{
+                            "love": "",
+                            "like": "",
+                            "neutral": "",
+                            "hate": ""
+                        }],
+                        "heart_events": [{
+                            "2h": "",
+                            "3h": "",
+                            "4h": "",
+                            "5h": "",
+                            "6h": "",
+                            "7h": "",
+                            "8h": "",
+                            "9h": "",
+                            "10h": "",
+                            "11h": "",
+                            "12h": "",
+                            "13h": "",
+                            "14h": ""
+                        }]
+                    },
+                    {
+                        "name": "Kent",
+                        "schedule": "",
+                        "birthday": "",
+                        "gifts": [{
+                            "love": "",
+                            "like": "",
+                            "neutral": "",
+                            "hate": ""
+                        }],
+                        "heart_events": [{
+                            "2h": "",
+                            "3h": "",
+                            "4h": "",
+                            "5h": "",
+                            "6h": "",
+                            "7h": "",
+                            "8h": "",
+                            "9h": "",
+                            "10h": "",
+                            "11h": "",
+                            "12h": "",
+                            "13h": "",
+                            "14h": ""
+                        }]
+                    },
+                    {
+                        "name": "Krobus",
+                        "schedule": "",
+                        "birthday": "",
+                        "gifts": [{
+                            "love": "",
+                            "like": "",
+                            "neutral": "",
+                            "hate": ""
+                        }],
+                        "heart_events": [{
+                            "2h": "",
+                            "3h": "",
+                            "4h": "",
+                            "5h": "",
+                            "6h": "",
+                            "7h": "",
+                            "8h": "",
+                            "9h": "",
+                            "10h": "",
+                            "11h": "",
+                            "12h": "",
+                            "13h": "",
+                            "14h": ""
+                        }]
+                    },
+                    {
+                        "name": "Leo",
+                        "schedule": "",
+                        "birthday": "",
+                        "gifts": [{
+                            "love": "",
+                            "like": "",
+                            "neutral": "",
+                            "hate": ""
+                        }],
+                        "heart_events": [{
+                            "2h": "",
+                            "3h": "",
+                            "4h": "",
+                            "5h": "",
+                            "6h": "",
+                            "7h": "",
+                            "8h": "",
+                            "9h": "",
+                            "10h": "",
+                            "11h": "",
+                            "12h": "",
+                            "13h": "",
+                            "14h": ""
+                        }]
+                    },
+                    {
+                        "name": "Lewis",
+                        "schedule": "",
+                        "birthday": "",
+                        "gifts": [{
+                            "love": "",
+                            "like": "",
+                            "neutral": "",
+                            "hate": ""
+                        }],
+                        "heart_events": [{
+                            "2h": "",
+                            "3h": "",
+                            "4h": "",
+                            "5h": "",
+                            "6h": "",
+                            "7h": "",
+                            "8h": "",
+                            "9h": "",
+                            "10h": "",
+                            "11h": "",
+                            "12h": "",
+                            "13h": "",
+                            "14h": ""
+                        }]
+                    },
+                    {
+                        "name": "Linus",
+                        "schedule": "",
+                        "birthday": "",
+                        "gifts": [{
+                            "love": "",
+                            "like": "",
+                            "neutral": "",
+                            "hate": ""
+                        }],
+                        "heart_events": [{
+                            "2h": "",
+                            "3h": "",
+                            "4h": "",
+                            "5h": "",
+                            "6h": "",
+                            "7h": "",
+                            "8h": "",
+                            "9h": "",
+                            "10h": "",
+                            "11h": "",
+                            "12h": "",
+                            "13h": "",
+                            "14h": ""
+                        }]
+                    },
+                    {
+                        "name": "Marnie",
+                        "schedule": "",
+                        "birthday": "",
+                        "gifts": [{
+                            "love": "",
+                            "like": "",
+                            "neutral": "",
+                            "hate": ""
+                        }],
+                        "heart_events": [{
+                            "2h": "",
+                            "3h": "",
+                            "4h": "",
+                            "5h": "",
+                            "6h": "",
+                            "7h": "",
+                            "8h": "",
+                            "9h": "",
+                            "10h": "",
+                            "11h": "",
+                            "12h": "",
+                            "13h": "",
+                            "14h": ""
+                        }]
+                    },
+                    {
+                        "name": "Pam",
+                        "schedule": "",
+                        "birthday": "",
+                        "gifts": [{
+                            "love": "",
+                            "like": "",
+                            "neutral": "",
+                            "hate": ""
+                        }],
+                        "heart_events": [{
+                            "2h": "",
+                            "3h": "",
+                            "4h": "",
+                            "5h": "",
+                            "6h": "",
+                            "7h": "",
+                            "8h": "",
+                            "9h": "",
+                            "10h": "",
+                            "11h": "",
+                            "12h": "",
+                            "13h": "",
+                            "14h": ""
+                        }]
+                    },
+                    {
+                        "name": "Pierre",
+                        "schedule": "",
+                        "birthday": "",
+                        "gifts": [{
+                            "love": "",
+                            "like": "",
+                            "neutral": "",
+                            "hate": ""
+                        }],
+                        "heart_events": [{
+                            "2h": "",
+                            "3h": "",
+                            "4h": "",
+                            "5h": "",
+                            "6h": "",
+                            "7h": "",
+                            "8h": "",
+                            "9h": "",
+                            "10h": "",
+                            "11h": "",
+                            "12h": "",
+                            "13h": "",
+                            "14h": ""
+                        }]
+                    },
+                    {
+                        "name": "Robin",
+                        "schedule": "",
+                        "birthday": "",
+                        "gifts": [{
+                            "love": "",
+                            "like": "",
+                            "neutral": "",
+                            "hate": ""
+                        }],
+                        "heart_events": [{
+                            "2h": "",
+                            "3h": "",
+                            "4h": "",
+                            "5h": "",
+                            "6h": "",
+                            "7h": "",
+                            "8h": "",
+                            "9h": "",
+                            "10h": "",
+                            "11h": "",
+                            "12h": "",
+                            "13h": "",
+                            "14h": ""
+                        }]
+                    },
+                    {
+                        "name": "Sandy",
+                        "schedule": "",
+                        "birthday": "",
+                        "gifts": [{
+                            "love": "",
+                            "like": "",
+                            "neutral": "",
+                            "hate": ""
+                        }],
+                        "heart_events": [{
+                            "2h": "",
+                            "3h": "",
+                            "4h": "",
+                            "5h": "",
+                            "6h": "",
+                            "7h": "",
+                            "8h": "",
+                            "9h": "",
+                            "10h": "",
+                            "11h": "",
+                            "12h": "",
+                            "13h": "",
+                            "14h": ""
+                        }]
+                    },
+                    {
+                        "name": "Vincent",
+                        "schedule": "",
+                        "birthday": "",
+                        "gifts": [{
+                            "love": "",
+                            "like": "",
+                            "neutral": "",
+                            "hate": ""
+                        }],
+                        "heart_events": [{
+                            "2h": "",
+                            "3h": "",
+                            "4h": "",
+                            "5h": "",
+                            "6h": "",
+                            "7h": "",
+                            "8h": "",
+                            "9h": "",
+                            "10h": "",
+                            "11h": "",
+                            "12h": "",
+                            "13h": "",
+                            "14h": ""
+                        }]
+                    },
+                    {
+                        "name": "Willy",
+                        "schedule": "",
+                        "birthday": "",
+                        "gifts": [{
+                            "love": "",
+                            "like": "",
+                            "neutral": "",
+                            "hate": ""
+                        }],
+                        "heart_events": [{
+                            "2h": "",
+                            "3h": "",
+                            "4h": "",
+                            "5h": "",
+                            "6h": "",
+                            "7h": "",
+                            "8h": "",
+                            "9h": "",
+                            "10h": "",
+                            "11h": "",
+                            "12h": "",
+                            "13h": "",
+                            "14h": ""
+                        }]
+                    },
+                    {
+                        "name": "Wizard",
+                        "schedule": "",
+                        "birthday": "",
+                        "gifts": [{
+                            "love": "",
+                            "like": "",
+                            "neutral": "",
+                            "hate": ""
+                        }],
+                        "heart_events": [{
+                            "2h": "",
+                            "3h": "",
+                            "4h": "",
+                            "5h": "",
+                            "6h": "",
+                            "7h": "",
+                            "8h": "",
+                            "9h": "",
+                            "10h": "",
+                            "11h": "",
+                            "12h": "",
+                            "13h": "",
+                            "14h": ""
+                        }]
+                    }
+                ]
+            }],
+            "winter": [{
+                "charaters": [{
+                    "name": "Alex",
+                    "schedule": "",
+                    "birthday": "Summer 13",
+                    "gifts": [{
+                        "love": "Complete Breakfast, Salmon Dinner",
+                        "like": "All Universal Likes, All Eggs (except Void Egg)",
+                        "neutral": "All Universal Neutrals, All Fruit (except Fruit Tree Fruit & Salmonberry), All Milk, Common Mushroom, Daffodil, Dandelion, Ginger, Hazelnut, Leek, Magna Cap, Morel, Purple Mushroom, Snow Yam, Winter Root, ",
+                        "hate": "Salmonberry, Wild Horseradish, Holly, Quartz"
+                    }],
+                    "heart_events": [{
+                        "2h": "On a sunny summer day, visit the beach when Alex is there.",
+                        "3h": "",
+                        "4h": "Enter town between 9am and 4pm.",
+                        "5h": "Enter Alex's house when he's there",
+                        "6h": "Enter Alex's house when he's there",
+                        "7h": "",
+                        "8h": "On a sunny day, visit the beach when Alex is there. He is only scheduled to go to the beach in summer, but may pass by on the way to the Ginger Island resort in any season after it is completed.",
+                        "9h": "",
+                        "10h": "Alex will send you a letter to meet him at the Saloon after dark. After receiving the letter, enter the Saloon between 7pm and 10pm.",
+                        "11h": "",
+                        "12h": "",
+                        "13h": "",
+                        "14h": "Exit the Farmhouse in year 2+ between 6am and 8:20am on any day other than Sunday. You must have 5,000g available."
+                    }]
+                },
+                    {
+                        "name": "Elliott",
+                        "schedule": "",
+                        "birthday": "",
+                        "gifts": [{
+                            "love": "",
+                            "like": "",
+                            "neutral": "",
+                            "hate": ""
+                        }],
+                        "heart_events": [{
+                            "2h": "",
+                            "3h": "",
+                            "4h": "",
+                            "5h": "",
+                            "6h": "",
+                            "7h": "",
+                            "8h": "",
+                            "9h": "",
+                            "10h": "",
+                            "11h": "",
+                            "12h": "",
+                            "13h": "",
+                            "14h": ""
+                        }]
+                    },
+                    {
+                        "name": "Harvey",
+                        "schedule": "",
+                        "birthday": "",
+                        "gifts": [{
+                            "love": "",
+                            "like": "",
+                            "neutral": "",
+                            "hate": ""
+                        }],
+                        "heart_events": [{
+                            "2h": "",
+                            "3h": "",
+                            "4h": "",
+                            "5h": "",
+                            "6h": "",
+                            "7h": "",
+                            "8h": "",
+                            "9h": "",
+                            "10h": "",
+                            "11h": "",
+                            "12h": "",
+                            "13h": "",
+                            "14h": ""
+                        }]
+                    },
+                    {
+                        "name": "Sam",
+                        "schedule": "",
+                        "birthday": "",
+                        "gifts": [{
+                            "love": "",
+                            "like": "",
+                            "neutral": "",
+                            "hate": ""
+                        }],
+                        "heart_events": [{
+                            "2h": "",
+                            "3h": "",
+                            "4h": "",
+                            "5h": "",
+                            "6h": "",
+                            "7h": "",
+                            "8h": "",
+                            "9h": "",
+                            "10h": "",
+                            "11h": "",
+                            "12h": "",
+                            "13h": "",
+                            "14h": ""
+                        }]
+                    },
+                    {
+                        "name": "Sebastian",
+                        "schedule": "",
+                        "birthday": "",
+                        "gifts": [{
+                            "love": "",
+                            "like": "",
+                            "neutral": "",
+                            "hate": ""
+                        }],
+                        "heart_events": [{
+                            "2h": "",
+                            "3h": "",
+                            "4h": "",
+                            "5h": "",
+                            "6h": "",
+                            "7h": "",
+                            "8h": "",
+                            "9h": "",
+                            "10h": "",
+                            "11h": "",
+                            "12h": "",
+                            "13h": "",
+                            "14h": ""
+                        }]
+                    },
+                    {
+                        "name": "Shane",
+                        "schedule": "",
+                        "birthday": "",
+                        "gifts": [{
+                            "love": "",
+                            "like": "",
+                            "neutral": "",
+                            "hate": ""
+                        }],
+                        "heart_events": [{
+                            "2h": "",
+                            "3h": "",
+                            "4h": "",
+                            "5h": "",
+                            "6h": "",
+                            "7h": "",
+                            "8h": "",
+                            "9h": "",
+                            "10h": "",
+                            "11h": "",
+                            "12h": "",
+                            "13h": "",
+                            "14h": ""
+                        }]
+                    },
+                    {
+                        "name": "Abigail",
+                        "schedule": "",
+                        "birthday": "",
+                        "gifts": [{
+                            "love": "",
+                            "like": "",
+                            "neutral": "",
+                            "hate": ""
+                        }],
+                        "heart_events": [{
+                            "2h": "",
+                            "3h": "",
+                            "4h": "",
+                            "5h": "",
+                            "6h": "",
+                            "7h": "",
+                            "8h": "",
+                            "9h": "",
+                            "10h": "",
+                            "11h": "",
+                            "12h": "",
+                            "13h": "",
+                            "14h": ""
+                        }]
+                    },
+                    {
+                        "name": "Emily",
+                        "schedule": "",
+                        "birthday": "",
+                        "gifts": [{
+                            "love": "",
+                            "like": "",
+                            "neutral": "",
+                            "hate": ""
+                        }],
+                        "heart_events": [{
+                            "2h": "",
+                            "3h": "",
+                            "4h": "",
+                            "5h": "",
+                            "6h": "",
+                            "7h": "",
+                            "8h": "",
+                            "9h": "",
+                            "10h": "",
+                            "11h": "",
+                            "12h": "",
+                            "13h": "",
+                            "14h": ""
+                        }]
+                    },
+                    {
+                        "name": "Haley",
+                        "schedule": "",
+                        "birthday": "",
+                        "gifts": [{
+                            "love": "",
+                            "like": "",
+                            "neutral": "",
+                            "hate": ""
+                        }],
+                        "heart_events": [{
+                            "2h": "",
+                            "3h": "",
+                            "4h": "",
+                            "5h": "",
+                            "6h": "",
+                            "7h": "",
+                            "8h": "",
+                            "9h": "",
+                            "10h": "",
+                            "11h": "",
+                            "12h": "",
+                            "13h": "",
+                            "14h": ""
+                        }]
+                    },
+                    {
+                        "name": "Leah",
+                        "schedule": "",
+                        "birthday": "",
+                        "gifts": [{
+                            "love": "",
+                            "like": "",
+                            "neutral": "",
+                            "hate": ""
+                        }],
+                        "heart_events": [{
+                            "2h": "",
+                            "3h": "",
+                            "4h": "",
+                            "5h": "",
+                            "6h": "",
+                            "7h": "",
+                            "8h": "",
+                            "9h": "",
+                            "10h": "",
+                            "11h": "",
+                            "12h": "",
+                            "13h": "",
+                            "14h": ""
+                        }]
+                    },
+                    {
+                        "name": "Maru",
+                        "schedule": "",
+                        "birthday": "",
+                        "gifts": [{
+                            "love": "",
+                            "like": "",
+                            "neutral": "",
+                            "hate": ""
+                        }],
+                        "heart_events": [{
+                            "2h": "",
+                            "3h": "",
+                            "4h": "",
+                            "5h": "",
+                            "6h": "",
+                            "7h": "",
+                            "8h": "",
+                            "9h": "",
+                            "10h": "",
+                            "11h": "",
+                            "12h": "",
+                            "13h": "",
+                            "14h": ""
+                        }]
+                    },
+                    {
+                        "name": "Penny",
+                        "schedule": "",
+                        "birthday": "",
+                        "gifts": [{
+                            "love": "",
+                            "like": "",
+                            "neutral": "",
+                            "hate": ""
+                        }],
+                        "heart_events": [{
+                            "2h": "",
+                            "3h": "",
+                            "4h": "",
+                            "5h": "",
+                            "6h": "",
+                            "7h": "",
+                            "8h": "",
+                            "9h": "",
+                            "10h": "",
+                            "11h": "",
+                            "12h": "",
+                            "13h": "",
+                            "14h": ""
+                        }]
+                    },
+                    {
+                        "name": "Caroline",
+                        "schedule": "",
+                        "birthday": "",
+                        "gifts": [{
+                            "love": "",
+                            "like": "",
+                            "neutral": "",
+                            "hate": ""
+                        }],
+                        "heart_events": [{
+                            "2h": "",
+                            "3h": "",
+                            "4h": "",
+                            "5h": "",
+                            "6h": "",
+                            "7h": "",
+                            "8h": "",
+                            "9h": "",
+                            "10h": "",
+                            "11h": "",
+                            "12h": "",
+                            "13h": "",
+                            "14h": ""
+                        }]
+                    },
+                    {
+                        "name": "Clint",
+                        "schedule": "",
+                        "birthday": "",
+                        "gifts": [{
+                            "love": "",
+                            "like": "",
+                            "neutral": "",
+                            "hate": ""
+                        }],
+                        "heart_events": [{
+                            "2h": "",
+                            "3h": "",
+                            "4h": "",
+                            "5h": "",
+                            "6h": "",
+                            "7h": "",
+                            "8h": "",
+                            "9h": "",
+                            "10h": "",
+                            "11h": "",
+                            "12h": "",
+                            "13h": "",
+                            "14h": ""
+                        }]
+                    },
+                    {
+                        "name": "Demetrius",
+                        "schedule": "",
+                        "birthday": "",
+                        "gifts": [{
+                            "love": "",
+                            "like": "",
+                            "neutral": "",
+                            "hate": ""
+                        }],
+                        "heart_events": [{
+                            "2h": "",
+                            "3h": "",
+                            "4h": "",
+                            "5h": "",
+                            "6h": "",
+                            "7h": "",
+                            "8h": "",
+                            "9h": "",
+                            "10h": "",
+                            "11h": "",
+                            "12h": "",
+                            "13h": "",
+                            "14h": ""
+                        }]
+                    },
+                    {
+                        "name": "Dwarf",
+                        "schedule": "",
+                        "birthday": "",
+                        "gifts": [{
+                            "love": "",
+                            "like": "",
+                            "neutral": "",
+                            "hate": ""
+                        }],
+                        "heart_events": [{
+                            "2h": "",
+                            "3h": "",
+                            "4h": "",
+                            "5h": "",
+                            "6h": "",
+                            "7h": "",
+                            "8h": "",
+                            "9h": "",
+                            "10h": "",
+                            "11h": "",
+                            "12h": "",
+                            "13h": "",
+                            "14h": ""
+                        }]
+                    },
+                    {
+                        "name": "Evelyn",
+                        "schedule": "",
+                        "birthday": "",
+                        "gifts": [{
+                            "love": "",
+                            "like": "",
+                            "neutral": "",
+                            "hate": ""
+                        }],
+                        "heart_events": [{
+                            "2h": "",
+                            "3h": "",
+                            "4h": "",
+                            "5h": "",
+                            "6h": "",
+                            "7h": "",
+                            "8h": "",
+                            "9h": "",
+                            "10h": "",
+                            "11h": "",
+                            "12h": "",
+                            "13h": "",
+                            "14h": ""
+                        }]
+                    },
+                    {
+                        "name": "George",
+                        "schedule": "",
+                        "birthday": "",
+                        "gifts": [{
+                            "love": "",
+                            "like": "",
+                            "neutral": "",
+                            "hate": ""
+                        }],
+                        "heart_events": [{
+                            "2h": "",
+                            "3h": "",
+                            "4h": "",
+                            "5h": "",
+                            "6h": "",
+                            "7h": "",
+                            "8h": "",
+                            "9h": "",
+                            "10h": "",
+                            "11h": "",
+                            "12h": "",
+                            "13h": "",
+                            "14h": ""
+                        }]
+                    },
+                    {
+                        "name": "Gus",
+                        "schedule": "",
+                        "birthday": "",
+                        "gifts": [{
+                            "love": "",
+                            "like": "",
+                            "neutral": "",
+                            "hate": ""
+                        }],
+                        "heart_events": [{
+                            "2h": "",
+                            "3h": "",
+                            "4h": "",
+                            "5h": "",
+                            "6h": "",
+                            "7h": "",
+                            "8h": "",
+                            "9h": "",
+                            "10h": "",
+                            "11h": "",
+                            "12h": "",
+                            "13h": "",
+                            "14h": ""
+                        }]
+                    },
+                    {
+                        "name": "Jas",
+                        "schedule": "",
+                        "birthday": "",
+                        "gifts": [{
+                            "love": "",
+                            "like": "",
+                            "neutral": "",
+                            "hate": ""
+                        }],
+                        "heart_events": [{
+                            "2h": "",
+                            "3h": "",
+                            "4h": "",
+                            "5h": "",
+                            "6h": "",
+                            "7h": "",
+                            "8h": "",
+                            "9h": "",
+                            "10h": "",
+                            "11h": "",
+                            "12h": "",
+                            "13h": "",
+                            "14h": ""
+                        }]
+                    },
+                    {
+                        "name": "Jodi",
+                        "schedule": "",
+                        "birthday": "",
+                        "gifts": [{
+                            "love": "",
+                            "like": "",
+                            "neutral": "",
+                            "hate": ""
+                        }],
+                        "heart_events": [{
+                            "2h": "",
+                            "3h": "",
+                            "4h": "",
+                            "5h": "",
+                            "6h": "",
+                            "7h": "",
+                            "8h": "",
+                            "9h": "",
+                            "10h": "",
+                            "11h": "",
+                            "12h": "",
+                            "13h": "",
+                            "14h": ""
+                        }]
+                    },
+                    {
+                        "name": "Kent",
+                        "schedule": "",
+                        "birthday": "",
+                        "gifts": [{
+                            "love": "",
+                            "like": "",
+                            "neutral": "",
+                            "hate": ""
+                        }],
+                        "heart_events": [{
+                            "2h": "",
+                            "3h": "",
+                            "4h": "",
+                            "5h": "",
+                            "6h": "",
+                            "7h": "",
+                            "8h": "",
+                            "9h": "",
+                            "10h": "",
+                            "11h": "",
+                            "12h": "",
+                            "13h": "",
+                            "14h": ""
+                        }]
+                    },
+                    {
+                        "name": "Krobus",
+                        "schedule": "",
+                        "birthday": "",
+                        "gifts": [{
+                            "love": "",
+                            "like": "",
+                            "neutral": "",
+                            "hate": ""
+                        }],
+                        "heart_events": [{
+                            "2h": "",
+                            "3h": "",
+                            "4h": "",
+                            "5h": "",
+                            "6h": "",
+                            "7h": "",
+                            "8h": "",
+                            "9h": "",
+                            "10h": "",
+                            "11h": "",
+                            "12h": "",
+                            "13h": "",
+                            "14h": ""
+                        }]
+                    },
+                    {
+                        "name": "Leo",
+                        "schedule": "",
+                        "birthday": "",
+                        "gifts": [{
+                            "love": "",
+                            "like": "",
+                            "neutral": "",
+                            "hate": ""
+                        }],
+                        "heart_events": [{
+                            "2h": "",
+                            "3h": "",
+                            "4h": "",
+                            "5h": "",
+                            "6h": "",
+                            "7h": "",
+                            "8h": "",
+                            "9h": "",
+                            "10h": "",
+                            "11h": "",
+                            "12h": "",
+                            "13h": "",
+                            "14h": ""
+                        }]
+                    },
+                    {
+                        "name": "Lewis",
+                        "schedule": "",
+                        "birthday": "",
+                        "gifts": [{
+                            "love": "",
+                            "like": "",
+                            "neutral": "",
+                            "hate": ""
+                        }],
+                        "heart_events": [{
+                            "2h": "",
+                            "3h": "",
+                            "4h": "",
+                            "5h": "",
+                            "6h": "",
+                            "7h": "",
+                            "8h": "",
+                            "9h": "",
+                            "10h": "",
+                            "11h": "",
+                            "12h": "",
+                            "13h": "",
+                            "14h": ""
+                        }]
+                    },
+                    {
+                        "name": "Linus",
+                        "schedule": "",
+                        "birthday": "",
+                        "gifts": [{
+                            "love": "",
+                            "like": "",
+                            "neutral": "",
+                            "hate": ""
+                        }],
+                        "heart_events": [{
+                            "2h": "",
+                            "3h": "",
+                            "4h": "",
+                            "5h": "",
+                            "6h": "",
+                            "7h": "",
+                            "8h": "",
+                            "9h": "",
+                            "10h": "",
+                            "11h": "",
+                            "12h": "",
+                            "13h": "",
+                            "14h": ""
+                        }]
+                    },
+                    {
+                        "name": "Marnie",
+                        "schedule": "",
+                        "birthday": "",
+                        "gifts": [{
+                            "love": "",
+                            "like": "",
+                            "neutral": "",
+                            "hate": ""
+                        }],
+                        "heart_events": [{
+                            "2h": "",
+                            "3h": "",
+                            "4h": "",
+                            "5h": "",
+                            "6h": "",
+                            "7h": "",
+                            "8h": "",
+                            "9h": "",
+                            "10h": "",
+                            "11h": "",
+                            "12h": "",
+                            "13h": "",
+                            "14h": ""
+                        }]
+                    },
+                    {
+                        "name": "Pam",
+                        "schedule": "",
+                        "birthday": "",
+                        "gifts": [{
+                            "love": "",
+                            "like": "",
+                            "neutral": "",
+                            "hate": ""
+                        }],
+                        "heart_events": [{
+                            "2h": "",
+                            "3h": "",
+                            "4h": "",
+                            "5h": "",
+                            "6h": "",
+                            "7h": "",
+                            "8h": "",
+                            "9h": "",
+                            "10h": "",
+                            "11h": "",
+                            "12h": "",
+                            "13h": "",
+                            "14h": ""
+                        }]
+                    },
+                    {
+                        "name": "Pierre",
+                        "schedule": "",
+                        "birthday": "",
+                        "gifts": [{
+                            "love": "",
+                            "like": "",
+                            "neutral": "",
+                            "hate": ""
+                        }],
+                        "heart_events": [{
+                            "2h": "",
+                            "3h": "",
+                            "4h": "",
+                            "5h": "",
+                            "6h": "",
+                            "7h": "",
+                            "8h": "",
+                            "9h": "",
+                            "10h": "",
+                            "11h": "",
+                            "12h": "",
+                            "13h": "",
+                            "14h": ""
+                        }]
+                    },
+                    {
+                        "name": "Robin",
+                        "schedule": "",
+                        "birthday": "",
+                        "gifts": [{
+                            "love": "",
+                            "like": "",
+                            "neutral": "",
+                            "hate": ""
+                        }],
+                        "heart_events": [{
+                            "2h": "",
+                            "3h": "",
+                            "4h": "",
+                            "5h": "",
+                            "6h": "",
+                            "7h": "",
+                            "8h": "",
+                            "9h": "",
+                            "10h": "",
+                            "11h": "",
+                            "12h": "",
+                            "13h": "",
+                            "14h": ""
+                        }]
+                    },
+                    {
+                        "name": "Sandy",
+                        "schedule": "",
+                        "birthday": "",
+                        "gifts": [{
+                            "love": "",
+                            "like": "",
+                            "neutral": "",
+                            "hate": ""
+                        }],
+                        "heart_events": [{
+                            "2h": "",
+                            "3h": "",
+                            "4h": "",
+                            "5h": "",
+                            "6h": "",
+                            "7h": "",
+                            "8h": "",
+                            "9h": "",
+                            "10h": "",
+                            "11h": "",
+                            "12h": "",
+                            "13h": "",
+                            "14h": ""
+                        }]
+                    },
+                    {
+                        "name": "Vincent",
+                        "schedule": "",
+                        "birthday": "",
+                        "gifts": [{
+                            "love": "",
+                            "like": "",
+                            "neutral": "",
+                            "hate": ""
+                        }],
+                        "heart_events": [{
+                            "2h": "",
+                            "3h": "",
+                            "4h": "",
+                            "5h": "",
+                            "6h": "",
+                            "7h": "",
+                            "8h": "",
+                            "9h": "",
+                            "10h": "",
+                            "11h": "",
+                            "12h": "",
+                            "13h": "",
+                            "14h": ""
+                        }]
+                    },
+                    {
+                        "name": "Willy",
+                        "schedule": "",
+                        "birthday": "",
+                        "gifts": [{
+                            "love": "",
+                            "like": "",
+                            "neutral": "",
+                            "hate": ""
+                        }],
+                        "heart_events": [{
+                            "2h": "",
+                            "3h": "",
+                            "4h": "",
+                            "5h": "",
+                            "6h": "",
+                            "7h": "",
+                            "8h": "",
+                            "9h": "",
+                            "10h": "",
+                            "11h": "",
+                            "12h": "",
+                            "13h": "",
+                            "14h": ""
+                        }]
+                    },
+                    {
+                        "name": "Wizard",
+                        "schedule": "",
+                        "birthday": "",
+                        "gifts": [{
+                            "love": "",
+                            "like": "",
+                            "neutral": "",
+                            "hate": ""
+                        }],
+                        "heart_events": [{
+                            "2h": "",
+                            "3h": "",
+                            "4h": "",
+                            "5h": "",
+                            "6h": "",
+                            "7h": "",
+                            "8h": "",
+                            "9h": "",
+                            "10h": "",
+                            "11h": "",
+                            "12h": "",
+                            "13h": "",
+                            "14h": ""
+                        }]
+                    }
+                ]
+            }]
         }
     ]
 }
