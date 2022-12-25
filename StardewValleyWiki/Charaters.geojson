@@ -4,7 +4,7 @@
             "spring": [{
                 "charaters": [{
                     "name": "Alex",
-                    "schedule": "",
+                    "schedule": ["https://i.ibb.co/3cQKvrZ/Alex-Spring1.png", "https://i.ibb.co/V98KhNw/Alex-Spring2.png", "https://i.ibb.co/p3fkj4R/Alex-Spring3.png"],
                     "birthday": "Summer 13",
                     "gifts": [{
                         "love": "Complete Breakfast, Salmon Dinner",
@@ -891,7 +891,7 @@
             "summer": [{
                 "charaters": [{
                     "name": "Alex",
-                    "schedule": "",
+                    "schedule": ["https://i.ibb.co/SrRPkvb/Alex-Summer1.png" , "https://i.ibb.co/48wC2Ls/Alex-Summer2.png", "https://i.ibb.co/nMHCRHz/Alex-Summer3.png", "https://i.ibb.co/VxB1ymV/Alex-Summer4.png"],
                     "birthday": "Summer 13",
                     "gifts": [{
                         "love": "Complete Breakfast, Salmon Dinner",
@@ -1778,7 +1778,7 @@
             "fall": [{
                 "charaters": [{
                     "name": "Alex",
-                    "schedule": "",
+                    "schedule": ["https://i.ibb.co/JshvJd0/Alex-Fall1.png", "https://i.ibb.co/P5fF5Fc/Alex-Fall2.png", "https://i.ibb.co/9ybxyC2/Alex-Fall3.png"],
                     "birthday": "Summer 13",
                     "gifts": [{
                         "love": "Complete Breakfast, Salmon Dinner",
@@ -1787,19 +1787,19 @@
                         "hate": "Salmonberry, Wild Horseradish, Holly, Quartz"
                     }],
                     "heart_events": [{
-                        "2h": "",
+                        "2h": "On a sunny summer day, visit the beach when Alex is there.",
                         "3h": "",
-                        "4h": "",
-                        "5h": "",
-                        "6h": "",
+                        "4h": "Enter town between 9am and 4pm.",
+                        "5h": "Enter Alex's house when he's there",
+                        "6h": "Enter Alex's house when he's there",
                         "7h": "",
-                        "8h": "",
+                        "8h": "On a sunny day, visit the beach when Alex is there. He is only scheduled to go to the beach in summer, but may pass by on the way to the Ginger Island resort in any season after it is completed.",
                         "9h": "",
-                        "10h": "",
+                        "10h": "Alex will send you a letter to meet him at the Saloon after dark. After receiving the letter, enter the Saloon between 7pm and 10pm.",
                         "11h": "",
                         "12h": "",
                         "13h": "",
-                        "14h": ""
+                        "14h": "Exit the Farmhouse in year 2+ between 6am and 8:20am on any day other than Sunday. You must have 5,000g available."
                     }]
                 },
                     {
@@ -2665,7 +2665,7 @@
             "winter": [{
                 "charaters": [{
                     "name": "Alex",
-                    "schedule": "",
+                    "schedule": ["https://i.ibb.co/Vxnk8H8/Alex-Winter1.png","https://i.ibb.co/4mCLmM9/Alex-Winter2.png", "https://i.ibb.co/Tm5ZW1r/Alex-Winter3.png"],
                     "birthday": "Summer 13",
                     "gifts": [{
                         "love": "Complete Breakfast, Salmon Dinner",

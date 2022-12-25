@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DA1220AD2957D46400877D72 /* UIHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA1220AC2957D46400877D72 /* UIHelper.swift */; };
+		DA1220AF2957D54C00877D72 /* CollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA1220AE2957D54C00877D72 /* CollectionViewController.swift */; };
 		DA690CA62955F33400A7BB64 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA690CA52955F33400A7BB64 /* AppDelegate.swift */; };
 		DA690CA82955F33400A7BB64 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA690CA72955F33400A7BB64 /* SceneDelegate.swift */; };
 		DA690CAA2955F33400A7BB64 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA690CA92955F33400A7BB64 /* ViewController.swift */; };
@@ -16,6 +18,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		DA1220AC2957D46400877D72 /* UIHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIHelper.swift; sourceTree = "<group>"; };
+		DA1220AE2957D54C00877D72 /* CollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewController.swift; sourceTree = "<group>"; };
 		DA690CA22955F33300A7BB64 /* StardewValleyWiki.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StardewValleyWiki.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DA690CA52955F33400A7BB64 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DA690CA72955F33400A7BB64 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -38,6 +42,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		DA1220AB2957D44F00877D72 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				DA1220AC2957D46400877D72 /* UIHelper.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
 		DA690C992955F33300A7BB64 = {
 			isa = PBXGroup;
 			children = (
@@ -57,6 +69,7 @@
 		DA690CA42955F33400A7BB64 /* StardewValleyWiki */ = {
 			isa = PBXGroup;
 			children = (
+				DA1220AB2957D44F00877D72 /* Helpers */,
 				DA690CA52955F33400A7BB64 /* AppDelegate.swift */,
 				DA690CA72955F33400A7BB64 /* SceneDelegate.swift */,
 				DA690CA92955F33400A7BB64 /* ViewController.swift */,
@@ -65,6 +78,7 @@
 				DA690CB02955F33500A7BB64 /* LaunchScreen.storyboard */,
 				DA690CB32955F33500A7BB64 /* Info.plist */,
 				DA690CB92955F39400A7BB64 /* Charaters.geojson */,
+				DA1220AE2957D54C00877D72 /* CollectionViewController.swift */,
 			);
 			path = StardewValleyWiki;
 			sourceTree = "<group>";
@@ -143,6 +157,8 @@
 				DA690CAA2955F33400A7BB64 /* ViewController.swift in Sources */,
 				DA690CA62955F33400A7BB64 /* AppDelegate.swift in Sources */,
 				DA690CA82955F33400A7BB64 /* SceneDelegate.swift in Sources */,
+				DA1220AD2957D46400877D72 /* UIHelper.swift in Sources */,
+				DA1220AF2957D54C00877D72 /* CollectionViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
