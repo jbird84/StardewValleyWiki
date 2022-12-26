@@ -26,32 +26,26 @@ class CollectionViewCell: UICollectionViewCell {
     
     private func configureCharaterImageView() {
         addSubview(charaterImageView)
-        
+        charaterImageView.backgroundColor = .clear
+        charaterImageView.translatesAutoresizingMaskIntoConstraints = false
         NSLayoutConstraint.activate([
-            charaterImageView.topAnchor.constraint(equalTo: topAnchor),
+            charaterImageView.topAnchor.constraint(equalTo: topAnchor, constant: padding),
             charaterImageView.leadingAnchor.constraint(equalTo: leadingAnchor, constant: padding),
             charaterImageView.trailingAnchor.constraint(equalTo: trailingAnchor, constant: -padding),
-            charaterImageView.heightAnchor.constraint(equalTo: charaterImageView.widthAnchor)
+         charaterImageView.heightAnchor.constraint(equalTo: charaterImageView.widthAnchor)
         ])
     }
     
     private func configureCharaterNameLabel() {
         addSubview(charaterNameLabel)
-        
-        NSLayoutConstraint.activate([
-            charaterNameLabel.topAnchor.constraint(equalTo: charaterImageView.bottomAnchor, constant: padding),
-            charaterNameLabel.leadingAnchor.constraint(equalTo: leadingAnchor, constant: padding),
-            charaterNameLabel.trailingAnchor.constraint(equalTo: trailingAnchor, constant: -padding),
-            charaterNameLabel.heightAnchor.constraint(equalToConstant: 20)
-        ])
+        charaterNameLabel.backgroundColor = .clear
+        charaterNameLabel.translatesAutoresizingMaskIntoConstraints = false
+        charaterNameLabel.anchor(top: charaterImageView.bottomAnchor, leading: charaterImageView.leadingAnchor, trailing: charaterImageView.trailingAnchor, height: 20)
     }
     
     func set(charater: [CharaterData], indexPath: IndexPath) {
-        let image = UIImage(named: charater[indexPath.row].charaterImageName)
+        charaterImageView.image = UIImage(named: charater[indexPath.row].charaterImageName) != nil ? UIImage(named: charater[indexPath.row].charaterImageName) : UIImage(systemName: "plus")
         let name = charater[indexPath.row].charaterNameLabel
-        
-        charaterImageView.image = image
         charaterNameLabel.text = name
     }
-    
 }

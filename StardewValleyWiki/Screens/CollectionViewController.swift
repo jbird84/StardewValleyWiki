@@ -11,6 +11,10 @@ class CollectionViewController: UIViewController {
 
     var collectionView: UICollectionView!
     
+    let test: [CharaterData] = [
+    
+    ]
+    
     let charaters: [CharaterData] = [
         CharaterData(charaterImageName: K.CharaterNames.abigail, charaterNameLabel: K.CharaterNames.abigail),
         CharaterData(charaterImageName: K.CharaterNames.alex, charaterNameLabel: K.CharaterNames.alex),
@@ -50,8 +54,8 @@ class CollectionViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-
         configureCollectionView()
+        configureViewController()
     }
     
 
@@ -66,9 +70,8 @@ class CollectionViewController: UIViewController {
     }
     
     private func configureViewController() {
-        view.backgroundColor = .systemBackground
+        view.backgroundColor = .secondarySystemBackground
     }
-
 }
 
 extension CollectionViewController: UICollectionViewDelegate, UICollectionViewDataSource {
@@ -86,5 +89,4 @@ extension CollectionViewController: UICollectionViewDelegate, UICollectionViewDa
     //TODO: This needs to take image and name to the next view when cell is tapped.
     func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
     }
-    
 }

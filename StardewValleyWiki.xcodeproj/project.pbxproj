@@ -14,6 +14,8 @@
 		DA1220B8295892CB00877D72 /* SVImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA1220B7295892CB00877D72 /* SVImageView.swift */; };
 		DA1220BB2958942B00877D72 /* SVTitleLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA1220BA2958942B00877D72 /* SVTitleLabel.swift */; };
 		DA1220BE2958980900877D72 /* CharaterImageData.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA1220BD2958980900877D72 /* CharaterImageData.swift */; };
+		DA1220C12959EDDF00877D72 /* UIView+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA1220C02959EDDF00877D72 /* UIView+Ext.swift */; };
+		DA1220C4295A045300877D72 /* CharaterDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA1220C3295A045300877D72 /* CharaterDetailsViewController.swift */; };
 		DA690CA62955F33400A7BB64 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA690CA52955F33400A7BB64 /* AppDelegate.swift */; };
 		DA690CA82955F33400A7BB64 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA690CA72955F33400A7BB64 /* SceneDelegate.swift */; };
 		DA690CAA2955F33400A7BB64 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA690CA92955F33400A7BB64 /* ViewController.swift */; };
@@ -30,6 +32,8 @@
 		DA1220B7295892CB00877D72 /* SVImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SVImageView.swift; sourceTree = "<group>"; };
 		DA1220BA2958942B00877D72 /* SVTitleLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SVTitleLabel.swift; sourceTree = "<group>"; };
 		DA1220BD2958980900877D72 /* CharaterImageData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharaterImageData.swift; sourceTree = "<group>"; };
+		DA1220C02959EDDF00877D72 /* UIView+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Ext.swift"; sourceTree = "<group>"; };
+		DA1220C3295A045300877D72 /* CharaterDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharaterDetailsViewController.swift; sourceTree = "<group>"; };
 		DA690CA22955F33300A7BB64 /* StardewValleyWiki.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StardewValleyWiki.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DA690CA52955F33400A7BB64 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DA690CA72955F33400A7BB64 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -55,6 +59,7 @@
 		DA1220AB2957D44F00877D72 /* Helpers */ = {
 			isa = PBXGroup;
 			children = (
+				DA1220BF2959EDC600877D72 /* Extensions */,
 				DA1220AC2957D46400877D72 /* UIHelper.swift */,
 				DA1220B02958916100877D72 /* Constants.swift */,
 			);
@@ -103,6 +108,24 @@
 			path = Model;
 			sourceTree = "<group>";
 		};
+		DA1220BF2959EDC600877D72 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				DA1220C02959EDDF00877D72 /* UIView+Ext.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		DA1220C2295A041800877D72 /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				DA1220AE2957D54C00877D72 /* CollectionViewController.swift */,
+				DA690CA92955F33400A7BB64 /* ViewController.swift */,
+				DA1220C3295A045300877D72 /* CharaterDetailsViewController.swift */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
 		DA690C992955F33300A7BB64 = {
 			isa = PBXGroup;
 			children = (
@@ -122,18 +145,17 @@
 		DA690CA42955F33400A7BB64 /* StardewValleyWiki */ = {
 			isa = PBXGroup;
 			children = (
+				DA1220C2295A041800877D72 /* Screens */,
 				DA1220BC295897ED00877D72 /* Model */,
 				DA1220B22958920D00877D72 /* Custom Views */,
 				DA1220AB2957D44F00877D72 /* Helpers */,
 				DA690CA52955F33400A7BB64 /* AppDelegate.swift */,
 				DA690CA72955F33400A7BB64 /* SceneDelegate.swift */,
-				DA690CA92955F33400A7BB64 /* ViewController.swift */,
 				DA690CAB2955F33400A7BB64 /* Main.storyboard */,
 				DA690CAE2955F33500A7BB64 /* Assets.xcassets */,
 				DA690CB02955F33500A7BB64 /* LaunchScreen.storyboard */,
 				DA690CB32955F33500A7BB64 /* Info.plist */,
 				DA690CB92955F39400A7BB64 /* Charaters.geojson */,
-				DA1220AE2957D54C00877D72 /* CollectionViewController.swift */,
 			);
 			path = StardewValleyWiki;
 			sourceTree = "<group>";
@@ -210,9 +232,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				DA690CAA2955F33400A7BB64 /* ViewController.swift in Sources */,
+				DA1220C12959EDDF00877D72 /* UIView+Ext.swift in Sources */,
 				DA690CA62955F33400A7BB64 /* AppDelegate.swift in Sources */,
 				DA1220BB2958942B00877D72 /* SVTitleLabel.swift in Sources */,
 				DA690CA82955F33400A7BB64 /* SceneDelegate.swift in Sources */,
+				DA1220C4295A045300877D72 /* CharaterDetailsViewController.swift in Sources */,
 				DA1220B8295892CB00877D72 /* SVImageView.swift in Sources */,
 				DA1220BE2958980900877D72 /* CharaterImageData.swift in Sources */,
 				DA1220B52958924F00877D72 /* CollectionViewCell.swift in Sources */,
@@ -371,8 +395,7 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -399,8 +422,7 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

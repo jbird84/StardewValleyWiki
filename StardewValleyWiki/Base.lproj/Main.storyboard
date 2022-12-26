@@ -4,6 +4,7 @@
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21505"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -24,8 +25,12 @@
                                             <constraint firstAttribute="height" constant="45" id="EAq-yd-tB6"/>
                                             <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="250" id="dM2-bq-H6D"/>
                                         </constraints>
-                                        <state key="normal" title="Button"/>
-                                        <buttonConfiguration key="configuration" style="tinted" title="Spring"/>
+                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                        <color key="tintColor" red="0.2901960784" green="0.2274509804" blue="0.89411764709999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                        <state key="normal" title="Spring">
+                                            <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </state>
                                         <connections>
                                             <action selector="springTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="9dG-Ui-zBE"/>
                                         </connections>
@@ -36,8 +41,11 @@
                                             <constraint firstAttribute="height" constant="45" id="8cW-VX-Z23"/>
                                             <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="250" id="QVf-pv-rpK"/>
                                         </constraints>
-                                        <state key="normal" title="Button"/>
-                                        <buttonConfiguration key="configuration" style="tinted" title="Summer"/>
+                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                        <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                        <state key="normal" title="Summer">
+                                            <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </state>
                                         <connections>
                                             <action selector="summerTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="fHG-oN-FgM"/>
                                         </connections>
@@ -48,8 +56,11 @@
                                             <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="250" id="lOI-3z-cWb"/>
                                             <constraint firstAttribute="height" constant="45" id="mci-Pm-YDy"/>
                                         </constraints>
-                                        <state key="normal" title="Button"/>
-                                        <buttonConfiguration key="configuration" style="tinted" title="Fall"/>
+                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                        <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                        <state key="normal" title="Fall">
+                                            <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </state>
                                         <connections>
                                             <action selector="fallTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Orm-tG-Wv5"/>
                                         </connections>
@@ -60,8 +71,11 @@
                                             <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="250" id="6RF-m4-aDb"/>
                                             <constraint firstAttribute="height" constant="45" id="eFZ-Iu-8RZ"/>
                                         </constraints>
-                                        <state key="normal" title="Button"/>
-                                        <buttonConfiguration key="configuration" style="tinted" title="Winter"/>
+                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                        <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                        <state key="normal" title="Winter">
+                                            <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </state>
                                         <connections>
                                             <action selector="winterTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="AY9-5K-E36"/>
                                         </connections>
@@ -89,10 +103,113 @@
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="HW7-fw-ADq"/>
+                    <connections>
+                        <outlet property="fallButton" destination="FqV-QK-Uaq" id="YBc-AY-kpz"/>
+                        <outlet property="springButton" destination="jEQ-Pb-1gX" id="kOe-pl-3Vr"/>
+                        <outlet property="summerButton" destination="nzv-9M-mZ1" id="WWK-yV-L8z"/>
+                        <outlet property="winterButton" destination="wSS-1b-dMw" id="Abh-aM-N6l"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1028.2442748091603" y="4.9295774647887329"/>
+        </scene>
+        <!--Collection View Controller-->
+        <scene sceneID="AJq-h7-Dy0">
+            <objects>
+                <viewController storyboardIdentifier="CollectionViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="Yse-OZ-cOA" customClass="CollectionViewController" customModule="StardewValleyWiki" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="eTk-u8-pH6">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="g66-We-z2M"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="K4y-zt-fPG" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1902" y="5"/>
+        </scene>
+        <!--Charater Details View Controller-->
+        <scene sceneID="XSY-oz-6lw">
+            <objects>
+                <viewController id="66d-zd-t5D" customClass="CharaterDetailsViewController" customModule="StardewValleyWiki" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="B21-B1-mNn">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="H7c-Pj-qi5">
+                                <rect key="frame" x="49.666666666666657" y="94" width="294" height="40"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Pg9-ok-VgG">
+                                        <rect key="frame" x="0.0" y="0.0" width="98" height="40"/>
+                                        <color key="backgroundColor" red="0.85440994179511009" green="0.56659001980598178" blue="0.86093777418136597" alpha="0.66520074503311255" colorSpace="custom" customColorSpace="displayP3"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="40" id="EqO-Cb-vfp"/>
+                                            <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="98" id="QhK-oA-l1c"/>
+                                        </constraints>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="plain" title="Birthday">
+                                            <color key="baseForegroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </buttonConfiguration>
+                                        <connections>
+                                            <action selector="birthdayButtonTapped:" destination="66d-zd-t5D" eventType="touchUpInside" id="Hn2-iQ-AwY"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="k8W-RQ-Qcj">
+                                        <rect key="frame" x="98" y="0.0" width="98" height="40"/>
+                                        <color key="backgroundColor" red="0.86093777418136597" green="0.48683773709603129" blue="0.44083190759865681" alpha="0.66520074503311255" colorSpace="custom" customColorSpace="displayP3"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="98" id="pPL-1b-OiU"/>
+                                            <constraint firstAttribute="height" constant="40" id="qa5-n0-K87"/>
+                                        </constraints>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="plain" title="Schedule">
+                                            <color key="baseForegroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </buttonConfiguration>
+                                        <connections>
+                                            <action selector="scheduleButtonTapped:" destination="66d-zd-t5D" eventType="touchUpInside" id="33b-2s-1e1"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1dI-Eo-DAS">
+                                        <rect key="frame" x="196" y="0.0" width="98" height="40"/>
+                                        <color key="backgroundColor" red="0.31083222413400013" green="0.86093777418136597" blue="0.73116317265760578" alpha="0.66520074503311255" colorSpace="custom" customColorSpace="displayP3"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="40" id="K5E-YO-Pvz"/>
+                                            <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="98" id="cEs-hJ-3uZ"/>
+                                        </constraints>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="plain" title="Gifts">
+                                            <color key="baseForegroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </buttonConfiguration>
+                                        <connections>
+                                            <action selector="giftsButtonTapped:" destination="66d-zd-t5D" eventType="touchUpInside" id="To4-CT-dQv"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                            </stackView>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="E0X-35-TMR">
+                                <rect key="frame" x="0.0" y="149" width="393" height="703"/>
+                                <color key="backgroundColor" red="0.86657356699999999" green="0.96611279250000004" blue="0.40460043569999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                            </view>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="Qo4-7d-Rw8"/>
+                        <color key="backgroundColor" red="0.86657356696019594" green="0.96611279249191284" blue="0.40460043572187349" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <constraints>
+                            <constraint firstItem="E0X-35-TMR" firstAttribute="top" secondItem="H7c-Pj-qi5" secondAttribute="bottom" constant="15" id="KFS-im-ToO"/>
+                            <constraint firstAttribute="bottom" secondItem="E0X-35-TMR" secondAttribute="bottom" id="KpM-IB-YA6"/>
+                            <constraint firstItem="H7c-Pj-qi5" firstAttribute="centerX" secondItem="B21-B1-mNn" secondAttribute="centerX" id="V2A-20-d0g"/>
+                            <constraint firstItem="H7c-Pj-qi5" firstAttribute="top" secondItem="Qo4-7d-Rw8" secondAttribute="top" constant="35" id="XwZ-Qz-HdY"/>
+                            <constraint firstItem="E0X-35-TMR" firstAttribute="leading" secondItem="Qo4-7d-Rw8" secondAttribute="leading" id="pwO-Uc-H9I"/>
+                            <constraint firstItem="E0X-35-TMR" firstAttribute="trailing" secondItem="Qo4-7d-Rw8" secondAttribute="trailing" id="uUJ-ue-HwM"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="detailView" destination="E0X-35-TMR" id="HEQ-fV-AB5"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="RT7-iv-FGm" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2738.1679389312976" y="4.9295774647887329"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="IDD-fY-r1L">
@@ -113,4 +230,9 @@
             <point key="canvasLocation" x="101.5267175572519" y="4.9295774647887329"/>
         </scene>
     </scenes>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
 </document>
