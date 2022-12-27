@@ -22,7 +22,7 @@ struct UIHelper {
         return flowLayout
     }
     
-    static func getCharaterData() {
+    static func getCharacterData() {
  //       if let data = FileLo
     }
     

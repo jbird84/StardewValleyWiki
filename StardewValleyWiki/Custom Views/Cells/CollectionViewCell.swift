@@ -9,43 +9,43 @@ import UIKit
 
 class CollectionViewCell: UICollectionViewCell {
     
-    let charaterImageView = SVImageView(frame: .zero)
-    let charaterNameLabel = SVTitleLabel(textAlignment: .center, fontSize: 16)
+    let characterImageView = SVImageView(frame: .zero)
+    let characterNameLabel = SVTitleLabel(textAlignment: .center, fontSize: 16)
     
     private let padding: CGFloat = 8
     
     override init(frame: CGRect) {
         super.init(frame: frame)
-        configureCharaterImageView()
-        configureCharaterNameLabel()
+        configureCharacterImageView()
+        configureCharacterNameLabel()
     }
     
     required init?(coder: NSCoder) {
         fatalError("init(coder:) has not been implemented")
     }
     
-    private func configureCharaterImageView() {
-        addSubview(charaterImageView)
-        charaterImageView.backgroundColor = .clear
-        charaterImageView.translatesAutoresizingMaskIntoConstraints = false
+    private func configureCharacterImageView() {
+        addSubview(characterImageView)
+        characterImageView.backgroundColor = .clear
+        characterImageView.translatesAutoresizingMaskIntoConstraints = false
         NSLayoutConstraint.activate([
-            charaterImageView.topAnchor.constraint(equalTo: topAnchor, constant: padding),
-            charaterImageView.leadingAnchor.constraint(equalTo: leadingAnchor, constant: padding),
-            charaterImageView.trailingAnchor.constraint(equalTo: trailingAnchor, constant: -padding),
-         charaterImageView.heightAnchor.constraint(equalTo: charaterImageView.widthAnchor)
+            characterImageView.topAnchor.constraint(equalTo: topAnchor, constant: padding),
+            characterImageView.leadingAnchor.constraint(equalTo: leadingAnchor, constant: padding),
+            characterImageView.trailingAnchor.constraint(equalTo: trailingAnchor, constant: -padding),
+         characterImageView.heightAnchor.constraint(equalTo: characterImageView.widthAnchor)
         ])
     }
     
-    private func configureCharaterNameLabel() {
-        addSubview(charaterNameLabel)
-        charaterNameLabel.backgroundColor = .clear
-        charaterNameLabel.translatesAutoresizingMaskIntoConstraints = false
-        charaterNameLabel.anchor(top: charaterImageView.bottomAnchor, leading: charaterImageView.leadingAnchor, trailing: charaterImageView.trailingAnchor, height: 20)
+    private func configureCharacterNameLabel() {
+        addSubview(characterNameLabel)
+        characterNameLabel.backgroundColor = .clear
+        characterNameLabel.translatesAutoresizingMaskIntoConstraints = false
+        characterNameLabel.anchor(top: characterImageView.bottomAnchor, leading: characterImageView.leadingAnchor, trailing: characterImageView.trailingAnchor, height: 20)
     }
     
-    func set(charater: [CharaterImageData], indexPath: IndexPath) {
-        charaterImageView.image = UIImage(named: charater[indexPath.row].charaterImageName) != nil ? UIImage(named: charater[indexPath.row].charaterImageName) : UIImage(systemName: "plus")
-        let name = charater[indexPath.row].charaterNameLabel
-        charaterNameLabel.text = name
+    func set(character: [CharacterImageData], indexPath: IndexPath) {
+        characterImageView.image = UIImage(named: character[indexPath.row].characterImageName) != nil ? UIImage(named: character[indexPath.row].characterImageName) : UIImage(systemName: "plus")
+        let name = character[indexPath.row].characterNameLabel
+        characterNameLabel.text = name
     }
 }

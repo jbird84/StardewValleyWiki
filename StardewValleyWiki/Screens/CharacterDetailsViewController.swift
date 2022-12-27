@@ -1,5 +1,5 @@
 //
-//  CharaterDetailsViewController.swift
+//  CharacterDetailsViewController.swift
 //  StardewValleyWiki
 //
 //  Created by Kinney Kare on 12/26/22.
@@ -7,18 +7,18 @@
 
 import UIKit
 
-class CharaterDetailsViewController: UIViewController {
+class CharacterDetailsViewController: UIViewController {
 
     @IBOutlet weak var detailView: UIView!
     
     
-    
-    var birthday = "July 30 1991"
+    let birthdayLabel = UILabel()
+    var birthday = ""
     
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        // Do any additional setup after loading the view.
+        setupBirthdayLabel()
     }
     
     
@@ -33,6 +33,12 @@ class CharaterDetailsViewController: UIViewController {
     @IBAction func giftsButtonTapped(_ sender: Any) {
     }
     
-    
+    private func setupBirthdayLabel() {
+        birthdayLabel.frame = CGRect(x: 100, y: 100, width: 200, height: 30)
+        view.addSubview(birthdayLabel)
+        birthdayLabel.center = view.center
+        birthdayLabel.text = birthday
+        
+    }
     
 }

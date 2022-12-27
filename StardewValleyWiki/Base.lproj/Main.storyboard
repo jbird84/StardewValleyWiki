@@ -155,10 +155,10 @@
             </objects>
             <point key="canvasLocation" x="1902" y="5"/>
         </scene>
-        <!--Charater Details View Controller-->
+        <!--Character Details View Controller-->
         <scene sceneID="XSY-oz-6lw">
             <objects>
-                <viewController id="66d-zd-t5D" customClass="CharaterDetailsViewController" customModule="StardewValleyWiki" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="66d-zd-t5D" customClass="CharacterDetailsViewController" customModule="StardewValleyWiki" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="B21-B1-mNn">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -235,7 +235,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="RT7-iv-FGm" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2738.1679389312976" y="4.9295774647887329"/>
+            <point key="canvasLocation" x="2756" y="5"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="IDD-fY-r1L">

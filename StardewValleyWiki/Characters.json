@@ -2,7 +2,7 @@
     "seasons": [
         {
             "spring": [{
-                "charaters": [{
+                "characters": [{
                     "name": "Alex",
                     "schedule": ["https://i.ibb.co/3cQKvrZ/Alex-Spring1.png", "https://i.ibb.co/V98KhNw/Alex-Spring2.png", "https://i.ibb.co/p3fkj4R/Alex-Spring3.png"],
                     "birthday": "Summer 13",
@@ -889,7 +889,7 @@
                 ]
             }],
             "summer": [{
-                "charaters": [{
+                "characters": [{
                     "name": "Alex",
                     "schedule": ["https://i.ibb.co/SrRPkvb/Alex-Summer1.png" , "https://i.ibb.co/48wC2Ls/Alex-Summer2.png", "https://i.ibb.co/nMHCRHz/Alex-Summer3.png", "https://i.ibb.co/VxB1ymV/Alex-Summer4.png"],
                     "birthday": "Summer 13",
@@ -1776,7 +1776,7 @@
                 ]
             }],
             "fall": [{
-                "charaters": [{
+                "characters": [{
                     "name": "Alex",
                     "schedule": ["https://i.ibb.co/JshvJd0/Alex-Fall1.png", "https://i.ibb.co/P5fF5Fc/Alex-Fall2.png", "https://i.ibb.co/9ybxyC2/Alex-Fall3.png"],
                     "birthday": "Summer 13",
@@ -2663,7 +2663,7 @@
                 ]
             }],
             "winter": [{
-                "charaters": [{
+                "characters": [{
                     "name": "Alex",
                     "schedule": ["https://i.ibb.co/Vxnk8H8/Alex-Winter1.png","https://i.ibb.co/4mCLmM9/Alex-Winter2.png", "https://i.ibb.co/Tm5ZW1r/Alex-Winter3.png"],
                     "birthday": "Summer 13",

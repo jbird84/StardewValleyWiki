@@ -13,11 +13,11 @@
 		DA1220B52958924F00877D72 /* CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA1220B42958924F00877D72 /* CollectionViewCell.swift */; };
 		DA1220B8295892CB00877D72 /* SVImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA1220B7295892CB00877D72 /* SVImageView.swift */; };
 		DA1220BB2958942B00877D72 /* SVTitleLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA1220BA2958942B00877D72 /* SVTitleLabel.swift */; };
-		DA1220BE2958980900877D72 /* CharaterImageData.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA1220BD2958980900877D72 /* CharaterImageData.swift */; };
+		DA1220BE2958980900877D72 /* CharacterImageData.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA1220BD2958980900877D72 /* CharacterImageData.swift */; };
 		DA1220C12959EDDF00877D72 /* UIView+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA1220C02959EDDF00877D72 /* UIView+Ext.swift */; };
-		DA1220C4295A045300877D72 /* CharaterDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA1220C3295A045300877D72 /* CharaterDetailsViewController.swift */; };
+		DA1220C4295A045300877D72 /* CharacterDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA1220C3295A045300877D72 /* CharacterDetailsViewController.swift */; };
 		DA1220C6295A5FA400877D72 /* FileLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA1220C5295A5FA400877D72 /* FileLoader.swift */; };
-		DA1220C8295A65E600877D72 /* CharaterDetailData.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA1220C7295A65E600877D72 /* CharaterDetailData.swift */; };
+		DA1220C8295A65E600877D72 /* CharacterDetailData.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA1220C7295A65E600877D72 /* CharacterDetailData.swift */; };
 		DA1220CA295B0D1000877D72 /* Calendar.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DA1220C9295B0D1000877D72 /* Calendar.storyboard */; };
 		DA1220CC295B0F9300877D72 /* CalendarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA1220CB295B0F9300877D72 /* CalendarViewController.swift */; };
 		DA690CA62955F33400A7BB64 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA690CA52955F33400A7BB64 /* AppDelegate.swift */; };
@@ -35,11 +35,11 @@
 		DA1220B42958924F00877D72 /* CollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewCell.swift; sourceTree = "<group>"; };
 		DA1220B7295892CB00877D72 /* SVImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SVImageView.swift; sourceTree = "<group>"; };
 		DA1220BA2958942B00877D72 /* SVTitleLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SVTitleLabel.swift; sourceTree = "<group>"; };
-		DA1220BD2958980900877D72 /* CharaterImageData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharaterImageData.swift; sourceTree = "<group>"; };
+		DA1220BD2958980900877D72 /* CharacterImageData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterImageData.swift; sourceTree = "<group>"; };
 		DA1220C02959EDDF00877D72 /* UIView+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Ext.swift"; sourceTree = "<group>"; };
-		DA1220C3295A045300877D72 /* CharaterDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharaterDetailsViewController.swift; sourceTree = "<group>"; };
+		DA1220C3295A045300877D72 /* CharacterDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterDetailsViewController.swift; sourceTree = "<group>"; };
 		DA1220C5295A5FA400877D72 /* FileLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileLoader.swift; sourceTree = "<group>"; };
-		DA1220C7295A65E600877D72 /* CharaterDetailData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharaterDetailData.swift; sourceTree = "<group>"; };
+		DA1220C7295A65E600877D72 /* CharacterDetailData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterDetailData.swift; sourceTree = "<group>"; };
 		DA1220C9295B0D1000877D72 /* Calendar.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Calendar.storyboard; sourceTree = "<group>"; };
 		DA1220CB295B0F9300877D72 /* CalendarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarViewController.swift; sourceTree = "<group>"; };
 		DA690CA22955F33300A7BB64 /* StardewValleyWiki.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StardewValleyWiki.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -50,7 +50,7 @@
 		DA690CAE2955F33500A7BB64 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DA690CB12955F33500A7BB64 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DA690CB32955F33500A7BB64 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		DA690CB92955F39400A7BB64 /* Charaters.geojson */ = {isa = PBXFileReference; lastKnownFileType = text; path = Charaters.geojson; sourceTree = "<group>"; };
+		DA690CB92955F39400A7BB64 /* Characters.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = Characters.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,8 +112,8 @@
 		DA1220BC295897ED00877D72 /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				DA1220BD2958980900877D72 /* CharaterImageData.swift */,
-				DA1220C7295A65E600877D72 /* CharaterDetailData.swift */,
+				DA1220BD2958980900877D72 /* CharacterImageData.swift */,
+				DA1220C7295A65E600877D72 /* CharacterDetailData.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -131,7 +131,7 @@
 			children = (
 				DA1220AE2957D54C00877D72 /* CollectionViewController.swift */,
 				DA690CA92955F33400A7BB64 /* ViewController.swift */,
-				DA1220C3295A045300877D72 /* CharaterDetailsViewController.swift */,
+				DA1220C3295A045300877D72 /* CharacterDetailsViewController.swift */,
 				DA1220CB295B0F9300877D72 /* CalendarViewController.swift */,
 			);
 			path = Screens;
@@ -166,7 +166,7 @@
 				DA690CAE2955F33500A7BB64 /* Assets.xcassets */,
 				DA690CB02955F33500A7BB64 /* LaunchScreen.storyboard */,
 				DA690CB32955F33500A7BB64 /* Info.plist */,
-				DA690CB92955F39400A7BB64 /* Charaters.geojson */,
+				DA690CB92955F39400A7BB64 /* Characters.json */,
 				DA1220C9295B0D1000877D72 /* Calendar.storyboard */,
 			);
 			path = StardewValleyWiki;
@@ -250,10 +250,10 @@
 				DA690CA62955F33400A7BB64 /* AppDelegate.swift in Sources */,
 				DA1220BB2958942B00877D72 /* SVTitleLabel.swift in Sources */,
 				DA690CA82955F33400A7BB64 /* SceneDelegate.swift in Sources */,
-				DA1220C4295A045300877D72 /* CharaterDetailsViewController.swift in Sources */,
-				DA1220C8295A65E600877D72 /* CharaterDetailData.swift in Sources */,
+				DA1220C4295A045300877D72 /* CharacterDetailsViewController.swift in Sources */,
+				DA1220C8295A65E600877D72 /* CharacterDetailData.swift in Sources */,
 				DA1220B8295892CB00877D72 /* SVImageView.swift in Sources */,
-				DA1220BE2958980900877D72 /* CharaterImageData.swift in Sources */,
+				DA1220BE2958980900877D72 /* CharacterImageData.swift in Sources */,
 				DA1220B52958924F00877D72 /* CollectionViewCell.swift in Sources */,
 				DA1220C6295A5FA400877D72 /* FileLoader.swift in Sources */,
 				DA1220AD2957D46400877D72 /* UIHelper.swift in Sources */,

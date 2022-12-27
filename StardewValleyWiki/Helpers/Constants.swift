@@ -14,7 +14,7 @@ struct K {
         static let collectionCell = "CollectionCell"
     }
     
-    struct CharaterNames {
+    struct CharacterNames {
         static let abigail = "Abigail"
         static let alex = "Alex"
         static let caroline = "Caroline"

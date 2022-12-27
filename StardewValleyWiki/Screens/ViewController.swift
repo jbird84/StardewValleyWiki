@@ -61,6 +61,7 @@ class ViewController: UIViewController {
       
         let vc = UIStoryboard(name: "Main", bundle: nil).instantiateViewController(withIdentifier: "CollectionViewController")
         mainSeason = season
+        vc.title = mainSeason.capitalized
         self.navigationController?.pushViewController(vc, animated: true)
     }
 }

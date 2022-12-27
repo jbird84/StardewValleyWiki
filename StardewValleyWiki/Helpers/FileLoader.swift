@@ -9,7 +9,7 @@ import Foundation
 
 //JSON data is added to the app. Loading the JSON file is split into two functions;
 //(1) The first locates the file and loads the contents into a Data object;
-//(2) the second uses JSONDecoder to decode the JSON data into a CharaterData object.
+//(2) the second uses JSONDecoder to decode the JSON data into a CharacterData object.
 
 class FileLoader {
    
@@ -27,11 +27,11 @@ class FileLoader {
     }
     
     //(2)
-//    static func loadJson(_ data: Data) -> CharaterImageData {
-//        do {
-//            return try JSONDecoder().decode(CharaterImageData.self, from: data)
-//        } catch {
-//            fatalError("Unable to decode \"\(data)\" as \(ButterflyData.self):\n\(error)")
-//        }
-//    }
+    static func loadJson(_ data: Data) -> CharacterDetailData {
+        do {
+            return try JSONDecoder().decode(CharacterDetailData.self, from: data)
+        } catch {
+            fatalError("Unable to decode \"\(data)\" as \(CharacterDetailData.self):\n\(error)")
+        }
+    }
 }
