@@ -50,4 +50,11 @@ struct K {
         static let willy = "Willy"
         static let wizard = "Wizard"
     }
+    
+    struct CalendarName {
+        static let spring = "springCalendar"
+        static let summer = "summerCalendar"
+        static let fall = "fallCalendar"
+        static let winter = "winterCalendar"
+    }
 }

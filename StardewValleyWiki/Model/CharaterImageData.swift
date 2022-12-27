@@ -8,7 +8,7 @@
 import UIKit
 
 
-struct CharaterData {
+struct CharaterImageData {
     let charaterImageName: String
     let charaterNameLabel: String
 }

@@ -17,7 +17,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="40" translatesAutoresizingMaskIntoConstraints="NO" id="dpY-BX-Sgv">
-                                <rect key="frame" x="71.666666666666686" y="288" width="250" height="300"/>
+                                <rect key="frame" x="71.666666666666686" y="288" width="250" height="385"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jEQ-Pb-1gX">
                                         <rect key="frame" x="0.0" y="0.0" width="250" height="45"/>
@@ -80,6 +80,23 @@
                                             <action selector="winterTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="AY9-5K-E36"/>
                                         </connections>
                                     </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="o0q-KQ-jHF" userLabel="Calendars">
+                                        <rect key="frame" x="0.0" y="340" width="250" height="45"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="45" id="4U6-e5-TSz"/>
+                                            <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="250" id="P2J-51-Ckr"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                        <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                        <state key="normal" title="Calendars">
+                                            <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </state>
+                                        <connections>
+                                            <segue destination="bCA-BL-qn6" kind="popoverPresentation" popoverAnchorView="o0q-KQ-jHF" id="kSA-jU-Efc">
+                                                <popoverArrowDirection key="popoverArrowDirection" up="YES" down="YES" left="YES" right="YES"/>
+                                            </segue>
+                                        </connections>
+                                    </button>
                                 </subviews>
                             </stackView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Select a Season" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9Qs-TD-igE">
@@ -104,6 +121,7 @@
                     </view>
                     <navigationItem key="navigationItem" id="HW7-fw-ADq"/>
                     <connections>
+                        <outlet property="calendarButton" destination="o0q-KQ-jHF" id="zTc-IX-ddl"/>
                         <outlet property="fallButton" destination="FqV-QK-Uaq" id="YBc-AY-kpz"/>
                         <outlet property="springButton" destination="jEQ-Pb-1gX" id="kOe-pl-3Vr"/>
                         <outlet property="summerButton" destination="nzv-9M-mZ1" id="WWK-yV-L8z"/>
@@ -113,6 +131,14 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1028.2442748091603" y="4.9295774647887329"/>
+        </scene>
+        <!--Calendar-->
+        <scene sceneID="OOO-ra-tAQ">
+            <objects>
+                <viewControllerPlaceholder storyboardIdentifier="Calendar" storyboardName="Calendar" id="bCA-BL-qn6" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="USU-iH-8ox" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="931" y="417"/>
         </scene>
         <!--Collection View Controller-->
         <scene sceneID="AJq-h7-Dy0">

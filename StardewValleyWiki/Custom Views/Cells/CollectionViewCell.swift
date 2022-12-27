@@ -43,7 +43,7 @@ class CollectionViewCell: UICollectionViewCell {
         charaterNameLabel.anchor(top: charaterImageView.bottomAnchor, leading: charaterImageView.leadingAnchor, trailing: charaterImageView.trailingAnchor, height: 20)
     }
     
-    func set(charater: [CharaterData], indexPath: IndexPath) {
+    func set(charater: [CharaterImageData], indexPath: IndexPath) {
         charaterImageView.image = UIImage(named: charater[indexPath.row].charaterImageName) != nil ? UIImage(named: charater[indexPath.row].charaterImageName) : UIImage(systemName: "plus")
         let name = charater[indexPath.row].charaterNameLabel
         charaterNameLabel.text = name

@@ -1,69 +1,60 @@
 //
-//  ViewController.swift
+//  CalendarViewController.swift
 //  StardewValleyWiki
 //
-//  Created by Kinney Kare on 12/23/22.
+//  Created by Kinney Kare on 12/27/22.
 //
 
 import UIKit
 
-var mainSeason = ""
-
-class ViewController: UIViewController {
-
+class CalendarViewController: UIViewController {
+    
     @IBOutlet weak var springButton: UIButton!
     @IBOutlet weak var summerButton: UIButton!
     @IBOutlet weak var fallButton: UIButton!
     @IBOutlet weak var winterButton: UIButton!
-    @IBOutlet weak var calendarButton: UIButton!
+    @IBOutlet weak var calendarImageView: UIImageView!
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
         setupView()
         setupButtons()
+        calendarImageView.image = UIImage(named: K.CalendarName.spring)
     }
     
     private func setupView() {
         let gradientLayer = CAGradientLayer()
-        gradientLayer.colors = [UIColor.black.cgColor, UIColor.white.cgColor]
+        gradientLayer.colors = [UIColor.systemPurple.cgColor, UIColor.white.cgColor]
         gradientLayer.locations = [0, 1]
         gradientLayer.frame = view.bounds
         view.layer.insertSublayer(gradientLayer, at: 0)
     }
     
     private func setupButtons() {
+        let buttons = [springButton, summerButton, fallButton, winterButton]
+        for button in buttons {
+            button?.layer.cornerRadius = 10
+        }
         UIHelper.setupGradient(button: springButton, color1: UIColor.white.cgColor, color2: UIColor.systemTeal.cgColor)
         UIHelper.setupGradient(button: summerButton, color1: UIColor.white.cgColor, color2: UIColor.red.cgColor)
         UIHelper.setupGradient(button: fallButton, color1: UIColor.white.cgColor, color2: UIColor.brown.cgColor)
         UIHelper.setupGradient(button: winterButton, color1: UIColor.white.cgColor, color2: UIColor.blue.cgColor)
-        UIHelper.setupGradient(button: calendarButton, color1: UIColor.white.cgColor, color2: UIColor.systemPurple.cgColor)
     }
     
-    
-    @IBAction func springTapped(_ sender: Any) {
-        gotoCollectionVC(season: "spring")
-    }
-
-    @IBAction func summerTapped(_ sender: Any) {
-        gotoCollectionVC(season: "summer")
+    @IBAction func springButtonPressed(_ sender: Any) {
+        calendarImageView.image = UIImage(named: K.CalendarName.spring)
     }
     
-    @IBAction func fallTapped(_ sender: Any) {
-        gotoCollectionVC(season: "fall")
+    @IBAction func summerButtonPressed(_ sender: Any) {
+        calendarImageView.image = UIImage(named: K.CalendarName.summer)
     }
     
-    @IBAction func winterTapped(_ sender: Any) {
-        gotoCollectionVC(season: "winter")
+    @IBAction func fallButtonPressed(_ sender: Any) {
+        calendarImageView.image = UIImage(named: K.CalendarName.fall)
     }
     
-    private func gotoCollectionVC(season: String) {
-      
-        let vc = UIStoryboard(name: "Main", bundle: nil).instantiateViewController(withIdentifier: "CollectionViewController")
-        mainSeason = season
-        self.navigationController?.pushViewController(vc, animated: true)
+    @IBAction func winterButtonPressed(_ sender: Any) {
+        calendarImageView.image = UIImage(named: K.CalendarName.winter)
     }
+    
 }
-
-
-

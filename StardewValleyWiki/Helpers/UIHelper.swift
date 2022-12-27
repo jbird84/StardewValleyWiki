@@ -21,4 +21,18 @@ struct UIHelper {
         flowLayout.itemSize = CGSize(width: itemWidth, height: itemWidth + 40)
         return flowLayout
     }
+    
+    static func getCharaterData() {
+ //       if let data = FileLo
+    }
+    
+    static func setupGradient(button: UIButton, color1: CGColor, color2: CGColor) {
+        button.layer.cornerRadius = 10
+        let gradientLayer = CAGradientLayer()
+        gradientLayer.colors = [color1, color2]
+        gradientLayer.locations = [0, 1]
+        gradientLayer.frame = button.bounds
+        gradientLayer.cornerRadius = 10
+        button.layer.insertSublayer(gradientLayer, at: 0)
+    }
 }
