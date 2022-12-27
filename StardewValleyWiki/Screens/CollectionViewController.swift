@@ -105,8 +105,10 @@ extension CollectionViewController: UICollectionViewDelegate, UICollectionViewDa
             let vc = CharacterDetailsViewController(nibName: "CharacterDetailsViewController", bundle: nil)
             for characters in cData {
                 for character in characters.characters {
-                    vc.birthday = character.birthday.rawValue.capitalized
-                    vc.title = character.name.rawValue.capitalized
+                    if character.name.capitalized == self.characters[indexPath.row].characterNameLabel.capitalized {
+                        vc.character = character
+                        vc.title = character.name.capitalized
+                    }
                 }
             }
             navigationController?.pushViewController(vc, animated: true)

@@ -11,9 +11,8 @@ class CharacterDetailsViewController: UIViewController {
 
     @IBOutlet weak var detailView: UIView!
     
-    
     let birthdayLabel = UILabel()
-    var birthday = ""
+    var character: Character = Character(name: "", schedule: [], birthday: "", gifts: [], heart_events: [])
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -37,8 +36,7 @@ class CharacterDetailsViewController: UIViewController {
         birthdayLabel.frame = CGRect(x: 100, y: 100, width: 200, height: 30)
         view.addSubview(birthdayLabel)
         birthdayLabel.center = view.center
-        birthdayLabel.text = birthday
-        
+        birthdayLabel.text = character.birthday.capitalized
     }
     
 }

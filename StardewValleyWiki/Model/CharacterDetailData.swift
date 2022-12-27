@@ -24,48 +24,11 @@ struct DetailData: Codable {
 
 // MARK: - Character
 struct Character: Codable {
-    let name: Name
+    let name: String
     let schedule: [String]
-    let birthday: Birthday
+    let birthday: String
     let gifts: [Gift]
-    let heartEvents: [HeartEvent]
-}
-
-enum Birthday: String, Codable {
-    case spring04
-    case spring07
-    case spring10
-    case spring14
-    case spring18
-    case spring20
-    case spring26
-    case spring27
-    case summer04
-    case summer08
-    case summer10
-    case summer13
-    case summer17
-    case summer19
-    case summer22
-    case summer24
-    case summer26
-    case fall02
-    case fall05
-    case fall11
-    case fall13
-    case fall15
-    case fall18
-    case fall21
-    case fall24
-    case winter01
-    case winter03
-    case winter07
-    case winter10
-    case winter14
-    case winter17
-    case winter20
-    case winter23
-    case winter26
+    let heart_events: [String]?
 }
 
 // MARK: - Gift
@@ -83,7 +46,7 @@ struct HeartEvent: Codable {
 
 
 
-enum Name: String, Codable {
-    case alex
-}
+//enum Name: String, Codable {
+ //   case alex
+//}
 

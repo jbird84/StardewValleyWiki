@@ -20,6 +20,7 @@
 		DA1220C8295A65E600877D72 /* CharacterDetailData.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA1220C7295A65E600877D72 /* CharacterDetailData.swift */; };
 		DA1220CA295B0D1000877D72 /* Calendar.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DA1220C9295B0D1000877D72 /* Calendar.storyboard */; };
 		DA1220CC295B0F9300877D72 /* CalendarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA1220CB295B0F9300877D72 /* CalendarViewController.swift */; };
+		DA1220CE295B2E7100877D72 /* Characters.json in Resources */ = {isa = PBXBuildFile; fileRef = DA1220CD295B2E7100877D72 /* Characters.json */; };
 		DA690CA62955F33400A7BB64 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA690CA52955F33400A7BB64 /* AppDelegate.swift */; };
 		DA690CA82955F33400A7BB64 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA690CA72955F33400A7BB64 /* SceneDelegate.swift */; };
 		DA690CAA2955F33400A7BB64 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA690CA92955F33400A7BB64 /* ViewController.swift */; };
@@ -42,6 +43,7 @@
 		DA1220C7295A65E600877D72 /* CharacterDetailData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterDetailData.swift; sourceTree = "<group>"; };
 		DA1220C9295B0D1000877D72 /* Calendar.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Calendar.storyboard; sourceTree = "<group>"; };
 		DA1220CB295B0F9300877D72 /* CalendarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarViewController.swift; sourceTree = "<group>"; };
+		DA1220CD295B2E7100877D72 /* Characters.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Characters.json; sourceTree = "<group>"; };
 		DA690CA22955F33300A7BB64 /* StardewValleyWiki.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StardewValleyWiki.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DA690CA52955F33400A7BB64 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DA690CA72955F33400A7BB64 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -50,7 +52,6 @@
 		DA690CAE2955F33500A7BB64 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DA690CB12955F33500A7BB64 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DA690CB32955F33500A7BB64 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		DA690CB92955F39400A7BB64 /* Characters.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = Characters.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -156,6 +157,7 @@
 		DA690CA42955F33400A7BB64 /* StardewValleyWiki */ = {
 			isa = PBXGroup;
 			children = (
+				DA1220CD295B2E7100877D72 /* Characters.json */,
 				DA1220C2295A041800877D72 /* Screens */,
 				DA1220BC295897ED00877D72 /* Model */,
 				DA1220B22958920D00877D72 /* Custom Views */,
@@ -166,7 +168,6 @@
 				DA690CAE2955F33500A7BB64 /* Assets.xcassets */,
 				DA690CB02955F33500A7BB64 /* LaunchScreen.storyboard */,
 				DA690CB32955F33500A7BB64 /* Info.plist */,
-				DA690CB92955F39400A7BB64 /* Characters.json */,
 				DA1220C9295B0D1000877D72 /* Calendar.storyboard */,
 			);
 			path = StardewValleyWiki;
@@ -230,6 +231,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DA1220CE295B2E7100877D72 /* Characters.json in Resources */,
 				DA1220CA295B0D1000877D72 /* Calendar.storyboard in Resources */,
 				DA690CB22955F33500A7BB64 /* LaunchScreen.storyboard in Resources */,
 				DA690CAF2955F33500A7BB64 /* Assets.xcassets in Resources */,
