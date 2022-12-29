@@ -844,241 +844,284 @@
                         },
                         {
                             "name": "Leo",
-                            "schedule": "",
-                            "birthday": "",
+                            "schedule": [
+                                "https://i.ibb.co/PQyfdHV/Screenshot-2022-12-28-at-1-34-12-PM.png",
+                                "https://i.ibb.co/m8Yxn6c/Screenshot-2022-12-28-at-1-34-06-PM.png",
+                                "https://i.ibb.co/GtXZjkh/Screenshot-2022-12-28-at-1-33-59-PM.png",
+                                "https://i.ibb.co/G5kS5fF/Screenshot-2022-12-28-at-1-33-54-PM.png",
+                                "https://i.ibb.co/3dD2DjQ/Screenshot-2022-12-28-at-1-33-48-PM.png",
+                                "https://i.ibb.co/XJdZWDL/Screenshot-2022-12-28-at-1-33-30-PM.png"
+                            ],
+                            "birthday": "Summer 26",
                             "gifts": [
                                 {
-                                    "love": "",
-                                    "like": "",
-                                    "neutral": "",
-                                    "hate": ""
+                                    "love": "All Universal Loves, Duck Feather, Mango, Ostrich Egg, Poi",
+                                    "like": "All Universal Likes (except Beer, Coffee, Life Elixir, Mead, Pale Ale, Pickles, Piña Colada, Wine, and Cooking other than Bread, Fried Egg, Poi, Mango Sticky Rice, & Triple Shot Espresso), Dragon Tooth, Mango Sticky Rice, Nautilus Shell, Quartz, Rainbow Shell, Sea Urchin, Spice Berry",
+                                    "neutral": "All Universal Neutrals (except Duck Feather, Hops, Nautilus Shell, & Rainbow Shell), All Eggs (except Ostrich Egg and Void Egg), All Fish (except Carp & Snail), All Fruit (except Fruit Tree fruit, Mango, Salmonberry, & Spice Berry), All Milk, Coffee",
+                                    "hate": "All Universal Disikes (except Oil, Unmilled Rice, & Fish), All Cooked Dishes (other than Bread, Fried Egg, Poi, Mango Sticky Rice, & Triple Shot Espresso), Chanterele, Common Mushroom, Daffodil, Dandelion, Ginger, Hazelnut, Leek, Life Elixir, Magma Cap, Pickles, Purple Mushroom, Salmonberry, Snow Yam, Wild Horseradish, Winter Root, All Universal Hates (except Dragon Tooth & Sea Urchin), Beer, Holly, Hops, Mead, Morel, Oil, Pale Ale, Pina Colada, Triple shot Espresso, Unmilled Rice, Wine"
                                 }
                             ],
                             "heart_events": [
                                 {
-                                    "2h": "",
-                                    "3h": "",
-                                    "4h": "",
-                                    "5h": "",
-                                    "6h": "",
-                                    "7h": "",
-                                    "8h": "",
-                                    "9h": "",
-                                    "10h": "",
-                                    "11h": "",
-                                    "12h": "",
-                                    "13h": "",
-                                    "14h": ""
+                                    "2h": "Enter Island West on a sunny day between 6am and 6pm.",
+                                    "3h": "After reaching three hearts with Leo, he sends the player a recipe in the mail.",
+                                    "4h": "Enter Island North on a sunny day between 6am and 6pm.",
+                                    "5h": "NA",
+                                    "6h": "Enter Island South on a sunny day between 6am and 6pm.",
+                                    "7h": "After reaching seven hearts with Leo, he sends the player a recipe in the mail.",
+                                    "8h": "NA",
+                                    "9h": "Enter the Mountain on a non-rainy day between 6am and 7pm.",
+                                    "10h": "NA",
+                                    "11h": "NA",
+                                    "12h": "NA",
+                                    "13h": "NA",
+                                    "14h": "NA"
                                 }
                             ]
                         },
                         {
                             "name": "Lewis",
-                            "schedule": "",
-                            "birthday": "",
+                            "schedule": [
+                                "https://i.ibb.co/j3F1XGQ/Screenshot-2022-12-28-at-10-57-57-PM.png",
+                                "https://i.ibb.co/grG7rdm/Screenshot-2022-12-28-at-10-57-51-PM.png",
+                                "https://i.ibb.co/QKxLRQP/Screenshot-2022-12-28-at-10-57-44-PM.png",
+                                "https://i.ibb.co/0CqSvDK/Screenshot-2022-12-28-at-10-57-34-PM.png",
+                                "https://i.ibb.co/5xQG48X/Screenshot-2022-12-28-at-10-57-28-PM.png",
+                                "https://i.ibb.co/Gx4YPFr/Screenshot-2022-12-28-at-10-57-23-PM.png",
+                                "https://i.ibb.co/sF40x72/Screenshot-2022-12-28-at-10-43-34-PM.png"
+                            ],
+                            "birthday": "Spring 7",
                             "gifts": [
                                 {
-                                    "love": "",
-                                    "like": "",
-                                    "neutral": "",
-                                    "hate": ""
+                                    "love": "All Universal Loves, Autumn's Bounty, Glazed Yams, Green Tea, Hot Pepper, Vegetable Medley",
+                                    "like": "All Universal Likes, Blueberry, Cactus Fruit, Coconut",
+                                    "neutral": "All Universal Neutrals, All Eggs (except Void Egg), All Fruit (except Blueberry, Cactus Fruit, Coconut, Fruit Tree Fruit, Hot Pepper, & Salmonberry), Chanterele, Common Mushroom, Daffodil, Dandelion, Ginger, Hazelnut, Leek, Magma Cap, Morel, Purple Mushroom, Snow Yam, Winter Root",
+                                    "hate": "All Universal Dislikes, All Milk, Salmonberry, Wild Horseradish, All Universal Hates, Holly, Quartz"
                                 }
                             ],
                             "heart_events": [
                                 {
-                                    "2h": "",
-                                    "3h": "",
-                                    "4h": "",
-                                    "5h": "",
-                                    "6h": "",
-                                    "7h": "",
-                                    "8h": "",
-                                    "9h": "",
-                                    "10h": "",
-                                    "11h": "",
-                                    "12h": "",
-                                    "13h": "",
-                                    "14h": ""
+                                    "2h": "NA",
+                                    "3h": "After reaching 3 hearts with Lewis, he will send you a recipe in the mail.",
+                                    "4h": "NA",
+                                    "5h": "NA",
+                                    "6h": "On a sunny day, enter the town between 7pm and 11pm. Note: Only happens if Marnie is also at 6 hearts.",
+                                    "7h": "After reaching 7 hearts with Lewis, he will send you a recipe in the mail.",
+                                    "8h": "NA",
+                                    "9h": "NA",
+                                    "10h": "NA",
+                                    "11h": "NA",
+                                    "12h": "NA",
+                                    "13h": "NA",
+                                    "14h": "NA"
                                 }
                             ]
                         },
                         {
                             "name": "Linus",
-                            "schedule": "",
-                            "birthday": "",
+                            "schedule": [
+                                "https://i.ibb.co/ZdCY7TP/Screenshot-2022-12-28-at-11-12-24-PM.png",
+                                "https://i.ibb.co/1fKF87d/Screenshot-2022-12-28-at-11-12-18-PM.png"
+                            ],
+                            "birthday": "Winter 3",
                             "gifts": [
                                 {
-                                    "love": "",
-                                    "like": "",
-                                    "neutral": "",
-                                    "hate": ""
+                                    "love": "All Universal Loves, Blueberry Tart, Cactus Fruit, Coconut, Dish O' The Sea, Yam",
+                                    "like": "All Universal Likes (except Foraged Minerals & Gems other than Diamond & Prismatic Shard), All Eggs (except Void Egg), All Milk, All Fruit (except Cactus Fruit & Coconut), Chanterele, Common Mushroom, Daffodil, Dandelion, Ginger, Hazelnut, Holly, Leek, Magma Cap, Morel, Purple Mushroom, Snow Yam, Spring Onion, Wild Horseradish, Winter Root",
+                                    "neutral": "All Universal Neutrals, All Fish (except Carp & Snail)",
+                                    "hate": "All Universal Dislikes (except Fish & Spring Onion),All Foraged Minerals, All Gems (except Diamond & Prismatic Shard), All Universal Hates"
                                 }
                             ],
                             "heart_events": [
                                 {
-                                    "2h": "",
-                                    "3h": "",
-                                    "4h": "",
-                                    "5h": "",
-                                    "6h": "",
-                                    "7h": "",
-                                    "8h": "",
-                                    "9h": "",
-                                    "10h": "",
-                                    "11h": "",
-                                    "12h": "",
-                                    "13h": "",
-                                    "14h": ""
+                                    "2h": "NA",
+                                    "3h": "After reaching 3 hearts with Linus he will send you a recipe in the mail.",
+                                    "4h": "Enter the mountain area near his tent between 8pm - 12am on a day that's not raining.",
+                                    "5h": "NA",
+                                    "6h": "NA",
+                                    "7h": "After reaching seven hearts with Linus, he will send you a recipe in the mail.",
+                                    "8h": "Exit Robin's house on a day that's not raining between 9am and 5pm.",
+                                    "9h": "NA",
+                                    "10h": "NA",
+                                    "11h": "NA",
+                                    "12h": "NA",
+                                    "13h": "NA",
+                                    "14h": "NA"
                                 }
                             ]
                         },
                         {
                             "name": "Marnie",
-                            "schedule": "",
-                            "birthday": "",
+                            "schedule": [
+                                "https://i.ibb.co/hBQC8C9/Screenshot-2022-12-28-at-11-18-38-PM.png",
+                                "https://i.ibb.co/m4mgznF/Screenshot-2022-12-28-at-11-18-28-PM.png",
+                                "https://i.ibb.co/zmS4CM0/Screenshot-2022-12-28-at-11-18-21-PM.png",
+                                "https://i.ibb.co/whMDS2Q/Screenshot-2022-12-28-at-11-18-12-PM.png",
+                                "https://i.ibb.co/kmcV6MJ/Screenshot-2022-12-28-at-11-18-04-PM.png",
+                                "https://i.ibb.co/84LzHZm/Screenshot-2022-12-28-at-11-17-58-PM.png",
+                                "https://i.ibb.co/Nyq9RD7/Screenshot-2022-12-28-at-11-17-45-PM.png"
+                            ],
+                            "birthday": "Fall 18",
                             "gifts": [
                                 {
-                                    "love": "",
-                                    "like": "",
-                                    "neutral": "",
-                                    "hate": ""
+                                    "love": "All Universal Loves, Diamond, Farmers Lunch, Pink Cake, Pumkin Pie",
+                                    "like": "All Universal Likes, All Eggs (except Void Egg), All Milk, Quartz",
+                                    "neutral": "All Universal Neutrals, All Fruit (except Fruit Tree Fruit & Salmonberry), Chanterele, Common Mushroom, Daffodil, Dandelion, Ginger, Hazelnut, Leek, Magma Cap, Morel, Purple Mushroom, Snow Yam, Winter Root",
+                                    "hate": "All Universal Dislikes (except Clay), Wild Horseradish, Seaweed, Salmonberry, All Universal Hates (except Seaweed), Clay, Holly"
                                 }
                             ],
                             "heart_events": [
                                 {
-                                    "2h": "",
-                                    "3h": "",
-                                    "4h": "",
-                                    "5h": "",
-                                    "6h": "",
-                                    "7h": "",
-                                    "8h": "",
-                                    "9h": "",
-                                    "10h": "",
-                                    "11h": "",
-                                    "12h": "",
-                                    "13h": "",
-                                    "14h": ""
+                                    "2h": "NA",
+                                    "3h1": "Leave your farmhouse between 6:30am - 9:30am.",
+                                    "3h2": "After reaching 3 hearts, Marnie sends you a recipe in the mail.",
+                                    "5h": "NA",
+                                    "6h": "On a sunny day, enter the town between 7pm and 11pm. Note: Only happens if Lewis is also at 6 hearts.",
+                                    "7h": "After reaching 7 hearts, Marnie sends you a recipe in the mail.",
+                                    "8h": "NA",
+                                    "9h": "NA",
+                                    "10h": "NA",
+                                    "11h": "NA",
+                                    "12h": "NA",
+                                    "13h": "NA",
+                                    "14h": "NA"
                                 }
                             ]
                         },
                         {
                             "name": "Pam",
-                            "schedule": "",
-                            "birthday": "",
+                            "schedule": [
+                            "https://i.ibb.co/tXKBDHF/Screenshot-2022-12-28-at-11-24-53-PM.png",
+                            "https://i.ibb.co/dgPDk6t/Screenshot-2022-12-28-at-11-24-47-PM.png",
+                            "https://i.ibb.co/86zzbXB/Screenshot-2022-12-28-at-11-24-39-PM.png"
+                            ],
+                            "birthday": "Spring 18",
                             "gifts": [
                                 {
-                                    "love": "",
-                                    "like": "",
-                                    "neutral": "",
-                                    "hate": ""
+                                    "love": "All Universal Loves, Beer, Cactus Fruit, Glazed Yams, Mead, Pale Ale, Parsnip, Parsnip Soup, Pina Colada",
+                                    "like": "All Universal Likes, All Fruit (except Cactus Fruit), All Milk, Daffodil",
+                                    "neutral": "All Universal Neutrals, All Fish (except Carp, Octopus, Snail, & Squid), Chanterele, Common Mushroom, Dandelion, Ginger, Hazelnut, Leek, Magma Cap, Morel, Purple Mushroom, Snow Yam, Winter Root",
+                                    "hate": "All Universal Dislikes (except Fish), All Eggs, Quartz, Wild Horseradish, Holly, Octopus, All Universal Hates, Squid"
                                 }
                             ],
                             "heart_events": [
                                 {
-                                    "2h": "",
-                                    "3h": "",
-                                    "4h": "",
-                                    "5h": "",
-                                    "6h": "",
-                                    "7h": "",
-                                    "8h": "",
-                                    "9h": "",
-                                    "10h": "",
-                                    "11h": "",
-                                    "12h": "",
-                                    "13h": "",
-                                    "14h": ""
+                                    "2h": "NA",
+                                    "3h": "After reaching 3 hearts with Pam she will send you a recipe in the mail.",
+                                    "4h": "NA",
+                                    "5h": "NA",
+                                    "6h": "NA",
+                                    "7h": "After reaching 7 hearts with Pam she will send you a recipe in the mail.",
+                                    "8h": "NA",
+                                    "9h": "Purchase the Community Upgrade from the Carpenter's Shop. After earning 9 hearts of friendship with Pam, enter Pam's house at least 4 days after the Community Upgrade is completed.",
+                                    "10h": "NA",
+                                    "11h": "NA",
+                                    "12h": "NA",
+                                    "13h": "NA",
+                                    "14h": "NA"
                                 }
                             ]
                         },
                         {
                             "name": "Pierre",
-                            "schedule": "",
-                            "birthday": "",
+                            "schedule": [
+                            "https://i.ibb.co/y4dcYy2/Screenshot-2022-12-29-at-7-48-54-AM.png",
+                            "https://i.ibb.co/BzMVqw9/Screenshot-2022-12-29-at-7-48-46-AM.png"
+                            ],
+                            "birthday": "Spring 26",
                             "gifts": [
                                 {
-                                    "love": "",
-                                    "like": "",
-                                    "neutral": "",
-                                    "hate": ""
+                                    "love": "All Universal Loves, Fried Calamari",
+                                    "like": "All Universal Likes (except Corn, Garlic, Foraged Minerals, Gems other than Diamond & Prismatic Shard, Parsnip Soup, & Tortilla), All Eggs (except Void Egg), All Milk, Daffodil, Dandelion",
+                                    "neutral": "All Universal Neutrals, All Fruit (except Fruit Tree Fruit & Salmonberry)",
+                                    "hate": "All Universal Dislikes (except Fish), All Foraged Minerals, All Gems (other than Diamond & Prismatic Shard),Chanterele, Common Mushroom, Ginger, Hazelnut, Holly, Leek, Magma Cap, Morel, Salmonberry, Wild Horseradish, Purple Mushroom, Snow Yam, Winter Root, Corn, Garlic, Parsnip Soup, Tortilla, All Fish, All Universal Hates"
                                 }
                             ],
                             "heart_events": [
                                 {
-                                    "2h": "",
-                                    "3h": "",
-                                    "4h": "",
-                                    "5h": "",
-                                    "6h": "",
-                                    "7h": "",
-                                    "8h": "",
-                                    "9h": "",
-                                    "10h": "",
-                                    "11h": "",
-                                    "12h": "",
-                                    "13h": "",
-                                    "14h": ""
+                                    "2h": "NA",
+                                    "3h": "After reaching 3 hearts with Pierre he will send you a recipe in the mail.",
+                                    "4h": "NA",
+                                    "5h": "NA",
+                                    "6h": "Enter Pierre's Shop to activate the cut-scene.",
+                                    "7h": "NA",
+                                    "8h": "NA",
+                                    "9h": "NA",
+                                    "10h": "NA",
+                                    "11h": "NA",
+                                    "12h": "NA",
+                                    "13h": "NA",
+                                    "14h": "NA"
                                 }
                             ]
                         },
                         {
                             "name": "Robin",
-                            "schedule": "",
-                            "birthday": "",
+                            "schedule": [
+                                "https://i.ibb.co/QMBp7Zs/Screenshot-2022-12-29-at-7-57-26-AM.png",
+                                "https://i.ibb.co/VMCv1L8/Screenshot-2022-12-29-at-7-57-42-AM.png",
+                                "https://i.ibb.co/ZBMfMVb/Screenshot-2022-12-29-at-7-57-35-AM.png",
+                                "https://i.ibb.co/qjB2RdM/Screenshot-2022-12-29-at-7-58-16-AM.png",
+                                "https://i.ibb.co/PCn6fp2/Screenshot-2022-12-29-at-7-58-08-AM.png",
+                                "https://i.ibb.co/k1DqGjn/Screenshot-2022-12-29-at-7-57-59-AM.png",
+                                "https://i.ibb.co/znf5xKw/Screenshot-2022-12-29-at-7-57-50-AM.png"
+                            ],
+                            "birthday": "Fall 21",
                             "gifts": [
                                 {
-                                    "love": "",
-                                    "like": "",
-                                    "neutral": "",
-                                    "hate": ""
+                                    "love": "All Universal Loves, Goat Cheese, Peach, Spaghetti",
+                                    "like": "All Universal Likes, All Milk, All Fruit (except Peach), Hardwood, Quartz",
+                                    "neutral": "All Universal Neutrals, All Eggs (except Void Egg), Chanterele, Common Mushroom, Daffodil, Dandelion, Ginger, Hazelnut, Leek, Magma Cap, Morel, Purple Mushroom, Snow Yam, Winter Root",
+                                    "hate": "All Universal Dislikes (except Hardwood), Wild Horseradish, All Universal Hates, Holly"
                                 }
                             ],
                             "heart_events": [
                                 {
-                                    "2h": "",
-                                    "3h": "",
-                                    "4h": "",
-                                    "5h": "",
-                                    "6h": "",
-                                    "7h": "",
-                                    "8h": "",
-                                    "9h": "",
-                                    "10h": "",
-                                    "11h": "",
-                                    "12h": "",
-                                    "13h": "",
-                                    "14h": ""
+                                    "2h": "NA",
+                                    "3h": "NA",
+                                    "4h": "NA",
+                                    "5h": "NA",
+                                    "6h": "Enter Robin's house while she is home.",
+                                    "7h": "After reaching 7 hearts with Robin she will send you a recipe in the mail.",
+                                    "8h": "NA",
+                                    "9h": "NA",
+                                    "10h": "NA",
+                                    "11h": "NA",
+                                    "12h": "NA",
+                                    "13h": "NA",
+                                    "14h": "NA"
                                 }
                             ]
                         },
                         {
                             "name": "Sandy",
-                            "schedule": "",
-                            "birthday": "",
+                            "schedule": [
+                            "https://i.ibb.co/CWhJY0m/Screenshot-2022-12-29-at-8-06-23-AM.png"
+                            ],
+                            "birthday": "Fall 15",
                             "gifts": [
                                 {
-                                    "love": "",
-                                    "like": "",
-                                    "neutral": "",
-                                    "hate": ""
+                                    "love": "All Universal Loves, Crocus, Daffodil, Mango Sticky Rice, Sweet Pea",
+                                    "like": "All Universal Likes, All Fruit, Goat Milk, Large Goat Milk, Quartz, Wool",
+                                    "neutral": "All Universal Neutrals (except Wool), All Eggs (except Void Egg), Chanterele, Common Mushroom, Dandelion, Ginger, Hazelnut, Large Milk, Leek, Magma Cap, Milk, Morel, Purple Mushroom, Snow Yam, Wild Horseradish, Winter Root",
+                                    "hate": "All Universal Dislikes, All Universal Hates, Holly"
                                 }
                             ],
                             "heart_events": [
                                 {
-                                    "2h": "",
-                                    "3h": "",
-                                    "4h": "",
-                                    "5h": "",
-                                    "6h": "",
-                                    "7h": "",
-                                    "8h": "",
-                                    "9h": "",
-                                    "10h": "",
-                                    "11h": "",
-                                    "12h": "",
-                                    "13h": "",
-                                    "14h": ""
+                                    "2h": "NA",
+                                    "3h": "NA",
+                                    "4h": "NA",
+                                    "5h": "NA",
+                                    "6h": "NA",
+                                    "7h": "After reaching seven hearts with Sandy, she will send you a recipe in the mail.",
+                                    "8h": "NA",
+                                    "9h": "NA",
+                                    "10h": "NA",
+                                    "11h": "NA",
+                                    "12h": "NA",
+                                    "13h": "NA",
+                                    "14h": "NA"
                                 }
                             ]
                         },
@@ -2021,241 +2064,287 @@
                         },
                         {
                             "name": "Leo",
-                            "schedule": "",
-                            "birthday": "",
+                            "schedule": [
+                                "https://i.ibb.co/rpVLNbJ/Screenshot-2022-12-28-at-1-46-53-PM.png",
+                                "https://i.ibb.co/b58Kd33/Screenshot-2022-12-28-at-1-47-14-PM.png",
+                                "https://i.ibb.co/z53wB6B/Screenshot-2022-12-28-at-1-47-03-PM.png",
+                                "https://i.ibb.co/mH648HH/Screenshot-2022-12-28-at-1-46-59-PM.png",
+                                "https://i.ibb.co/N1p2scZ/Screenshot-2022-12-28-at-1-46-48-PM.png",
+                                "https://i.ibb.co/XJdZWDL/Screenshot-2022-12-28-at-1-33-30-PM.png"
+                            ],
+                            "birthday": "Summer 26",
                             "gifts": [
                                 {
-                                    "love": "",
-                                    "like": "",
-                                    "neutral": "",
-                                    "hate": ""
+                                    "love": "All Universal Loves, Duck Feather, Mango, Ostrich Egg, Poi",
+                                    "like": "All Universal Likes (except Beer, Coffee, Life Elixir, Mead, Pale Ale, Pickles, Piña Colada, Wine, and Cooking other than Bread, Fried Egg, Poi, Mango Sticky Rice, & Triple Shot Espresso), Dragon Tooth, Mango Sticky Rice, Nautilus Shell, Quartz, Rainbow Shell, Sea Urchin, Spice Berry",
+                                    "neutral": "All Universal Neutrals (except Duck Feather, Hops, Nautilus Shell, & Rainbow Shell), All Eggs (except Ostrich Egg and Void Egg), All Fish (except Carp & Snail), All Fruit (except Fruit Tree fruit, Mango, Salmonberry, & Spice Berry), All Milk, Coffee",
+                                    "hate": "All Universal Disikes (except Oil, Unmilled Rice, & Fish), All Cooked Dishes (other than Bread, Fried Egg, Poi, Mango Sticky Rice, & Triple Shot Espresso), Chanterele, Common Mushroom, Daffodil, Dandelion, Ginger, Hazelnut, Leek, Life Elixir, Magma Cap, Pickles, Purple Mushroom, Salmonberry, Snow Yam, Wild Horseradish, Winter Root, All Universal Hates (except Dragon Tooth & Sea Urchin), Beer, Holly, Hops, Mead, Morel, Oil, Pale Ale, Pina Colada, Triple shot Espresso, Unmilled Rice, Wine"
                                 }
                             ],
                             "heart_events": [
                                 {
-                                    "2h": "",
-                                    "3h": "",
-                                    "4h": "",
-                                    "5h": "",
-                                    "6h": "",
-                                    "7h": "",
-                                    "8h": "",
-                                    "9h": "",
-                                    "10h": "",
-                                    "11h": "",
-                                    "12h": "",
-                                    "13h": "",
-                                    "14h": ""
+                                    "2h": "Enter Island West on a sunny day between 6am and 6pm.",
+                                    "3h": "After reaching three hearts with Leo, he sends the player a recipe in the mail.",
+                                    "4h": "Enter Island North on a sunny day between 6am and 6pm.",
+                                    "5h": "NA",
+                                    "6h": "Enter Island South on a sunny day between 6am and 6pm.",
+                                    "7h": "After reaching seven hearts with Leo, he sends the player a recipe in the mail.",
+                                    "8h": "NA",
+                                    "9h": "Enter the Mountain on a non-rainy day between 6am and 7pm.",
+                                    "10h": "NA",
+                                    "11h": "NA",
+                                    "12h": "NA",
+                                    "13h": "NA",
+                                    "14h": "NA"
                                 }
                             ]
                         },
                         {
                             "name": "Lewis",
-                            "schedule": "",
-                            "birthday": "",
+                            "schedule": [
+                                "https://i.ibb.co/n61kfqm/Screenshot-2022-12-28-at-11-00-03-PM.png",
+                                "https://i.ibb.co/L8BXc1f/Screenshot-2022-12-28-at-10-59-56-PM.png",
+                                "https://i.ibb.co/fCZzS7R/Screenshot-2022-12-28-at-10-59-50-PM.png",
+                                "https://i.ibb.co/PT57g2b/Screenshot-2022-12-28-at-10-59-44-PM.png",
+                                "https://i.ibb.co/w0nr2tL/Screenshot-2022-12-28-at-10-59-36-PM.png",
+                                "https://i.ibb.co/7RfKYQN/Screenshot-2022-12-28-at-10-59-30-PM.png",
+                                "https://i.ibb.co/S7NMVHg/Screenshot-2022-12-28-at-10-59-25-PM.png",
+                                "https://i.ibb.co/xL25DFC/Screenshot-2022-12-28-at-10-59-17-PM.png",
+                                "https://i.ibb.co/FYsN8nB/Screenshot-2022-12-28-at-10-59-11-PM.png",
+                                "https://i.ibb.co/Q8ZB1cH/Screenshot-2022-12-28-at-10-58-03-PM.png"
+                            ],
+                            "birthday": "Spring 7",
                             "gifts": [
                                 {
-                                    "love": "",
-                                    "like": "",
-                                    "neutral": "",
-                                    "hate": ""
+                                    "love": "All Universal Loves, Autumn's Bounty, Glazed Yams, Green Tea, Hot Pepper, Vegetable Medley",
+                                    "like": "All Universal Likes, Blueberry, Cactus Fruit, Coconut",
+                                    "neutral": "All Universal Neutrals, All Eggs (except Void Egg), All Fruit (except Blueberry, Cactus Fruit, Coconut, Fruit Tree Fruit, Hot Pepper, & Salmonberry), Chanterele, Common Mushroom, Daffodil, Dandelion, Ginger, Hazelnut, Leek, Magma Cap, Morel, Purple Mushroom, Snow Yam, Winter Root",
+                                    "hate": "All Universal Dislikes, All Milk, Salmonberry, Wild Horseradish, All Universal Hates, Holly, Quartz"
                                 }
                             ],
                             "heart_events": [
                                 {
-                                    "2h": "",
-                                    "3h": "",
-                                    "4h": "",
-                                    "5h": "",
-                                    "6h": "",
-                                    "7h": "",
-                                    "8h": "",
-                                    "9h": "",
-                                    "10h": "",
-                                    "11h": "",
-                                    "12h": "",
-                                    "13h": "",
-                                    "14h": ""
+                                    "2h": "NA",
+                                    "3h": "After reaching 3 hearts with Lewis, he will send you a recipe in the mail.",
+                                    "4h": "NA",
+                                    "5h": "NA",
+                                    "6h": "On a sunny day, enter the town between 7pm and 11pm. Note: Only happens if Marnie is also at 6 hearts.",
+                                    "7h": "After reaching 7 hearts with Lewis, he will send you a recipe in the mail.",
+                                    "8h": "NA",
+                                    "9h": "NA",
+                                    "10h": "NA",
+                                    "11h": "NA",
+                                    "12h": "NA",
+                                    "13h": "NA",
+                                    "14h": "NA"
                                 }
                             ]
                         },
                         {
                             "name": "Linus",
-                            "schedule": "",
-                            "birthday": "",
+                            "schedule": [
+                                "https://i.ibb.co/b1zYL6P/Screenshot-2022-12-28-at-11-13-41-PM.png",
+                                "https://i.ibb.co/vPk9KvG/Screenshot-2022-12-28-at-11-13-34-PM.png"
+                            ],
+                            "birthday": "Winter 3",
                             "gifts": [
                                 {
-                                    "love": "",
-                                    "like": "",
-                                    "neutral": "",
-                                    "hate": ""
+                                    "love": "All Universal Loves, Blueberry Tart, Cactus Fruit, Coconut, Dish O' The Sea, Yam",
+                                    "like": "All Universal Likes (except Foraged Minerals & Gems other than Diamond & Prismatic Shard), All Eggs (except Void Egg), All Milk, All Fruit (except Cactus Fruit & Coconut), Chanterele, Common Mushroom, Daffodil, Dandelion, Ginger, Hazelnut, Holly, Leek, Magma Cap, Morel, Purple Mushroom, Snow Yam, Spring Onion, Wild Horseradish, Winter Root",
+                                    "neutral": "All Universal Neutrals, All Fish (except Carp & Snail)",
+                                    "hate": "All Universal Dislikes (except Fish & Spring Onion),All Foraged Minerals, All Gems (except Diamond & Prismatic Shard), All Universal Hates"
                                 }
                             ],
                             "heart_events": [
                                 {
-                                    "2h": "",
-                                    "3h": "",
-                                    "4h": "",
-                                    "5h": "",
-                                    "6h": "",
-                                    "7h": "",
-                                    "8h": "",
-                                    "9h": "",
-                                    "10h": "",
-                                    "11h": "",
-                                    "12h": "",
-                                    "13h": "",
-                                    "14h": ""
+                                    "2h": "NA",
+                                    "3h": "After reaching 3 hearts with Linus he will send you a recipe in the mail.",
+                                    "4h": "Enter the mountain area near his tent between 8pm - 12am on a day that's not raining.",
+                                    "5h": "NA",
+                                    "6h": "NA",
+                                    "7h": "After reaching seven hearts with Linus, he will send you a recipe in the mail.",
+                                    "8h": "Exit Robin's house on a day that's not raining between 9am and 5pm.",
+                                    "9h": "NA",
+                                    "10h": "NA",
+                                    "11h": "NA",
+                                    "12h": "NA",
+                                    "13h": "NA",
+                                    "14h": "NA"
                                 }
                             ]
                         },
                         {
                             "name": "Marnie",
-                            "schedule": "",
-                            "birthday": "",
+                            "schedule": [
+                                "https://i.ibb.co/hBQC8C9/Screenshot-2022-12-28-at-11-18-38-PM.png",
+                                "https://i.ibb.co/m4mgznF/Screenshot-2022-12-28-at-11-18-28-PM.png",
+                                "https://i.ibb.co/zmS4CM0/Screenshot-2022-12-28-at-11-18-21-PM.png",
+                                "https://i.ibb.co/whMDS2Q/Screenshot-2022-12-28-at-11-18-12-PM.png",
+                                "https://i.ibb.co/kmcV6MJ/Screenshot-2022-12-28-at-11-18-04-PM.png",
+                                "https://i.ibb.co/84LzHZm/Screenshot-2022-12-28-at-11-17-58-PM.png",
+                                "https://i.ibb.co/Nyq9RD7/Screenshot-2022-12-28-at-11-17-45-PM.png"
+                            ],
+                            "birthday": "Fall 18",
                             "gifts": [
                                 {
-                                    "love": "",
-                                    "like": "",
-                                    "neutral": "",
-                                    "hate": ""
+                                    "love": "All Universal Loves, Diamond, Farmers Lunch, Pink Cake, Pumkin Pie",
+                                    "like": "All Universal Likes, All Eggs (except Void Egg), All Milk, Quartz",
+                                    "neutral": "All Universal Neutrals, All Fruit (except Fruit Tree Fruit & Salmonberry), Chanterele, Common Mushroom, Daffodil, Dandelion, Ginger, Hazelnut, Leek, Magma Cap, Morel, Purple Mushroom, Snow Yam, Winter Root",
+                                    "hate": "All Universal Dislikes (except Clay), Wild Horseradish, Seaweed, Salmonberry, All Universal Hates (except Seaweed), Clay, Holly"
                                 }
                             ],
                             "heart_events": [
                                 {
-                                    "2h": "",
-                                    "3h": "",
-                                    "4h": "",
-                                    "5h": "",
-                                    "6h": "",
-                                    "7h": "",
-                                    "8h": "",
-                                    "9h": "",
-                                    "10h": "",
-                                    "11h": "",
-                                    "12h": "",
-                                    "13h": "",
-                                    "14h": ""
+                                    "2h": "NA",
+                                    "3h1": "Leave your farmhouse between 6:30am - 9:30am.",
+                                    "3h2": "After reaching 3 hearts, Marnie sends you a recipe in the mail.",
+                                    "5h": "NA",
+                                    "6h": "On a sunny day, enter the town between 7pm and 11pm. Note: Only happens if Lewis is also at 6 hearts.",
+                                    "7h": "After reaching 7 hearts, Marnie sends you a recipe in the mail.",
+                                    "8h": "NA",
+                                    "9h": "NA",
+                                    "10h": "NA",
+                                    "11h": "NA",
+                                    "12h": "NA",
+                                    "13h": "NA",
+                                    "14h": "NA"
                                 }
                             ]
                         },
                         {
                             "name": "Pam",
-                            "schedule": "",
-                            "birthday": "",
+                            "schedule": [
+                            "https://i.ibb.co/tXKBDHF/Screenshot-2022-12-28-at-11-24-53-PM.png",
+                            "https://i.ibb.co/dgPDk6t/Screenshot-2022-12-28-at-11-24-47-PM.png",
+                            "https://i.ibb.co/86zzbXB/Screenshot-2022-12-28-at-11-24-39-PM.png"
+                            ],
+                            "birthday": "Spring 18",
                             "gifts": [
                                 {
-                                    "love": "",
-                                    "like": "",
-                                    "neutral": "",
-                                    "hate": ""
+                                    "love": "All Universal Loves, Beer, Cactus Fruit, Glazed Yams, Mead, Pale Ale, Parsnip, Parsnip Soup, Pina Colada",
+                                    "like": "All Universal Likes, All Fruit (except Cactus Fruit), All Milk, Daffodil",
+                                    "neutral": "All Universal Neutrals, All Fish (except Carp, Octopus, Snail, & Squid), Chanterele, Common Mushroom, Dandelion, Ginger, Hazelnut, Leek, Magma Cap, Morel, Purple Mushroom, Snow Yam, Winter Root",
+                                    "hate": "All Universal Dislikes (except Fish), All Eggs, Quartz, Wild Horseradish, Holly, Octopus, All Universal Hates, Squid"
                                 }
                             ],
                             "heart_events": [
                                 {
-                                    "2h": "",
-                                    "3h": "",
-                                    "4h": "",
-                                    "5h": "",
-                                    "6h": "",
-                                    "7h": "",
-                                    "8h": "",
-                                    "9h": "",
-                                    "10h": "",
-                                    "11h": "",
-                                    "12h": "",
-                                    "13h": "",
-                                    "14h": ""
+                                    "2h": "NA",
+                                    "3h": "After reaching 3 hearts with Pam she will send you a recipe in the mail.",
+                                    "4h": "NA",
+                                    "5h": "NA",
+                                    "6h": "NA",
+                                    "7h": "After reaching 7 hearts with Pam she will send you a recipe in the mail.",
+                                    "8h": "NA",
+                                    "9h": "Purchase the Community Upgrade from the Carpenter's Shop. After earning 9 hearts of friendship with Pam, enter Pam's house at least 4 days after the Community Upgrade is completed.",
+                                    "10h": "NA",
+                                    "11h": "NA",
+                                    "12h": "NA",
+                                    "13h": "NA",
+                                    "14h": "NA"
                                 }
                             ]
                         },
                         {
                             "name": "Pierre",
-                            "schedule": "",
-                            "birthday": "",
+                            "schedule": [
+                            "https://i.ibb.co/y4dcYy2/Screenshot-2022-12-29-at-7-48-54-AM.png",
+                            "https://i.ibb.co/BzMVqw9/Screenshot-2022-12-29-at-7-48-46-AM.png"
+                            ],
+                            "birthday": "Spring 26",
                             "gifts": [
                                 {
-                                    "love": "",
-                                    "like": "",
-                                    "neutral": "",
-                                    "hate": ""
+                                    "love": "All Universal Loves, Fried Calamari",
+                                    "like": "All Universal Likes (except Corn, Garlic, Foraged Minerals, Gems other than Diamond & Prismatic Shard, Parsnip Soup, & Tortilla), All Eggs (except Void Egg), All Milk, Daffodil, Dandelion",
+                                    "neutral": "All Universal Neutrals, All Fruit (except Fruit Tree Fruit & Salmonberry)",
+                                    "hate": "All Universal Dislikes (except Fish), All Foraged Minerals, All Gems (other than Diamond & Prismatic Shard),Chanterele, Common Mushroom, Ginger, Hazelnut, Holly, Leek, Magma Cap, Morel, Salmonberry, Wild Horseradish, Purple Mushroom, Snow Yam, Winter Root, Corn, Garlic, Parsnip Soup, Tortilla, All Fish, All Universal Hates"
                                 }
                             ],
                             "heart_events": [
                                 {
-                                    "2h": "",
-                                    "3h": "",
-                                    "4h": "",
-                                    "5h": "",
-                                    "6h": "",
-                                    "7h": "",
-                                    "8h": "",
-                                    "9h": "",
-                                    "10h": "",
-                                    "11h": "",
-                                    "12h": "",
-                                    "13h": "",
-                                    "14h": ""
+                                    "2h": "NA",
+                                    "3h": "After reaching 3 hearts with Pierre he will send you a recipe in the mail.",
+                                    "4h": "NA",
+                                    "5h": "NA",
+                                    "6h": "Enter Pierre's Shop to activate the cut-scene.",
+                                    "7h": "NA",
+                                    "8h": "NA",
+                                    "9h": "NA",
+                                    "10h": "NA",
+                                    "11h": "NA",
+                                    "12h": "NA",
+                                    "13h": "NA",
+                                    "14h": "NA"
                                 }
                             ]
                         },
                         {
                             "name": "Robin",
-                            "schedule": "",
-                            "birthday": "",
+                            "schedule": [
+                                "https://i.ibb.co/QMBp7Zs/Screenshot-2022-12-29-at-7-57-26-AM.png",
+                                "https://i.ibb.co/VMCv1L8/Screenshot-2022-12-29-at-7-57-42-AM.png",
+                                "https://i.ibb.co/ZBMfMVb/Screenshot-2022-12-29-at-7-57-35-AM.png",
+                                "https://i.ibb.co/qjB2RdM/Screenshot-2022-12-29-at-7-58-16-AM.png",
+                                "https://i.ibb.co/PCn6fp2/Screenshot-2022-12-29-at-7-58-08-AM.png",
+                                "https://i.ibb.co/k1DqGjn/Screenshot-2022-12-29-at-7-57-59-AM.png",
+                                "https://i.ibb.co/znf5xKw/Screenshot-2022-12-29-at-7-57-50-AM.png"
+                            ],
+                            "birthday": "Fall 21",
                             "gifts": [
                                 {
-                                    "love": "",
-                                    "like": "",
-                                    "neutral": "",
-                                    "hate": ""
+                                    "love": "All Universal Loves, Goat Cheese, Peach, Spaghetti",
+                                    "like": "All Universal Likes, All Milk, All Fruit (except Peach), Hardwood, Quartz",
+                                    "neutral": "All Universal Neutrals, All Eggs (except Void Egg), Chanterele, Common Mushroom, Daffodil, Dandelion, Ginger, Hazelnut, Leek, Magma Cap, Morel, Purple Mushroom, Snow Yam, Winter Root",
+                                    "hate": "All Universal Dislikes (except Hardwood), Wild Horseradish, All Universal Hates, Holly"
                                 }
                             ],
                             "heart_events": [
                                 {
-                                    "2h": "On a sunny summer day, visit the beach when Alex is there.",
-                                    "3h": "",
-                                    "4h": "Enter town between 9am and 4pm.",
-                                    "5h": "Enter Alex's house when he's there",
-                                    "6h": "Enter Alex's house when he's there",
-                                    "7h": "",
-                                    "8h": "On a sunny day, visit the beach when Alex is there. He is only scheduled to go to the beach in summer, but may pass by on the way to the Ginger Island resort in any season after it is completed.",
-                                    "9h": "",
-                                    "10h": "Alex will send you a letter to meet him at the Saloon after dark. After receiving the letter, enter the Saloon between 7pm and 10pm.",
-                                    "11h": "",
-                                    "12h": "",
-                                    "13h": "",
-                                    "14h": "Exit the Farmhouse in year 2+ between 6am and 8:20am on any day other than Sunday. You must have 5,000g available."
+                                    "2h": "NA",
+                                    "3h": "NA",
+                                    "4h": "NA",
+                                    "5h": "NA",
+                                    "6h": "Enter Robin's house while she is home.",
+                                    "7h": "After reaching 7 hearts with Robin she will send you a recipe in the mail.",
+                                    "8h": "NA",
+                                    "9h": "NA",
+                                    "10h": "NA",
+                                    "11h": "NA",
+                                    "12h": "NA",
+                                    "13h": "NA",
+                                    "14h": "NA"
                                 }
                             ]
                         },
                         {
                             "name": "Sandy",
-                            "schedule": "",
-                            "birthday": "",
+                            "schedule": [
+                            "https://i.ibb.co/CWhJY0m/Screenshot-2022-12-29-at-8-06-23-AM.png"
+                            ],
+                            "birthday": "Fall 15",
                             "gifts": [
                                 {
-                                    "love": "",
-                                    "like": "",
-                                    "neutral": "",
-                                    "hate": ""
+                                    "love": "All Universal Loves, Crocus, Daffodil, Mango Sticky Rice, Sweet Pea",
+                                    "like": "All Universal Likes, All Fruit, Goat Milk, Large Goat Milk, Quartz, Wool",
+                                    "neutral": "All Universal Neutrals (except Wool), All Eggs (except Void Egg), Chanterele, Common Mushroom, Dandelion, Ginger, Hazelnut, Large Milk, Leek, Magma Cap, Milk, Morel, Purple Mushroom, Snow Yam, Wild Horseradish, Winter Root",
+                                    "hate": "All Universal Dislikes, All Universal Hates, Holly"
                                 }
                             ],
                             "heart_events": [
                                 {
-                                    "2h": "",
-                                    "3h": "",
-                                    "4h": "",
-                                    "5h": "",
-                                    "6h": "",
-                                    "7h": "",
-                                    "8h": "",
-                                    "9h": "",
-                                    "10h": "",
-                                    "11h": "",
-                                    "12h": "",
-                                    "13h": "",
-                                    "14h": ""
+                                    "2h": "NA",
+                                    "3h": "NA",
+                                    "4h": "NA",
+                                    "5h": "NA",
+                                    "6h": "NA",
+                                    "7h": "After reaching seven hearts with Sandy, she will send you a recipe in the mail.",
+                                    "8h": "NA",
+                                    "9h": "NA",
+                                    "10h": "NA",
+                                    "11h": "NA",
+                                    "12h": "NA",
+                                    "13h": "NA",
+                                    "14h": "NA"
                                 }
                             ]
                         },
@@ -3185,241 +3274,283 @@
                         },
                         {
                             "name": "Leo",
-                            "schedule": "",
-                            "birthday": "",
+                            "schedule": [
+                                "https://i.ibb.co/3RkLDTT/Screenshot-2022-12-28-at-1-55-36-PM.png",
+                                "https://i.ibb.co/r4MNzy5/Screenshot-2022-12-28-at-1-55-27-PM.png",
+                                "https://i.ibb.co/WWx25rV/Screenshot-2022-12-28-at-1-55-21-PM.png",
+                                "https://i.ibb.co/xS58s9L/Screenshot-2022-12-28-at-1-55-13-PM.png",
+                                "https://i.ibb.co/jRkhbd1/Screenshot-2022-12-28-at-1-55-06-PM.png",
+                                "https://i.ibb.co/XJdZWDL/Screenshot-2022-12-28-at-1-33-30-PM.png"
+                            ],
+                            "birthday": "Summer 26",
                             "gifts": [
                                 {
-                                    "love": "",
-                                    "like": "",
-                                    "neutral": "",
-                                    "hate": ""
+                                    "love": "All Universal Loves, Duck Feather, Mango, Ostrich Egg, Poi",
+                                    "like": "All Universal Likes (except Beer, Coffee, Life Elixir, Mead, Pale Ale, Pickles, Piña Colada, Wine, and Cooking other than Bread, Fried Egg, Poi, Mango Sticky Rice, & Triple Shot Espresso), Dragon Tooth, Mango Sticky Rice, Nautilus Shell, Quartz, Rainbow Shell, Sea Urchin, Spice Berry",
+                                    "neutral": "All Universal Neutrals (except Duck Feather, Hops, Nautilus Shell, & Rainbow Shell), All Eggs (except Ostrich Egg and Void Egg), All Fish (except Carp & Snail), All Fruit (except Fruit Tree fruit, Mango, Salmonberry, & Spice Berry), All Milk, Coffee",
+                                    "hate": "All Universal Disikes (except Oil, Unmilled Rice, & Fish), All Cooked Dishes (other than Bread, Fried Egg, Poi, Mango Sticky Rice, & Triple Shot Espresso), Chanterele, Common Mushroom, Daffodil, Dandelion, Ginger, Hazelnut, Leek, Life Elixir, Magma Cap, Pickles, Purple Mushroom, Salmonberry, Snow Yam, Wild Horseradish, Winter Root, All Universal Hates (except Dragon Tooth & Sea Urchin), Beer, Holly, Hops, Mead, Morel, Oil, Pale Ale, Pina Colada, Triple shot Espresso, Unmilled Rice, Wine"
                                 }
                             ],
                             "heart_events": [
                                 {
-                                    "2h": "",
-                                    "3h": "",
-                                    "4h": "",
-                                    "5h": "",
-                                    "6h": "",
-                                    "7h": "",
-                                    "8h": "",
-                                    "9h": "",
-                                    "10h": "",
-                                    "11h": "",
-                                    "12h": "",
-                                    "13h": "",
-                                    "14h": ""
+                                    "2h": "Enter Island West on a sunny day between 6am and 6pm.",
+                                    "3h": "After reaching three hearts with Leo, he sends the player a recipe in the mail.",
+                                    "4h": "Enter Island North on a sunny day between 6am and 6pm.",
+                                    "5h": "NA",
+                                    "6h": "Enter Island South on a sunny day between 6am and 6pm.",
+                                    "7h": "After reaching seven hearts with Leo, he sends the player a recipe in the mail.",
+                                    "8h": "NA",
+                                    "9h": "Enter the Mountain on a non-rainy day between 6am and 7pm.",
+                                    "10h": "NA",
+                                    "11h": "NA",
+                                    "12h": "NA",
+                                    "13h": "NA",
+                                    "14h": "NA"
                                 }
                             ]
                         },
                         {
                             "name": "Lewis",
-                            "schedule": "",
-                            "birthday": "",
+                            "schedule": [
+                                "https://i.ibb.co/0Dsm2gG/Screenshot-2022-12-28-at-11-01-40-PM.png",
+                                "https://i.ibb.co/b13CwRh/Screenshot-2022-12-28-at-11-01-32-PM.png",
+                                "https://i.ibb.co/k8vGj7D/Screenshot-2022-12-28-at-11-01-27-PM.png",
+                                "https://i.ibb.co/cCGLDBp/Screenshot-2022-12-28-at-11-01-21-PM.png",                                "https://i.ibb.co/XJwmV1Y/Screenshot-2022-12-28-at-11-01-16-PM.png
+                                "https://i.ibb.co/vmPPnX0/Screenshot-2022-12-28-at-11-01-11-PM.png",
+                                "https://i.ibb.co/tsJ89JJ/Screenshot-2022-12-28-at-11-00-08-PM.png"
+                            ],
+                            "birthday": "Spring 7",
                             "gifts": [
                                 {
-                                    "love": "",
-                                    "like": "",
-                                    "neutral": "",
-                                    "hate": ""
+                                    "love": "All Universal Loves, Autumn's Bounty, Glazed Yams, Green Tea, Hot Pepper, Vegetable Medley",
+                                    "like": "All Universal Likes, Blueberry, Cactus Fruit, Coconut",
+                                    "neutral": "All Universal Neutrals, All Eggs (except Void Egg), All Fruit (except Blueberry, Cactus Fruit, Coconut, Fruit Tree Fruit, Hot Pepper, & Salmonberry), Chanterele, Common Mushroom, Daffodil, Dandelion, Ginger, Hazelnut, Leek, Magma Cap, Morel, Purple Mushroom, Snow Yam, Winter Root",
+                                    "hate": "All Universal Dislikes, All Milk, Salmonberry, Wild Horseradish, All Universal Hates, Holly, Quartz"
                                 }
                             ],
                             "heart_events": [
                                 {
-                                    "2h": "",
-                                    "3h": "",
-                                    "4h": "",
-                                    "5h": "",
-                                    "6h": "",
-                                    "7h": "",
-                                    "8h": "",
-                                    "9h": "",
-                                    "10h": "",
-                                    "11h": "",
-                                    "12h": "",
-                                    "13h": "",
-                                    "14h": ""
+                                    "2h": "NA",
+                                    "3h": "After reaching 3 hearts with Lewis, he will send you a recipe in the mail.",
+                                    "4h": "NA",
+                                    "5h": "NA",
+                                    "6h": "On a sunny day, enter the town between 7pm and 11pm. Note: Only happens if Marnie is also at 6 hearts.",
+                                    "7h": "After reaching 7 hearts with Lewis, he will send you a recipe in the mail.",
+                                    "8h": "NA",
+                                    "9h": "NA",
+                                    "10h": "NA",
+                                    "11h": "NA",
+                                    "12h": "NA",
+                                    "13h": "NA",
+                                    "14h": "NA"
                                 }
                             ]
                         },
                         {
                             "name": "Linus",
-                            "schedule": "",
-                            "birthday": "",
+                            "schedule": [
+                                "https://i.ibb.co/28KwvBb/Screenshot-2022-12-28-at-11-14-39-PM.png",
+                                "https://i.ibb.co/j6gSCfj/Screenshot-2022-12-28-at-11-14-34-PM.png"
+                            ],
+                            "birthday": "Winter 3",
                             "gifts": [
                                 {
-                                    "love": "",
-                                    "like": "",
-                                    "neutral": "",
-                                    "hate": ""
+                                    "love": "All Universal Loves, Blueberry Tart, Cactus Fruit, Coconut, Dish O' The Sea, Yam",
+                                    "like": "All Universal Likes (except Foraged Minerals & Gems other than Diamond & Prismatic Shard), All Eggs (except Void Egg), All Milk, All Fruit (except Cactus Fruit & Coconut), Chanterele, Common Mushroom, Daffodil, Dandelion, Ginger, Hazelnut, Holly, Leek, Magma Cap, Morel, Purple Mushroom, Snow Yam, Spring Onion, Wild Horseradish, Winter Root",
+                                    "neutral": "All Universal Neutrals, All Fish (except Carp & Snail)",
+                                    "hate": "All Universal Dislikes (except Fish & Spring Onion),All Foraged Minerals, All Gems (except Diamond & Prismatic Shard), All Universal Hates"
                                 }
                             ],
                             "heart_events": [
                                 {
-                                    "2h": "",
-                                    "3h": "",
-                                    "4h": "",
-                                    "5h": "",
-                                    "6h": "",
-                                    "7h": "",
-                                    "8h": "",
-                                    "9h": "",
-                                    "10h": "",
-                                    "11h": "",
-                                    "12h": "",
-                                    "13h": "",
-                                    "14h": ""
+                                    "2h": "NA",
+                                    "3h": "After reaching 3 hearts with Linus he will send you a recipe in the mail.",
+                                    "4h": "Enter the mountain area near his tent between 8pm - 12am on a day that's not raining.",
+                                    "5h": "NA",
+                                    "6h": "NA",
+                                    "7h": "After reaching seven hearts with Linus, he will send you a recipe in the mail.",
+                                    "8h": "Exit Robin's house on a day that's not raining between 9am and 5pm.",
+                                    "9h": "NA",
+                                    "10h": "NA",
+                                    "11h": "NA",
+                                    "12h": "NA",
+                                    "13h": "NA",
+                                    "14h": "NA"
                                 }
                             ]
                         },
                         {
                             "name": "Marnie",
-                            "schedule": "",
-                            "birthday": "",
+                            "schedule": [
+                                "https://i.ibb.co/hBQC8C9/Screenshot-2022-12-28-at-11-18-38-PM.png",
+                                "https://i.ibb.co/m4mgznF/Screenshot-2022-12-28-at-11-18-28-PM.png",
+                                "https://i.ibb.co/zmS4CM0/Screenshot-2022-12-28-at-11-18-21-PM.png",
+                                "https://i.ibb.co/whMDS2Q/Screenshot-2022-12-28-at-11-18-12-PM.png",
+                                "https://i.ibb.co/kmcV6MJ/Screenshot-2022-12-28-at-11-18-04-PM.png",
+                                "https://i.ibb.co/84LzHZm/Screenshot-2022-12-28-at-11-17-58-PM.png",
+                                "https://i.ibb.co/Nyq9RD7/Screenshot-2022-12-28-at-11-17-45-PM.png"
+                            ],
+                            "birthday": "Fall 18",
                             "gifts": [
                                 {
-                                    "love": "",
-                                    "like": "",
-                                    "neutral": "",
-                                    "hate": ""
+                                    "love": "All Universal Loves, Diamond, Farmers Lunch, Pink Cake, Pumkin Pie",
+                                    "like": "All Universal Likes, All Eggs (except Void Egg), All Milk, Quartz",
+                                    "neutral": "All Universal Neutrals, All Fruit (except Fruit Tree Fruit & Salmonberry), Chanterele, Common Mushroom, Daffodil, Dandelion, Ginger, Hazelnut, Leek, Magma Cap, Morel, Purple Mushroom, Snow Yam, Winter Root",
+                                    "hate": "All Universal Dislikes (except Clay), Wild Horseradish, Seaweed, Salmonberry, All Universal Hates (except Seaweed), Clay, Holly"
                                 }
                             ],
                             "heart_events": [
                                 {
-                                    "2h": "",
-                                    "3h": "",
-                                    "4h": "",
-                                    "5h": "",
-                                    "6h": "",
-                                    "7h": "",
-                                    "8h": "",
-                                    "9h": "",
-                                    "10h": "",
-                                    "11h": "",
-                                    "12h": "",
-                                    "13h": "",
-                                    "14h": ""
+                                    "2h": "NA",
+                                    "3h1": "Leave your farmhouse between 6:30am - 9:30am.",
+                                    "3h2": "After reaching 3 hearts, Marnie sends you a recipe in the mail.",
+                                    "5h": "NA",
+                                    "6h": "On a sunny day, enter the town between 7pm and 11pm. Note: Only happens if Lewis is also at 6 hearts.",
+                                    "7h": "After reaching 7 hearts, Marnie sends you a recipe in the mail.",
+                                    "8h": "NA",
+                                    "9h": "NA",
+                                    "10h": "NA",
+                                    "11h": "NA",
+                                    "12h": "NA",
+                                    "13h": "NA",
+                                    "14h": "NA"
                                 }
                             ]
                         },
                         {
                             "name": "Pam",
-                            "schedule": "",
-                            "birthday": "",
+                            "schedule": [
+                            "https://i.ibb.co/tXKBDHF/Screenshot-2022-12-28-at-11-24-53-PM.png",
+                            "https://i.ibb.co/dgPDk6t/Screenshot-2022-12-28-at-11-24-47-PM.png",
+                            "https://i.ibb.co/86zzbXB/Screenshot-2022-12-28-at-11-24-39-PM.png"
+                            ],
+                            "birthday": "Spring 18",
                             "gifts": [
                                 {
-                                    "love": "",
-                                    "like": "",
-                                    "neutral": "",
-                                    "hate": ""
+                                    "love": "All Universal Loves, Beer, Cactus Fruit, Glazed Yams, Mead, Pale Ale, Parsnip, Parsnip Soup, Pina Colada",
+                                    "like": "All Universal Likes, All Fruit (except Cactus Fruit), All Milk, Daffodil",
+                                    "neutral": "All Universal Neutrals, All Fish (except Carp, Octopus, Snail, & Squid), Chanterele, Common Mushroom, Dandelion, Ginger, Hazelnut, Leek, Magma Cap, Morel, Purple Mushroom, Snow Yam, Winter Root",
+                                    "hate": "All Universal Dislikes (except Fish), All Eggs, Quartz, Wild Horseradish, Holly, Octopus, All Universal Hates, Squid"
                                 }
                             ],
                             "heart_events": [
                                 {
-                                    "2h": "",
-                                    "3h": "",
-                                    "4h": "",
-                                    "5h": "",
-                                    "6h": "",
-                                    "7h": "",
-                                    "8h": "",
-                                    "9h": "",
-                                    "10h": "",
-                                    "11h": "",
-                                    "12h": "",
-                                    "13h": "",
-                                    "14h": ""
+                                    "2h": "NA",
+                                    "3h": "After reaching 3 hearts with Pam she will send you a recipe in the mail.",
+                                    "4h": "NA",
+                                    "5h": "NA",
+                                    "6h": "NA",
+                                    "7h": "After reaching 7 hearts with Pam she will send you a recipe in the mail.",
+                                    "8h": "NA",
+                                    "9h": "Purchase the Community Upgrade from the Carpenter's Shop. After earning 9 hearts of friendship with Pam, enter Pam's house at least 4 days after the Community Upgrade is completed.",
+                                    "10h": "NA",
+                                    "11h": "NA",
+                                    "12h": "NA",
+                                    "13h": "NA",
+                                    "14h": "NA"
                                 }
                             ]
                         },
                         {
                             "name": "Pierre",
-                            "schedule": "",
-                            "birthday": "",
+                            "schedule": [
+                            "https://i.ibb.co/y4dcYy2/Screenshot-2022-12-29-at-7-48-54-AM.png",
+                            "https://i.ibb.co/BzMVqw9/Screenshot-2022-12-29-at-7-48-46-AM.png"
+                            ],
+                            "birthday": "Spring 26",
                             "gifts": [
                                 {
-                                    "love": "",
-                                    "like": "",
-                                    "neutral": "",
-                                    "hate": ""
+                                    "love": "All Universal Loves, Fried Calamari",
+                                    "like": "All Universal Likes (except Corn, Garlic, Foraged Minerals, Gems other than Diamond & Prismatic Shard, Parsnip Soup, & Tortilla), All Eggs (except Void Egg), All Milk, Daffodil, Dandelion",
+                                    "neutral": "All Universal Neutrals, All Fruit (except Fruit Tree Fruit & Salmonberry)",
+                                    "hate": "All Universal Dislikes (except Fish), All Foraged Minerals, All Gems (other than Diamond & Prismatic Shard),Chanterele, Common Mushroom, Ginger, Hazelnut, Holly, Leek, Magma Cap, Morel, Salmonberry, Wild Horseradish, Purple Mushroom, Snow Yam, Winter Root, Corn, Garlic, Parsnip Soup, Tortilla, All Fish, All Universal Hates"
                                 }
                             ],
                             "heart_events": [
                                 {
-                                    "2h": "",
-                                    "3h": "",
-                                    "4h": "",
-                                    "5h": "",
-                                    "6h": "",
-                                    "7h": "",
-                                    "8h": "",
-                                    "9h": "",
-                                    "10h": "",
-                                    "11h": "",
-                                    "12h": "",
-                                    "13h": "",
-                                    "14h": ""
+                                    "2h": "NA",
+                                    "3h": "After reaching 3 hearts with Pierre he will send you a recipe in the mail.",
+                                    "4h": "NA",
+                                    "5h": "NA",
+                                    "6h": "Enter Pierre's Shop to activate the cut-scene.",
+                                    "7h": "NA",
+                                    "8h": "NA",
+                                    "9h": "NA",
+                                    "10h": "NA",
+                                    "11h": "NA",
+                                    "12h": "NA",
+                                    "13h": "NA",
+                                    "14h": "NA"
                                 }
                             ]
                         },
                         {
                             "name": "Robin",
-                            "schedule": "",
-                            "birthday": "",
+                            "schedule": [
+                                "https://i.ibb.co/QMBp7Zs/Screenshot-2022-12-29-at-7-57-26-AM.png",
+                                "https://i.ibb.co/VMCv1L8/Screenshot-2022-12-29-at-7-57-42-AM.png",
+                                "https://i.ibb.co/ZBMfMVb/Screenshot-2022-12-29-at-7-57-35-AM.png",
+                                "https://i.ibb.co/qjB2RdM/Screenshot-2022-12-29-at-7-58-16-AM.png",
+                                "https://i.ibb.co/PCn6fp2/Screenshot-2022-12-29-at-7-58-08-AM.png",
+                                "https://i.ibb.co/k1DqGjn/Screenshot-2022-12-29-at-7-57-59-AM.png",
+                                "https://i.ibb.co/znf5xKw/Screenshot-2022-12-29-at-7-57-50-AM.png"
+                            ],
+                            "birthday": "Fall 21",
                             "gifts": [
                                 {
-                                    "love": "",
-                                    "like": "",
-                                    "neutral": "",
-                                    "hate": ""
+                                    "love": "All Universal Loves, Goat Cheese, Peach, Spaghetti",
+                                    "like": "All Universal Likes, All Milk, All Fruit (except Peach), Hardwood, Quartz",
+                                    "neutral": "All Universal Neutrals, All Eggs (except Void Egg), Chanterele, Common Mushroom, Daffodil, Dandelion, Ginger, Hazelnut, Leek, Magma Cap, Morel, Purple Mushroom, Snow Yam, Winter Root",
+                                    "hate": "All Universal Dislikes (except Hardwood), Wild Horseradish, All Universal Hates, Holly"
                                 }
                             ],
                             "heart_events": [
                                 {
-                                    "2h": "",
-                                    "3h": "",
-                                    "4h": "",
-                                    "5h": "",
-                                    "6h": "",
-                                    "7h": "",
-                                    "8h": "",
-                                    "9h": "",
-                                    "10h": "",
-                                    "11h": "",
-                                    "12h": "",
-                                    "13h": "",
-                                    "14h": ""
+                                    "2h": "NA",
+                                    "3h": "NA",
+                                    "4h": "NA",
+                                    "5h": "NA",
+                                    "6h": "Enter Robin's house while she is home.",
+                                    "7h": "After reaching 7 hearts with Robin she will send you a recipe in the mail.",
+                                    "8h": "NA",
+                                    "9h": "NA",
+                                    "10h": "NA",
+                                    "11h": "NA",
+                                    "12h": "NA",
+                                    "13h": "NA",
+                                    "14h": "NA"
                                 }
                             ]
                         },
                         {
                             "name": "Sandy",
-                            "schedule": "",
-                            "birthday": "",
+                            "schedule": [
+                            "https://i.ibb.co/CWhJY0m/Screenshot-2022-12-29-at-8-06-23-AM.png"
+                            ],
+                            "birthday": "Fall 15",
                             "gifts": [
                                 {
-                                    "love": "",
-                                    "like": "",
-                                    "neutral": "",
-                                    "hate": ""
+                                    "love": "All Universal Loves, Crocus, Daffodil, Mango Sticky Rice, Sweet Pea",
+                                    "like": "All Universal Likes, All Fruit, Goat Milk, Large Goat Milk, Quartz, Wool",
+                                    "neutral": "All Universal Neutrals (except Wool), All Eggs (except Void Egg), Chanterele, Common Mushroom, Dandelion, Ginger, Hazelnut, Large Milk, Leek, Magma Cap, Milk, Morel, Purple Mushroom, Snow Yam, Wild Horseradish, Winter Root",
+                                    "hate": "All Universal Dislikes, All Universal Hates, Holly"
                                 }
                             ],
                             "heart_events": [
                                 {
-                                    "2h": "",
-                                    "3h": "",
-                                    "4h": "",
-                                    "5h": "",
-                                    "6h": "",
-                                    "7h": "",
-                                    "8h": "",
-                                    "9h": "",
-                                    "10h": "",
-                                    "11h": "",
-                                    "12h": "",
-                                    "13h": "",
-                                    "14h": ""
+                                    "2h": "NA",
+                                    "3h": "NA",
+                                    "4h": "NA",
+                                    "5h": "NA",
+                                    "6h": "NA",
+                                    "7h": "After reaching seven hearts with Sandy, she will send you a recipe in the mail.",
+                                    "8h": "NA",
+                                    "9h": "NA",
+                                    "10h": "NA",
+                                    "11h": "NA",
+                                    "12h": "NA",
+                                    "13h": "NA",
+                                    "14h": "NA"
                                 }
                             ]
                         },
@@ -4364,241 +4495,285 @@
                         },
                         {
                             "name": "Leo",
-                            "schedule": "",
-                            "birthday": "",
+                            "schedule": [
+                                "https://i.ibb.co/YRJKsKR/Screenshot-2022-12-28-at-1-57-40-PM.png",
+                                "https://i.ibb.co/j8bBx5v/Screenshot-2022-12-28-at-1-57-34-PM.png",
+                                "https://i.ibb.co/zFfdSY8/Screenshot-2022-12-28-at-1-57-18-PM.png",
+                                "https://i.ibb.co/sC8rVD2/Screenshot-2022-12-28-at-1-57-11-PM.png",
+                                "https://i.ibb.co/8BCX95g/Screenshot-2022-12-28-at-1-57-04-PM.png",
+                                "https://i.ibb.co/58KQKB8/Screenshot-2022-12-28-at-1-56-58-PM.png",
+                                "https://i.ibb.co/XJdZWDL/Screenshot-2022-12-28-at-1-33-30-PM.png"
+                            ],
+                            "birthday": "Summer 26",
                             "gifts": [
                                 {
-                                    "love": "",
-                                    "like": "",
-                                    "neutral": "",
-                                    "hate": ""
+                                    "love": "All Universal Loves, Duck Feather, Mango, Ostrich Egg, Poi",
+                                    "like": "All Universal Likes (except Beer, Coffee, Life Elixir, Mead, Pale Ale, Pickles, Piña Colada, Wine, and Cooking other than Bread, Fried Egg, Poi, Mango Sticky Rice, & Triple Shot Espresso), Dragon Tooth, Mango Sticky Rice, Nautilus Shell, Quartz, Rainbow Shell, Sea Urchin, Spice Berry",
+                                    "neutral": "All Universal Neutrals (except Duck Feather, Hops, Nautilus Shell, & Rainbow Shell), All Eggs (except Ostrich Egg and Void Egg), All Fish (except Carp & Snail), All Fruit (except Fruit Tree fruit, Mango, Salmonberry, & Spice Berry), All Milk, Coffee",
+                                    "hate": "All Universal Disikes (except Oil, Unmilled Rice, & Fish), All Cooked Dishes (other than Bread, Fried Egg, Poi, Mango Sticky Rice, & Triple Shot Espresso), Chanterele, Common Mushroom, Daffodil, Dandelion, Ginger, Hazelnut, Leek, Life Elixir, Magma Cap, Pickles, Purple Mushroom, Salmonberry, Snow Yam, Wild Horseradish, Winter Root, All Universal Hates (except Dragon Tooth & Sea Urchin), Beer, Holly, Hops, Mead, Morel, Oil, Pale Ale, Pina Colada, Triple shot Espresso, Unmilled Rice, Wine"
                                 }
                             ],
                             "heart_events": [
                                 {
-                                    "2h": "",
-                                    "3h": "",
-                                    "4h": "",
-                                    "5h": "",
-                                    "6h": "",
-                                    "7h": "",
-                                    "8h": "",
-                                    "9h": "",
-                                    "10h": "",
-                                    "11h": "",
-                                    "12h": "",
-                                    "13h": "",
-                                    "14h": ""
+                                    "2h": "Enter Island West on a sunny day between 6am and 6pm.",
+                                    "3h": "After reaching three hearts with Leo, he sends the player a recipe in the mail.",
+                                    "4h": "Enter Island North on a sunny day between 6am and 6pm.",
+                                    "5h": "NA",
+                                    "6h": "Enter Island South on a sunny day between 6am and 6pm.",
+                                    "7h": "After reaching seven hearts with Leo, he sends the player a recipe in the mail.",
+                                    "8h": "NA",
+                                    "9h": "Enter the Mountain on a non-rainy day between 6am and 7pm.",
+                                    "10h": "NA",
+                                    "11h": "NA",
+                                    "12h": "NA",
+                                    "13h": "NA",
+                                    "14h": "NA"
                                 }
                             ]
                         },
                         {
                             "name": "Lewis",
-                            "schedule": "",
-                            "birthday": "",
+                            "schedule": [
+                                "https://i.ibb.co/XWHZcCq/Screenshot-2022-12-28-at-10-43-25-PM.png",
+                                "https://i.ibb.co/51CGZws/Screenshot-2022-12-28-at-10-43-20-PM.png",
+                                "https://i.ibb.co/0Xh1KdD/Screenshot-2022-12-28-at-10-43-14-PM.png",
+                                "https://i.ibb.co/HnmNJKb/Screenshot-2022-12-28-at-10-43-06-PM.png",
+                                "https://i.ibb.co/fpWjsbt/Screenshot-2022-12-28-at-10-43-01-PM.png",
+                                "https://i.ibb.co/94CSDJm/Screenshot-2022-12-28-at-10-42-55-PM.png",
+                                "https://i.ibb.co/GcLGsmT/Screenshot-2022-12-28-at-10-42-42-PM.png"
+                            ],
+                            "birthday": "Spring 7",
                             "gifts": [
                                 {
-                                    "love": "",
-                                    "like": "",
-                                    "neutral": "",
-                                    "hate": ""
+                                    "love": "All Universal Loves, Autumn's Bounty, Glazed Yams, Green Tea, Hot Pepper, Vegetable Medley",
+                                    "like": "All Universal Likes, Blueberry, Cactus Fruit, Coconut",
+                                    "neutral": "All Universal Neutrals, All Eggs (except Void Egg), All Fruit (except Blueberry, Cactus Fruit, Coconut, Fruit Tree Fruit, Hot Pepper, & Salmonberry), Chanterele, Common Mushroom, Daffodil, Dandelion, Ginger, Hazelnut, Leek, Magma Cap, Morel, Purple Mushroom, Snow Yam, Winter Root",
+                                    "hate": "All Universal Dislikes, All Milk, Salmonberry, Wild Horseradish, All Universal Hates, Holly, Quartz"
                                 }
                             ],
                             "heart_events": [
                                 {
-                                    "2h": "",
-                                    "3h": "",
-                                    "4h": "",
-                                    "5h": "",
-                                    "6h": "",
-                                    "7h": "",
-                                    "8h": "",
-                                    "9h": "",
-                                    "10h": "",
-                                    "11h": "",
-                                    "12h": "",
-                                    "13h": "",
-                                    "14h": ""
+                                    "2h": "NA",
+                                    "3h": "After reaching 3 hearts with Lewis, he will send you a recipe in the mail.",
+                                    "4h": "NA",
+                                    "5h": "NA",
+                                    "6h": "On a sunny day, enter the town between 7pm and 11pm. Note: Only happens if Marnie is also at 6 hearts.",
+                                    "7h": "After reaching 7 hearts with Lewis, he will send you a recipe in the mail.",
+                                    "8h": "NA",
+                                    "9h": "NA",
+                                    "10h": "NA",
+                                    "11h": "NA",
+                                    "12h": "NA",
+                                    "13h": "NA",
+                                    "14h": "NA"
                                 }
                             ]
                         },
                         {
                             "name": "Linus",
-                            "schedule": "",
-                            "birthday": "",
+                            "schedule": [
+                                "https://i.ibb.co/FJKyzgt/Screenshot-2022-12-28-at-11-04-44-PM.png",
+                                "https://i.ibb.co/b3PxSZM/Screenshot-2022-12-28-at-11-04-39-PM.png"
+                            ],
+                            "birthday": "Winter 3",
                             "gifts": [
                                 {
-                                    "love": "",
-                                    "like": "",
-                                    "neutral": "",
-                                    "hate": ""
+                                    "love": "All Universal Loves, Blueberry Tart, Cactus Fruit, Coconut, Dish O' The Sea, Yam",
+                                    "like": "All Universal Likes (except Foraged Minerals & Gems other than Diamond & Prismatic Shard), All Eggs (except Void Egg), All Milk, All Fruit (except Cactus Fruit & Coconut), Chanterele, Common Mushroom, Daffodil, Dandelion, Ginger, Hazelnut, Holly, Leek, Magma Cap, Morel, Purple Mushroom, Snow Yam, Spring Onion, Wild Horseradish, Winter Root",
+                                    "neutral": "All Universal Neutrals, All Fish (except Carp & Snail)",
+                                    "hate": "All Universal Dislikes (except Fish & Spring Onion),All Foraged Minerals, All Gems (except Diamond & Prismatic Shard), All Universal Hates"
                                 }
                             ],
                             "heart_events": [
                                 {
-                                    "2h": "",
-                                    "3h": "",
-                                    "4h": "",
-                                    "5h": "",
-                                    "6h": "",
-                                    "7h": "",
-                                    "8h": "",
-                                    "9h": "",
-                                    "10h": "",
-                                    "11h": "",
-                                    "12h": "",
-                                    "13h": "",
-                                    "14h": ""
+                                    "2h": "NA",
+                                    "3h": "After reaching 3 hearts with Linus he will send you a recipe in the mail.",
+                                    "4h": "Enter the mountain area near his tent between 8pm - 12am on a day that's not raining.",
+                                    "5h": "NA",
+                                    "6h": "NA",
+                                    "7h": "After reaching seven hearts with Linus, he will send you a recipe in the mail.",
+                                    "8h": "Exit Robin's house on a day that's not raining between 9am and 5pm.",
+                                    "9h": "NA",
+                                    "10h": "NA",
+                                    "11h": "NA",
+                                    "12h": "NA",
+                                    "13h": "NA",
+                                    "14h": "NA"
                                 }
                             ]
                         },
                         {
                             "name": "Marnie",
-                            "schedule": "",
-                            "birthday": "",
+                            "schedule": [
+                                "https://i.ibb.co/hBQC8C9/Screenshot-2022-12-28-at-11-18-38-PM.png",
+                                "https://i.ibb.co/m4mgznF/Screenshot-2022-12-28-at-11-18-28-PM.png",
+                                "https://i.ibb.co/zmS4CM0/Screenshot-2022-12-28-at-11-18-21-PM.png",
+                                "https://i.ibb.co/whMDS2Q/Screenshot-2022-12-28-at-11-18-12-PM.png",
+                                "https://i.ibb.co/kmcV6MJ/Screenshot-2022-12-28-at-11-18-04-PM.png",
+                                "https://i.ibb.co/84LzHZm/Screenshot-2022-12-28-at-11-17-58-PM.png",
+                                "https://i.ibb.co/Nyq9RD7/Screenshot-2022-12-28-at-11-17-45-PM.png"
+                            ],
+                            "birthday": "Fall 18",
                             "gifts": [
                                 {
-                                    "love": "",
-                                    "like": "",
-                                    "neutral": "",
-                                    "hate": ""
+                                    "love": "All Universal Loves, Diamond, Farmers Lunch, Pink Cake, Pumkin Pie",
+                                    "like": "All Universal Likes, All Eggs (except Void Egg), All Milk, Quartz",
+                                    "neutral": "All Universal Neutrals, All Fruit (except Fruit Tree Fruit & Salmonberry), Chanterele, Common Mushroom, Daffodil, Dandelion, Ginger, Hazelnut, Leek, Magma Cap, Morel, Purple Mushroom, Snow Yam, Winter Root",
+                                    "hate": "All Universal Dislikes (except Clay), Wild Horseradish, Seaweed, Salmonberry, All Universal Hates (except Seaweed), Clay, Holly"
                                 }
                             ],
                             "heart_events": [
                                 {
-                                    "2h": "",
-                                    "3h": "",
-                                    "4h": "",
-                                    "5h": "",
-                                    "6h": "",
-                                    "7h": "",
-                                    "8h": "",
-                                    "9h": "",
-                                    "10h": "",
-                                    "11h": "",
-                                    "12h": "",
-                                    "13h": "",
-                                    "14h": ""
+                                    "2h": "NA",
+                                    "3h1": "Leave your farmhouse between 6:30am - 9:30am.",
+                                    "3h2": "After reaching 3 hearts, Marnie sends you a recipe in the mail.",
+                                    "5h": "NA",
+                                    "6h": "On a sunny day, enter the town between 7pm and 11pm. Note: Only happens if Lewis is also at 6 hearts.",
+                                    "7h": "After reaching 7 hearts, Marnie sends you a recipe in the mail.",
+                                    "8h": "NA",
+                                    "9h": "NA",
+                                    "10h": "NA",
+                                    "11h": "NA",
+                                    "12h": "NA",
+                                    "13h": "NA",
+                                    "14h": "NA"
                                 }
                             ]
                         },
                         {
                             "name": "Pam",
-                            "schedule": "",
-                            "birthday": "",
+                            "schedule": [
+                            "https://i.ibb.co/tXKBDHF/Screenshot-2022-12-28-at-11-24-53-PM.png",
+                            "https://i.ibb.co/dgPDk6t/Screenshot-2022-12-28-at-11-24-47-PM.png",
+                            "https://i.ibb.co/86zzbXB/Screenshot-2022-12-28-at-11-24-39-PM.png"
+                            ],
+                            "birthday": "Spring 18",
                             "gifts": [
                                 {
-                                    "love": "",
-                                    "like": "",
-                                    "neutral": "",
-                                    "hate": ""
+                                    "love": "All Universal Loves, Beer, Cactus Fruit, Glazed Yams, Mead, Pale Ale, Parsnip, Parsnip Soup, Pina Colada",
+                                    "like": "All Universal Likes, All Fruit (except Cactus Fruit), All Milk, Daffodil",
+                                    "neutral": "All Universal Neutrals, All Fish (except Carp, Octopus, Snail, & Squid), Chanterele, Common Mushroom, Dandelion, Ginger, Hazelnut, Leek, Magma Cap, Morel, Purple Mushroom, Snow Yam, Winter Root",
+                                    "hate": "All Universal Dislikes (except Fish), All Eggs, Quartz, Wild Horseradish, Holly, Octopus, All Universal Hates, Squid"
                                 }
                             ],
                             "heart_events": [
                                 {
-                                    "2h": "",
-                                    "3h": "",
-                                    "4h": "",
-                                    "5h": "",
-                                    "6h": "",
-                                    "7h": "",
-                                    "8h": "",
-                                    "9h": "",
-                                    "10h": "",
-                                    "11h": "",
-                                    "12h": "",
-                                    "13h": "",
-                                    "14h": ""
+                                    "2h": "NA",
+                                    "3h": "After reaching 3 hearts with Pam she will send you a recipe in the mail.",
+                                    "4h": "NA",
+                                    "5h": "NA",
+                                    "6h": "NA",
+                                    "7h": "After reaching 7 hearts with Pam she will send you a recipe in the mail.",
+                                    "8h": "NA",
+                                    "9h": "Purchase the Community Upgrade from the Carpenter's Shop. After earning 9 hearts of friendship with Pam, enter Pam's house at least 4 days after the Community Upgrade is completed.",
+                                    "10h": "NA",
+                                    "11h": "NA",
+                                    "12h": "NA",
+                                    "13h": "NA",
+                                    "14h": "NA"
                                 }
                             ]
                         },
                         {
                             "name": "Pierre",
-                            "schedule": "",
-                            "birthday": "",
+                            "schedule": [
+                            "https://i.ibb.co/y4dcYy2/Screenshot-2022-12-29-at-7-48-54-AM.png",
+                            "https://i.ibb.co/BzMVqw9/Screenshot-2022-12-29-at-7-48-46-AM.png"
+                            ],
+                            "birthday": "Spring 26",
                             "gifts": [
                                 {
-                                    "love": "",
-                                    "like": "",
-                                    "neutral": "",
-                                    "hate": ""
+                                    "love": "All Universal Loves, Fried Calamari",
+                                    "like": "All Universal Likes (except Corn, Garlic, Foraged Minerals, Gems other than Diamond & Prismatic Shard, Parsnip Soup, & Tortilla), All Eggs (except Void Egg), All Milk, Daffodil, Dandelion",
+                                    "neutral": "All Universal Neutrals, All Fruit (except Fruit Tree Fruit & Salmonberry)",
+                                    "hate": "All Universal Dislikes (except Fish), All Foraged Minerals, All Gems (other than Diamond & Prismatic Shard),Chanterele, Common Mushroom, Ginger, Hazelnut, Holly, Leek, Magma Cap, Morel, Salmonberry, Wild Horseradish, Purple Mushroom, Snow Yam, Winter Root, Corn, Garlic, Parsnip Soup, Tortilla, All Fish, All Universal Hates"
                                 }
                             ],
                             "heart_events": [
                                 {
-                                    "2h": "",
-                                    "3h": "",
-                                    "4h": "",
-                                    "5h": "",
-                                    "6h": "",
-                                    "7h": "",
-                                    "8h": "",
-                                    "9h": "",
-                                    "10h": "",
-                                    "11h": "",
-                                    "12h": "",
-                                    "13h": "",
-                                    "14h": ""
+                                    "2h": "NA",
+                                    "3h": "After reaching 3 hearts with Pierre he will send you a recipe in the mail.",
+                                    "4h": "NA",
+                                    "5h": "NA",
+                                    "6h": "Enter Pierre's Shop to activate the cut-scene.",
+                                    "7h": "NA",
+                                    "8h": "NA",
+                                    "9h": "NA",
+                                    "10h": "NA",
+                                    "11h": "NA",
+                                    "12h": "NA",
+                                    "13h": "NA",
+                                    "14h": "NA"
                                 }
                             ]
                         },
                         {
                             "name": "Robin",
-                            "schedule": "",
-                            "birthday": "",
+                            "schedule": [
+                                "https://i.ibb.co/QMBp7Zs/Screenshot-2022-12-29-at-7-57-26-AM.png",
+                                "https://i.ibb.co/VMCv1L8/Screenshot-2022-12-29-at-7-57-42-AM.png",
+                                "https://i.ibb.co/ZBMfMVb/Screenshot-2022-12-29-at-7-57-35-AM.png",
+                                "https://i.ibb.co/qjB2RdM/Screenshot-2022-12-29-at-7-58-16-AM.png",
+                                "https://i.ibb.co/PCn6fp2/Screenshot-2022-12-29-at-7-58-08-AM.png",
+                                "https://i.ibb.co/k1DqGjn/Screenshot-2022-12-29-at-7-57-59-AM.png",
+                                "https://i.ibb.co/znf5xKw/Screenshot-2022-12-29-at-7-57-50-AM.png"
+                            ],
+                            "birthday": "Fall 21",
                             "gifts": [
                                 {
-                                    "love": "",
-                                    "like": "",
-                                    "neutral": "",
-                                    "hate": ""
+                                    "love": "All Universal Loves, Goat Cheese, Peach, Spaghetti",
+                                    "like": "All Universal Likes, All Milk, All Fruit (except Peach), Hardwood, Quartz",
+                                    "neutral": "All Universal Neutrals, All Eggs (except Void Egg), Chanterele, Common Mushroom, Daffodil, Dandelion, Ginger, Hazelnut, Leek, Magma Cap, Morel, Purple Mushroom, Snow Yam, Winter Root",
+                                    "hate": "All Universal Dislikes (except Hardwood), Wild Horseradish, All Universal Hates, Holly"
                                 }
                             ],
                             "heart_events": [
                                 {
-                                    "2h": "",
-                                    "3h": "",
-                                    "4h": "",
-                                    "5h": "",
-                                    "6h": "",
-                                    "7h": "",
-                                    "8h": "",
-                                    "9h": "",
-                                    "10h": "",
-                                    "11h": "",
-                                    "12h": "",
-                                    "13h": "",
-                                    "14h": ""
+                                    "2h": "NA",
+                                    "3h": "NA",
+                                    "4h": "NA",
+                                    "5h": "NA",
+                                    "6h": "Enter Robin's house while she is home.",
+                                    "7h": "After reaching 7 hearts with Robin she will send you a recipe in the mail.",
+                                    "8h": "NA",
+                                    "9h": "NA",
+                                    "10h": "NA",
+                                    "11h": "NA",
+                                    "12h": "NA",
+                                    "13h": "NA",
+                                    "14h": "NA"
                                 }
                             ]
                         },
                         {
                             "name": "Sandy",
-                            "schedule": "",
-                            "birthday": "",
+                            "schedule": [
+                            "https://i.ibb.co/CWhJY0m/Screenshot-2022-12-29-at-8-06-23-AM.png"
+                            ],
+                            "birthday": "Fall 15",
                             "gifts": [
                                 {
-                                    "love": "",
-                                    "like": "",
-                                    "neutral": "",
-                                    "hate": ""
+                                    "love": "All Universal Loves, Crocus, Daffodil, Mango Sticky Rice, Sweet Pea",
+                                    "like": "All Universal Likes, All Fruit, Goat Milk, Large Goat Milk, Quartz, Wool",
+                                    "neutral": "All Universal Neutrals (except Wool), All Eggs (except Void Egg), Chanterele, Common Mushroom, Dandelion, Ginger, Hazelnut, Large Milk, Leek, Magma Cap, Milk, Morel, Purple Mushroom, Snow Yam, Wild Horseradish, Winter Root",
+                                    "hate": "All Universal Dislikes, All Universal Hates, Holly"
                                 }
                             ],
                             "heart_events": [
                                 {
-                                    "2h": "",
-                                    "3h": "",
-                                    "4h": "",
-                                    "5h": "",
-                                    "6h": "",
-                                    "7h": "",
-                                    "8h": "",
-                                    "9h": "",
-                                    "10h": "",
-                                    "11h": "",
-                                    "12h": "",
-                                    "13h": "",
-                                    "14h": ""
+                                    "2h": "NA",
+                                    "3h": "NA",
+                                    "4h": "NA",
+                                    "5h": "NA",
+                                    "6h": "NA",
+                                    "7h": "After reaching seven hearts with Sandy, she will send you a recipe in the mail.",
+                                    "8h": "NA",
+                                    "9h": "NA",
+                                    "10h": "NA",
+                                    "11h": "NA",
+                                    "12h": "NA",
+                                    "13h": "NA",
+                                    "14h": "NA"
                                 }
                             ]
                         },
