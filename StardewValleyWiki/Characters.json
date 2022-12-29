@@ -1165,61 +1165,71 @@
                         },
                         {
                             "name": "Willy",
-                            "schedule": "",
-                            "birthday": "",
+                            "schedule": [
+                                "https://i.ibb.co/r7DQPhP/Screenshot-2022-12-29-at-8-28-28-AM.png",
+                                "https://i.ibb.co/fYmdpT9/Screenshot-2022-12-29-at-8-27-53-AM.png",
+                                "https://i.ibb.co/g49My8t/Screenshot-2022-12-29-at-8-27-44-AM.png",
+                                "https://i.ibb.co/0tMVnTr/Screenshot-2022-12-29-at-8-27-38-AM.png",
+                                "https://i.ibb.co/LhHM6nn/Screenshot-2022-12-29-at-8-27-30-AM.png",
+                                "https://i.ibb.co/7WWNMvL/Screenshot-2022-12-29-at-8-27-21-AM.png",
+                                "https://i.ibb.co/RgCR46v/Screenshot-2022-12-29-at-8-27-15-AM.png"
+                            ],
+                            "birthday": "Summer 24",
                             "gifts": [
                                 {
-                                    "love": "",
-                                    "like": "",
-                                    "neutral": "",
-                                    "hate": ""
+                                    "love": "All Universal Loves, Catfish, Diamond, Iridium Bar, Mead, Octopus, Pumpkin, Sea Cucumber, Sturgeon",
+                                    "like": "All Universal Likes (except Life Elixir, and All Cooking except for the fish dishes he is neutral towards: Dish O' The Sea, Maki Roll, & Sashimi; and the fish dishes he likes, shown below.), Gold Bar, Quartz, Lingcod, Tiger Trout, Baked Fish, Carp Suprise, Chowder, Crab Cakes, Crispy Bass, Fish Stew, Fish Taco, Fried Calamari, Fried Eel, Lobster Bisque, Salmon Dinner, Seafoam Pudding, Trout Soup",
+                                    "neutral": "All Universal Neutrals, All Eggs (except Void Egg), All Fish (except Carp, Catfish, Lingcod, Octopus, Sea Cucumber, Snail, Sturgeon, & Tiger Trout), All Fruit (except Fruit Tree Fruit & Salmonberry), All Milk, Dish O' The Sea, Maki Roll, Sashimi",
+                                    "hate": "All Universal Dislikes (except Fish, Gold Bar, & Iron Bar), All Cooking (except Baked Fish, Bread, Carp Surprise, Chowder, Crab Cakes, Crispy Bass, Dish O' The Sea, Fish Stew, Fish Taco, Fried Calamari, Fried Eel, Fried Egg, Lobster Bisque, Maki Roll, Salmon Dinner, Sashimi, Seafoam Pudding, Strange Bun, & Trout Soup), Chanterele, Common Mushroom, Daffodil, Dandelion, Ginger, Hazelnut, Holly, Leek, Life Elixir, Magma Cap, Morel, Purple Mushroom, Salmonberry, Snow Yam, Wild Horseradish, Winter Root, All Universal Hates (except Seafoam Pudding)"
                                 }
                             ],
                             "heart_events": [
                                 {
-                                    "2h": "",
-                                    "3h": "",
-                                    "4h": "",
-                                    "5h": "",
-                                    "6h": "",
-                                    "7h": "",
-                                    "8h": "",
-                                    "9h": "",
-                                    "10h": "",
-                                    "11h": "",
-                                    "12h": "",
-                                    "13h": "",
-                                    "14h": ""
+                                    "2h": "NA",
+                                    "3h": "After reaching three hearts with Willy he will send you a recipe in the mail.",
+                                    "4h": "NA",
+                                    "5h": "After reaching five hearts with Willy he will send you a recipe in the mail.",
+                                    "6h": "Enter The Beach between 6am and 5:10pm.",
+                                    "7h": "After reaching seven hearts with Willy he will send you a recipe in the mail.",
+                                    "8h": "NA",
+                                    "9h": "After reaching nine hearts with Willy he will send you a recipe in the mail.",
+                                    "10h": "NA",
+                                    "11h": "NA",
+                                    "12h": "NA",
+                                    "13h": "NA",
+                                    "14h": "NA"
                                 }
                             ]
                         },
                         {
                             "name": "Wizard",
-                            "schedule": "",
-                            "birthday": "",
+                            "schedule": [
+                            "https://i.ibb.co/4skkfBL/Screenshot-2022-12-29-at-8-47-36-AM.png"
+                            ],
+                            "birthday": "Winter 17",
                             "gifts": [
                                 {
-                                    "love": "",
-                                    "like": "",
-                                    "neutral": "",
-                                    "hate": ""
+                                    "love": "All Universal Loves, Purple Mushroom, Solar Essence, Super Cucumber, Void Essence",
+                                    "like": "All Universal Likes, All Geode Minerals, Quartz",
+                                    "neutral": "All Universal Neutrals, All Fruit (except Fruit Tree Fruit & Salmonberry)",
+                                    "hate": "All Universal Dislikes (except Geode Minerals, Solar Essence, Void Essence, & Super Cucumber), All Eggs, All Milk, Chanterele, Common Mushroom, Daffodil, Dandelion, Ginger, Hazelnut, Holly, Leek, Magma Cap, Morel, Salmonberry, Slime, Snow Yam, Wild Horseradish, Winter Root, All Universal Hates (except Slime)"
                                 }
                             ],
                             "heart_events": [
                                 {
-                                    "2h": "",
-                                    "3h": "",
-                                    "4h": "",
-                                    "5h": "",
-                                    "6h": "",
-                                    "7h": "",
-                                    "8h": "",
-                                    "9h": "",
-                                    "10h": "",
-                                    "11h": "",
-                                    "12h": "",
-                                    "13h": "",
-                                    "14h": ""
+                                    "2h": "NA",
+                                    "3h": "NA",
+                                    "4h": "Players gain access to the basement of the Wizard's Tower, where they can change their character's appearance at The Shrine of Illusions for 500 gold.",
+                                    "5h": "NA",
+                                    "6h": "NA",
+                                    "7h": "NA",
+                                    "8h": "NA",
+                                    "9h": "NA",
+                                    "10h": "NA",
+                                    "11h": "NA",
+                                    "12h": "NA",
+                                    "13h": "NA",
+                                    "14h": "NA"
                                 }
                             ]
                         }
@@ -2396,61 +2406,71 @@
                         },
                         {
                             "name": "Willy",
-                            "schedule": "",
-                            "birthday": "",
+                            "schedule": [
+                                "https://i.ibb.co/r7DQPhP/Screenshot-2022-12-29-at-8-28-28-AM.png",
+                                "https://i.ibb.co/fYmdpT9/Screenshot-2022-12-29-at-8-27-53-AM.png",
+                                "https://i.ibb.co/g49My8t/Screenshot-2022-12-29-at-8-27-44-AM.png",
+                                "https://i.ibb.co/0tMVnTr/Screenshot-2022-12-29-at-8-27-38-AM.png",
+                                "https://i.ibb.co/LhHM6nn/Screenshot-2022-12-29-at-8-27-30-AM.png",
+                                "https://i.ibb.co/7WWNMvL/Screenshot-2022-12-29-at-8-27-21-AM.png",
+                                "https://i.ibb.co/RgCR46v/Screenshot-2022-12-29-at-8-27-15-AM.png"
+                            ],
+                            "birthday": "Summer 24",
                             "gifts": [
                                 {
-                                    "love": "",
-                                    "like": "",
-                                    "neutral": "",
-                                    "hate": ""
+                                    "love": "All Universal Loves, Catfish, Diamond, Iridium Bar, Mead, Octopus, Pumpkin, Sea Cucumber, Sturgeon",
+                                    "like": "All Universal Likes (except Life Elixir, and All Cooking except for the fish dishes he is neutral towards: Dish O' The Sea, Maki Roll, & Sashimi; and the fish dishes he likes, shown below.), Gold Bar, Quartz, Lingcod, Tiger Trout, Baked Fish, Carp Suprise, Chowder, Crab Cakes, Crispy Bass, Fish Stew, Fish Taco, Fried Calamari, Fried Eel, Lobster Bisque, Salmon Dinner, Seafoam Pudding, Trout Soup",
+                                    "neutral": "All Universal Neutrals, All Eggs (except Void Egg), All Fish (except Carp, Catfish, Lingcod, Octopus, Sea Cucumber, Snail, Sturgeon, & Tiger Trout), All Fruit (except Fruit Tree Fruit & Salmonberry), All Milk, Dish O' The Sea, Maki Roll, Sashimi",
+                                    "hate": "All Universal Dislikes (except Fish, Gold Bar, & Iron Bar), All Cooking (except Baked Fish, Bread, Carp Surprise, Chowder, Crab Cakes, Crispy Bass, Dish O' The Sea, Fish Stew, Fish Taco, Fried Calamari, Fried Eel, Fried Egg, Lobster Bisque, Maki Roll, Salmon Dinner, Sashimi, Seafoam Pudding, Strange Bun, & Trout Soup), Chanterele, Common Mushroom, Daffodil, Dandelion, Ginger, Hazelnut, Holly, Leek, Life Elixir, Magma Cap, Morel, Purple Mushroom, Salmonberry, Snow Yam, Wild Horseradish, Winter Root, All Universal Hates (except Seafoam Pudding)"
                                 }
                             ],
                             "heart_events": [
                                 {
-                                    "2h": "",
-                                    "3h": "",
-                                    "4h": "",
-                                    "5h": "",
-                                    "6h": "",
-                                    "7h": "",
-                                    "8h": "",
-                                    "9h": "",
-                                    "10h": "",
-                                    "11h": "",
-                                    "12h": "",
-                                    "13h": "",
-                                    "14h": ""
+                                    "2h": "NA",
+                                    "3h": "After reaching three hearts with Willy he will send you a recipe in the mail.",
+                                    "4h": "NA",
+                                    "5h": "After reaching five hearts with Willy he will send you a recipe in the mail.",
+                                    "6h": "Enter The Beach between 6am and 5:10pm.",
+                                    "7h": "After reaching seven hearts with Willy he will send you a recipe in the mail.",
+                                    "8h": "NA",
+                                    "9h": "After reaching nine hearts with Willy he will send you a recipe in the mail.",
+                                    "10h": "NA",
+                                    "11h": "NA",
+                                    "12h": "NA",
+                                    "13h": "NA",
+                                    "14h": "NA"
                                 }
                             ]
                         },
                         {
                             "name": "Wizard",
-                            "schedule": "",
-                            "birthday": "",
+                            "schedule": [
+                            "https://i.ibb.co/4skkfBL/Screenshot-2022-12-29-at-8-47-36-AM.png"
+                            ],
+                            "birthday": "Winter 17",
                             "gifts": [
                                 {
-                                    "love": "",
-                                    "like": "",
-                                    "neutral": "",
-                                    "hate": ""
+                                    "love": "All Universal Loves, Purple Mushroom, Solar Essence, Super Cucumber, Void Essence",
+                                    "like": "All Universal Likes, All Geode Minerals, Quartz",
+                                    "neutral": "All Universal Neutrals, All Fruit (except Fruit Tree Fruit & Salmonberry)",
+                                    "hate": "All Universal Dislikes (except Geode Minerals, Solar Essence, Void Essence, & Super Cucumber), All Eggs, All Milk, Chanterele, Common Mushroom, Daffodil, Dandelion, Ginger, Hazelnut, Holly, Leek, Magma Cap, Morel, Salmonberry, Slime, Snow Yam, Wild Horseradish, Winter Root, All Universal Hates (except Slime)"
                                 }
                             ],
                             "heart_events": [
                                 {
-                                    "2h": "",
-                                    "3h": "",
-                                    "4h": "",
-                                    "5h": "",
-                                    "6h": "",
-                                    "7h": "",
-                                    "8h": "",
-                                    "9h": "",
-                                    "10h": "",
-                                    "11h": "",
-                                    "12h": "",
-                                    "13h": "",
-                                    "14h": ""
+                                    "2h": "NA",
+                                    "3h": "NA",
+                                    "4h": "Players gain access to the basement of the Wizard's Tower, where they can change their character's appearance at The Shrine of Illusions for 500 gold.",
+                                    "5h": "NA",
+                                    "6h": "NA",
+                                    "7h": "NA",
+                                    "8h": "NA",
+                                    "9h": "NA",
+                                    "10h": "NA",
+                                    "11h": "NA",
+                                    "12h": "NA",
+                                    "13h": "NA",
+                                    "14h": "NA"
                                 }
                             ]
                         }
@@ -3610,61 +3630,71 @@
                         },
                         {
                             "name": "Willy",
-                            "schedule": "",
-                            "birthday": "",
+                            "schedule": [
+                                "https://i.ibb.co/r7DQPhP/Screenshot-2022-12-29-at-8-28-28-AM.png",
+                                "https://i.ibb.co/fYmdpT9/Screenshot-2022-12-29-at-8-27-53-AM.png",
+                                "https://i.ibb.co/g49My8t/Screenshot-2022-12-29-at-8-27-44-AM.png",
+                                "https://i.ibb.co/0tMVnTr/Screenshot-2022-12-29-at-8-27-38-AM.png",
+                                "https://i.ibb.co/LhHM6nn/Screenshot-2022-12-29-at-8-27-30-AM.png",
+                                "https://i.ibb.co/7WWNMvL/Screenshot-2022-12-29-at-8-27-21-AM.png",
+                                "https://i.ibb.co/RgCR46v/Screenshot-2022-12-29-at-8-27-15-AM.png"
+                            ],
+                            "birthday": "Summer 24",
                             "gifts": [
                                 {
-                                    "love": "",
-                                    "like": "",
-                                    "neutral": "",
-                                    "hate": ""
+                                    "love": "All Universal Loves, Catfish, Diamond, Iridium Bar, Mead, Octopus, Pumpkin, Sea Cucumber, Sturgeon",
+                                    "like": "All Universal Likes (except Life Elixir, and All Cooking except for the fish dishes he is neutral towards: Dish O' The Sea, Maki Roll, & Sashimi; and the fish dishes he likes, shown below.), Gold Bar, Quartz, Lingcod, Tiger Trout, Baked Fish, Carp Suprise, Chowder, Crab Cakes, Crispy Bass, Fish Stew, Fish Taco, Fried Calamari, Fried Eel, Lobster Bisque, Salmon Dinner, Seafoam Pudding, Trout Soup",
+                                    "neutral": "All Universal Neutrals, All Eggs (except Void Egg), All Fish (except Carp, Catfish, Lingcod, Octopus, Sea Cucumber, Snail, Sturgeon, & Tiger Trout), All Fruit (except Fruit Tree Fruit & Salmonberry), All Milk, Dish O' The Sea, Maki Roll, Sashimi",
+                                    "hate": "All Universal Dislikes (except Fish, Gold Bar, & Iron Bar), All Cooking (except Baked Fish, Bread, Carp Surprise, Chowder, Crab Cakes, Crispy Bass, Dish O' The Sea, Fish Stew, Fish Taco, Fried Calamari, Fried Eel, Fried Egg, Lobster Bisque, Maki Roll, Salmon Dinner, Sashimi, Seafoam Pudding, Strange Bun, & Trout Soup), Chanterele, Common Mushroom, Daffodil, Dandelion, Ginger, Hazelnut, Holly, Leek, Life Elixir, Magma Cap, Morel, Purple Mushroom, Salmonberry, Snow Yam, Wild Horseradish, Winter Root, All Universal Hates (except Seafoam Pudding)"
                                 }
                             ],
                             "heart_events": [
                                 {
-                                    "2h": "",
-                                    "3h": "",
-                                    "4h": "",
-                                    "5h": "",
-                                    "6h": "",
-                                    "7h": "",
-                                    "8h": "",
-                                    "9h": "",
-                                    "10h": "",
-                                    "11h": "",
-                                    "12h": "",
-                                    "13h": "",
-                                    "14h": ""
+                                    "2h": "NA",
+                                    "3h": "After reaching three hearts with Willy he will send you a recipe in the mail.",
+                                    "4h": "NA",
+                                    "5h": "After reaching five hearts with Willy he will send you a recipe in the mail.",
+                                    "6h": "Enter The Beach between 6am and 5:10pm.",
+                                    "7h": "After reaching seven hearts with Willy he will send you a recipe in the mail.",
+                                    "8h": "NA",
+                                    "9h": "After reaching nine hearts with Willy he will send you a recipe in the mail.",
+                                    "10h": "NA",
+                                    "11h": "NA",
+                                    "12h": "NA",
+                                    "13h": "NA",
+                                    "14h": "NA"
                                 }
                             ]
                         },
                         {
                             "name": "Wizard",
-                            "schedule": "",
-                            "birthday": "",
+                            "schedule": [
+                            "https://i.ibb.co/4skkfBL/Screenshot-2022-12-29-at-8-47-36-AM.png"
+                            ],
+                            "birthday": "Winter 17",
                             "gifts": [
                                 {
-                                    "love": "",
-                                    "like": "",
-                                    "neutral": "",
-                                    "hate": ""
+                                    "love": "All Universal Loves, Purple Mushroom, Solar Essence, Super Cucumber, Void Essence",
+                                    "like": "All Universal Likes, All Geode Minerals, Quartz",
+                                    "neutral": "All Universal Neutrals, All Fruit (except Fruit Tree Fruit & Salmonberry)",
+                                    "hate": "All Universal Dislikes (except Geode Minerals, Solar Essence, Void Essence, & Super Cucumber), All Eggs, All Milk, Chanterele, Common Mushroom, Daffodil, Dandelion, Ginger, Hazelnut, Holly, Leek, Magma Cap, Morel, Salmonberry, Slime, Snow Yam, Wild Horseradish, Winter Root, All Universal Hates (except Slime)"
                                 }
                             ],
                             "heart_events": [
                                 {
-                                    "2h": "",
-                                    "3h": "",
-                                    "4h": "",
-                                    "5h": "",
-                                    "6h": "",
-                                    "7h": "",
-                                    "8h": "",
-                                    "9h": "",
-                                    "10h": "",
-                                    "11h": "",
-                                    "12h": "",
-                                    "13h": "",
-                                    "14h": ""
+                                    "2h": "NA",
+                                    "3h": "NA",
+                                    "4h": "Players gain access to the basement of the Wizard's Tower, where they can change their character's appearance at The Shrine of Illusions for 500 gold.",
+                                    "5h": "NA",
+                                    "6h": "NA",
+                                    "7h": "NA",
+                                    "8h": "NA",
+                                    "9h": "NA",
+                                    "10h": "NA",
+                                    "11h": "NA",
+                                    "12h": "NA",
+                                    "13h": "NA",
+                                    "14h": "NA"
                                 }
                             ]
                         }
@@ -4841,61 +4871,71 @@
                         },
                         {
                             "name": "Willy",
-                            "schedule": "",
-                            "birthday": "",
+                            "schedule": [
+                                "https://i.ibb.co/r7DQPhP/Screenshot-2022-12-29-at-8-28-28-AM.png",
+                                "https://i.ibb.co/fYmdpT9/Screenshot-2022-12-29-at-8-27-53-AM.png",
+                                "https://i.ibb.co/g49My8t/Screenshot-2022-12-29-at-8-27-44-AM.png",
+                                "https://i.ibb.co/0tMVnTr/Screenshot-2022-12-29-at-8-27-38-AM.png",
+                                "https://i.ibb.co/LhHM6nn/Screenshot-2022-12-29-at-8-27-30-AM.png",
+                                "https://i.ibb.co/7WWNMvL/Screenshot-2022-12-29-at-8-27-21-AM.png",
+                                "https://i.ibb.co/RgCR46v/Screenshot-2022-12-29-at-8-27-15-AM.png"
+                            ],
+                            "birthday": "Summer 24",
                             "gifts": [
                                 {
-                                    "love": "",
-                                    "like": "",
-                                    "neutral": "",
-                                    "hate": ""
+                                    "love": "All Universal Loves, Catfish, Diamond, Iridium Bar, Mead, Octopus, Pumpkin, Sea Cucumber, Sturgeon",
+                                    "like": "All Universal Likes (except Life Elixir, and All Cooking except for the fish dishes he is neutral towards: Dish O' The Sea, Maki Roll, & Sashimi; and the fish dishes he likes, shown below.), Gold Bar, Quartz, Lingcod, Tiger Trout, Baked Fish, Carp Suprise, Chowder, Crab Cakes, Crispy Bass, Fish Stew, Fish Taco, Fried Calamari, Fried Eel, Lobster Bisque, Salmon Dinner, Seafoam Pudding, Trout Soup",
+                                    "neutral": "All Universal Neutrals, All Eggs (except Void Egg), All Fish (except Carp, Catfish, Lingcod, Octopus, Sea Cucumber, Snail, Sturgeon, & Tiger Trout), All Fruit (except Fruit Tree Fruit & Salmonberry), All Milk, Dish O' The Sea, Maki Roll, Sashimi",
+                                    "hate": "All Universal Dislikes (except Fish, Gold Bar, & Iron Bar), All Cooking (except Baked Fish, Bread, Carp Surprise, Chowder, Crab Cakes, Crispy Bass, Dish O' The Sea, Fish Stew, Fish Taco, Fried Calamari, Fried Eel, Fried Egg, Lobster Bisque, Maki Roll, Salmon Dinner, Sashimi, Seafoam Pudding, Strange Bun, & Trout Soup), Chanterele, Common Mushroom, Daffodil, Dandelion, Ginger, Hazelnut, Holly, Leek, Life Elixir, Magma Cap, Morel, Purple Mushroom, Salmonberry, Snow Yam, Wild Horseradish, Winter Root, All Universal Hates (except Seafoam Pudding)"
                                 }
                             ],
                             "heart_events": [
                                 {
-                                    "2h": "",
-                                    "3h": "",
-                                    "4h": "",
-                                    "5h": "",
-                                    "6h": "",
-                                    "7h": "",
-                                    "8h": "",
-                                    "9h": "",
-                                    "10h": "",
-                                    "11h": "",
-                                    "12h": "",
-                                    "13h": "",
-                                    "14h": ""
+                                    "2h": "NA",
+                                    "3h": "After reaching three hearts with Willy he will send you a recipe in the mail.",
+                                    "4h": "NA",
+                                    "5h": "After reaching five hearts with Willy he will send you a recipe in the mail.",
+                                    "6h": "Enter The Beach between 6am and 5:10pm.",
+                                    "7h": "After reaching seven hearts with Willy he will send you a recipe in the mail.",
+                                    "8h": "NA",
+                                    "9h": "After reaching nine hearts with Willy he will send you a recipe in the mail.",
+                                    "10h": "NA",
+                                    "11h": "NA",
+                                    "12h": "NA",
+                                    "13h": "NA",
+                                    "14h": "NA"
                                 }
                             ]
                         },
                         {
                             "name": "Wizard",
-                            "schedule": "",
-                            "birthday": "",
+                            "schedule": [
+                            "https://i.ibb.co/4skkfBL/Screenshot-2022-12-29-at-8-47-36-AM.png"
+                            ],
+                            "birthday": "Winter 17",
                             "gifts": [
                                 {
-                                    "love": "",
-                                    "like": "",
-                                    "neutral": "",
-                                    "hate": ""
+                                    "love": "All Universal Loves, Purple Mushroom, Solar Essence, Super Cucumber, Void Essence",
+                                    "like": "All Universal Likes, All Geode Minerals, Quartz",
+                                    "neutral": "All Universal Neutrals, All Fruit (except Fruit Tree Fruit & Salmonberry)",
+                                    "hate": "All Universal Dislikes (except Geode Minerals, Solar Essence, Void Essence, & Super Cucumber), All Eggs, All Milk, Chanterele, Common Mushroom, Daffodil, Dandelion, Ginger, Hazelnut, Holly, Leek, Magma Cap, Morel, Salmonberry, Slime, Snow Yam, Wild Horseradish, Winter Root, All Universal Hates (except Slime)"
                                 }
                             ],
                             "heart_events": [
                                 {
-                                    "2h": "",
-                                    "3h": "",
-                                    "4h": "",
-                                    "5h": "",
-                                    "6h": "",
-                                    "7h": "",
-                                    "8h": "",
-                                    "9h": "",
-                                    "10h": "",
-                                    "11h": "",
-                                    "12h": "",
-                                    "13h": "",
-                                    "14h": ""
+                                    "2h": "NA",
+                                    "3h": "NA",
+                                    "4h": "Players gain access to the basement of the Wizard's Tower, where they can change their character's appearance at The Shrine of Illusions for 500 gold.",
+                                    "5h": "NA",
+                                    "6h": "NA",
+                                    "7h": "NA",
+                                    "8h": "NA",
+                                    "9h": "NA",
+                                    "10h": "NA",
+                                    "11h": "NA",
+                                    "12h": "NA",
+                                    "13h": "NA",
+                                    "14h": "NA"
                                 }
                             ]
                         }
