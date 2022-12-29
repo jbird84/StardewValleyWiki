@@ -1127,31 +1127,39 @@
                         },
                         {
                             "name": "Vincent",
-                            "schedule": "",
-                            "birthday": "",
+                            "schedule": [
+                            "https://i.ibb.co/mBkcFhR/Screenshot-2022-12-29-at-8-15-08-AM.png",
+                            "https://i.ibb.co/QXNyz8F/Screenshot-2022-12-29-at-8-15-01-AM.png",
+                            "https://i.ibb.co/qk70Pby/Screenshot-2022-12-29-at-8-14-52-AM.png",
+                            "https://i.ibb.co/v44KDRS/Screenshot-2022-12-29-at-8-14-44-AM.png",
+                            "https://i.ibb.co/fF4C7NY/Screenshot-2022-12-29-at-8-14-36-AM.png",
+                            "https://i.ibb.co/wW2bKhr/Screenshot-2022-12-29-at-8-14-29-AM.png",
+                            "https://i.ibb.co/GM1cThD/Screenshot-2022-12-29-at-8-14-22-AM.png"
+                            ],
+                            "birthday": "Spring 10",
                             "gifts": [
                                 {
-                                    "love": "",
-                                    "like": "",
-                                    "neutral": "",
-                                    "hate": ""
+                                    "love": "All Universal Loves, Cranberry Candy, Ginger Ale, Grape, Pink Cake, Snail",
+                                    "like": "All Universal Likes (except Triple Shot Espresso, Vegetables and Artisan Goods other than Honey, Jelly, & Oil), Coconut, Daffodil",
+                                    "neutral": "All Universal Neutrals, All Milk",
+                                    "hate": "All Universal Dislikes (except Clay), All Eggs, All Fruit (except Coconut, Grape, & Fruit Tree Fruit), All Vegetables (except Hops, Tea Leaves, & Wheat), Chanterele, Common Mushroom, Dandelion, Ginger, Hazelnut, Holly, Leek, Magma Cap, Morel, Purple Mushroom, Quartz, Snow Yam, Wild Horseradish, Winter Root, All Universal Hates (except Snail), All Artisan Goods (except Honey, Jelly & Oil), Clay, Pina Colada, Triple Shot Espresso"
                                 }
                             ],
                             "heart_events": [
                                 {
-                                    "2h": "",
-                                    "3h": "",
-                                    "4h": "",
-                                    "5h": "",
-                                    "6h": "",
-                                    "7h": "",
-                                    "8h": "",
-                                    "9h": "",
-                                    "10h": "",
-                                    "11h": "",
-                                    "12h": "",
-                                    "13h": "",
-                                    "14h": ""
+                                    "2h": "NA",
+                                    "3h": "NA",
+                                    "4h": "NA",
+                                    "5h": "NA",
+                                    "6h": "NA",
+                                    "7h": "NA",
+                                    "8h": "After reaching 8 hearts with both Vincent and Jas, enter Cindersap Forest during Spring on a sunny day between 6am and 5pm.",
+                                    "9h": "NA",
+                                    "10h": "NA",
+                                    "11h": "NA",
+                                    "12h": "NA",
+                                    "13h": "NA",
+                                    "14h": "NA"
                                 }
                             ]
                         },
@@ -2350,31 +2358,39 @@
                         },
                         {
                             "name": "Vincent",
-                            "schedule": "",
-                            "birthday": "",
+                            "schedule": [
+                            "https://i.ibb.co/mBkcFhR/Screenshot-2022-12-29-at-8-15-08-AM.png",
+                            "https://i.ibb.co/QXNyz8F/Screenshot-2022-12-29-at-8-15-01-AM.png",
+                            "https://i.ibb.co/qk70Pby/Screenshot-2022-12-29-at-8-14-52-AM.png",
+                            "https://i.ibb.co/v44KDRS/Screenshot-2022-12-29-at-8-14-44-AM.png",
+                            "https://i.ibb.co/fF4C7NY/Screenshot-2022-12-29-at-8-14-36-AM.png",
+                            "https://i.ibb.co/wW2bKhr/Screenshot-2022-12-29-at-8-14-29-AM.png",
+                            "https://i.ibb.co/GM1cThD/Screenshot-2022-12-29-at-8-14-22-AM.png"
+                            ],
+                            "birthday": "Spring 10",
                             "gifts": [
                                 {
-                                    "love": "",
-                                    "like": "",
-                                    "neutral": "",
-                                    "hate": ""
+                                    "love": "All Universal Loves, Cranberry Candy, Ginger Ale, Grape, Pink Cake, Snail",
+                                    "like": "All Universal Likes (except Triple Shot Espresso, Vegetables and Artisan Goods other than Honey, Jelly, & Oil), Coconut, Daffodil",
+                                    "neutral": "All Universal Neutrals, All Milk",
+                                    "hate": "All Universal Dislikes (except Clay), All Eggs, All Fruit (except Coconut, Grape, & Fruit Tree Fruit), All Vegetables (except Hops, Tea Leaves, & Wheat), Chanterele, Common Mushroom, Dandelion, Ginger, Hazelnut, Holly, Leek, Magma Cap, Morel, Purple Mushroom, Quartz, Snow Yam, Wild Horseradish, Winter Root, All Universal Hates (except Snail), All Artisan Goods (except Honey, Jelly & Oil), Clay, Pina Colada, Triple Shot Espresso"
                                 }
                             ],
                             "heart_events": [
                                 {
-                                    "2h": "",
-                                    "3h": "",
-                                    "4h": "",
-                                    "5h": "",
-                                    "6h": "",
-                                    "7h": "",
-                                    "8h": "",
-                                    "9h": "",
-                                    "10h": "",
-                                    "11h": "",
-                                    "12h": "",
-                                    "13h": "",
-                                    "14h": ""
+                                    "2h": "NA",
+                                    "3h": "NA",
+                                    "4h": "NA",
+                                    "5h": "NA",
+                                    "6h": "NA",
+                                    "7h": "NA",
+                                    "8h": "After reaching 8 hearts with both Vincent and Jas, enter Cindersap Forest during Spring on a sunny day between 6am and 5pm.",
+                                    "9h": "NA",
+                                    "10h": "NA",
+                                    "11h": "NA",
+                                    "12h": "NA",
+                                    "13h": "NA",
+                                    "14h": "NA"
                                 }
                             ]
                         },
@@ -3556,31 +3572,39 @@
                         },
                         {
                             "name": "Vincent",
-                            "schedule": "",
-                            "birthday": "",
+                            "schedule": [
+                            "https://i.ibb.co/mBkcFhR/Screenshot-2022-12-29-at-8-15-08-AM.png",
+                            "https://i.ibb.co/QXNyz8F/Screenshot-2022-12-29-at-8-15-01-AM.png",
+                            "https://i.ibb.co/qk70Pby/Screenshot-2022-12-29-at-8-14-52-AM.png",
+                            "https://i.ibb.co/v44KDRS/Screenshot-2022-12-29-at-8-14-44-AM.png",
+                            "https://i.ibb.co/fF4C7NY/Screenshot-2022-12-29-at-8-14-36-AM.png",
+                            "https://i.ibb.co/wW2bKhr/Screenshot-2022-12-29-at-8-14-29-AM.png",
+                            "https://i.ibb.co/GM1cThD/Screenshot-2022-12-29-at-8-14-22-AM.png"
+                            ],
+                            "birthday": "Spring 10",
                             "gifts": [
                                 {
-                                    "love": "",
-                                    "like": "",
-                                    "neutral": "",
-                                    "hate": ""
+                                    "love": "All Universal Loves, Cranberry Candy, Ginger Ale, Grape, Pink Cake, Snail",
+                                    "like": "All Universal Likes (except Triple Shot Espresso, Vegetables and Artisan Goods other than Honey, Jelly, & Oil), Coconut, Daffodil",
+                                    "neutral": "All Universal Neutrals, All Milk",
+                                    "hate": "All Universal Dislikes (except Clay), All Eggs, All Fruit (except Coconut, Grape, & Fruit Tree Fruit), All Vegetables (except Hops, Tea Leaves, & Wheat), Chanterele, Common Mushroom, Dandelion, Ginger, Hazelnut, Holly, Leek, Magma Cap, Morel, Purple Mushroom, Quartz, Snow Yam, Wild Horseradish, Winter Root, All Universal Hates (except Snail), All Artisan Goods (except Honey, Jelly & Oil), Clay, Pina Colada, Triple Shot Espresso"
                                 }
                             ],
                             "heart_events": [
                                 {
-                                    "2h": "",
-                                    "3h": "",
-                                    "4h": "",
-                                    "5h": "",
-                                    "6h": "",
-                                    "7h": "",
-                                    "8h": "",
-                                    "9h": "",
-                                    "10h": "",
-                                    "11h": "",
-                                    "12h": "",
-                                    "13h": "",
-                                    "14h": ""
+                                    "2h": "NA",
+                                    "3h": "NA",
+                                    "4h": "NA",
+                                    "5h": "NA",
+                                    "6h": "NA",
+                                    "7h": "NA",
+                                    "8h": "After reaching 8 hearts with both Vincent and Jas, enter Cindersap Forest during Spring on a sunny day between 6am and 5pm.",
+                                    "9h": "NA",
+                                    "10h": "NA",
+                                    "11h": "NA",
+                                    "12h": "NA",
+                                    "13h": "NA",
+                                    "14h": "NA"
                                 }
                             ]
                         },
@@ -4779,31 +4803,39 @@
                         },
                         {
                             "name": "Vincent",
-                            "schedule": "",
-                            "birthday": "",
+                            "schedule": [
+                            "https://i.ibb.co/mBkcFhR/Screenshot-2022-12-29-at-8-15-08-AM.png",
+                            "https://i.ibb.co/QXNyz8F/Screenshot-2022-12-29-at-8-15-01-AM.png",
+                            "https://i.ibb.co/qk70Pby/Screenshot-2022-12-29-at-8-14-52-AM.png",
+                            "https://i.ibb.co/v44KDRS/Screenshot-2022-12-29-at-8-14-44-AM.png",
+                            "https://i.ibb.co/fF4C7NY/Screenshot-2022-12-29-at-8-14-36-AM.png",
+                            "https://i.ibb.co/wW2bKhr/Screenshot-2022-12-29-at-8-14-29-AM.png",
+                            "https://i.ibb.co/GM1cThD/Screenshot-2022-12-29-at-8-14-22-AM.png"
+                            ],
+                            "birthday": "Spring 10",
                             "gifts": [
                                 {
-                                    "love": "",
-                                    "like": "",
-                                    "neutral": "",
-                                    "hate": ""
+                                    "love": "All Universal Loves, Cranberry Candy, Ginger Ale, Grape, Pink Cake, Snail",
+                                    "like": "All Universal Likes (except Triple Shot Espresso, Vegetables and Artisan Goods other than Honey, Jelly, & Oil), Coconut, Daffodil",
+                                    "neutral": "All Universal Neutrals, All Milk",
+                                    "hate": "All Universal Dislikes (except Clay), All Eggs, All Fruit (except Coconut, Grape, & Fruit Tree Fruit), All Vegetables (except Hops, Tea Leaves, & Wheat), Chanterele, Common Mushroom, Dandelion, Ginger, Hazelnut, Holly, Leek, Magma Cap, Morel, Purple Mushroom, Quartz, Snow Yam, Wild Horseradish, Winter Root, All Universal Hates (except Snail), All Artisan Goods (except Honey, Jelly & Oil), Clay, Pina Colada, Triple Shot Espresso"
                                 }
                             ],
                             "heart_events": [
                                 {
-                                    "2h": "",
-                                    "3h": "",
-                                    "4h": "",
-                                    "5h": "",
-                                    "6h": "",
-                                    "7h": "",
-                                    "8h": "",
-                                    "9h": "",
-                                    "10h": "",
-                                    "11h": "",
-                                    "12h": "",
-                                    "13h": "",
-                                    "14h": ""
+                                    "2h": "NA",
+                                    "3h": "NA",
+                                    "4h": "NA",
+                                    "5h": "NA",
+                                    "6h": "NA",
+                                    "7h": "NA",
+                                    "8h": "After reaching 8 hearts with both Vincent and Jas, enter Cindersap Forest during Spring on a sunny day between 6am and 5pm.",
+                                    "9h": "NA",
+                                    "10h": "NA",
+                                    "11h": "NA",
+                                    "12h": "NA",
+                                    "13h": "NA",
+                                    "14h": "NA"
                                 }
                             ]
                         },
