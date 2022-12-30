@@ -38,27 +38,10 @@ struct Gift: Codable {
 
 // MARK: - HeartEvent
 struct HeartEvent: Codable {
-    let the2H, the3H, the4H: String?
-    let the5H: String
-    let the6H, the7H: String?
-    let the8H, the9H, the10H: String
-    let the11H, the12H, the13H: The11_H
-    let the14H: String
-    let the7H1, the7H2, the7H3, the6H1: String?
-    let the6H2: String?
-    let the3H1: The3H1?
-    let the3H2: String?
-}
-
-enum The11_H: Codable {
-    case empty
-    case na
-}
-
-enum The3H1: Codable {
-    case enterKentSHomeWhileHeAndJodiAreBothThere
-    case leaveYourFarmhouseBetween630Am930Am
-    case visitTheSaloonBetween7PmAnd11PmOnAMonday
+    let twoHearts, threeHearts, threeHearts2, fourHearts: String
+    let fiveHearts, sixHearts, sixHearts2, sevenHearts: String
+    let sevenHearts2, sevenHearts3, eightHearts, nineHearts: String
+    let tenHearts, elevenHearts, twelveHearts, thirteenHearts, fourteenHearts: String
 }
 
 
