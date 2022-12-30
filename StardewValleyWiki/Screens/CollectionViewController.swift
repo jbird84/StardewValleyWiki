@@ -55,6 +55,9 @@ class CollectionViewController: UIViewController {
         configureViewController()
     }
     
+    override func viewWillAppear(_ animated: Bool) {
+        collectionView.isHidden = false
+    }
     
     private func configureCollectionView() {
         
@@ -87,7 +90,7 @@ extension CollectionViewController: UICollectionViewDelegate, UICollectionViewDa
     func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
         if let data = FileLoader.readLocalJSONFile("Characters") {
             let character = FileLoader.loadJson(data)
-            
+            collectionView.isHidden = true
             for season in character.seasons {
                 switch mainSeason {
                 case "spring":
@@ -102,17 +105,17 @@ extension CollectionViewController: UICollectionViewDelegate, UICollectionViewDa
                     cData = season.spring
                 }
             }
-            let vc = CharacterDetailsViewController(nibName: "CharacterDetailsViewController", bundle: nil)
+            let vc = CharacterDetailsViewController()
             for characters in cData {
                 for character in characters.characters {
                     if character.name.capitalized == self.characters[indexPath.row].characterNameLabel.capitalized {
                         vc.character = character
                         vc.title = character.name.capitalized
+                        break
                     }
                 }
             }
-            navigationController?.pushViewController(vc, animated: true)
-            
+            navigationController?.pushViewController(vc, animated: false)
         }
     }
 }
