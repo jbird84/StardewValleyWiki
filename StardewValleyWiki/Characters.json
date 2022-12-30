@@ -786,23 +786,23 @@
                         "hate": "All Universal Dislikes, Quartz, Snow Yam, Pina Colada, All Universal Hates,  All Milk, Algae Soup, Holly, Sashimi, Tortilla"
                     }],
                     "heart_events": [{
-                                                        "twoHearts": "NA",
-                                                        "threeHearts": "Enter Kent's home while he and Jodi are both there.",
-                                                        "threeHearts2": "After reaching three hearts with Kent, he will send the player a recipe in the mail.",
-                                                        "fourHearts": "NA",
-                                                        "fiveHearts": "NA",
-                                                        "sixHearts": "NA",
-                                                        "sixHearts2": "NA",
-                                                        "sevenHearts": "After reaching seven hearts with Kent, he will send the player a recipe in the mail.",
-                                                        "sevenHearts2": "NA",
-                                                        "sevenHearts3": "NA",
-                                                        "eightHearts": "NA",
-                                                        "nineHearts": "NA",
-                                                        "tenHearts":"NA",
-                                                        "elevenHearts": "NA",
-                                                        "twelveHearts": "NA",
-                                                        "thirteenHearts": "NA",
-                                                        "fourteenHearts": "NA"
+                        "twoHearts": "NA",
+                        "threeHearts": "Enter Kent's home while he and Jodi are both there.",
+                        "threeHearts2": "After reaching three hearts with Kent, he will send the player a recipe in the mail.",
+                        "fourHearts": "NA",
+                        "fiveHearts": "NA",
+                        "sixHearts": "NA",
+                        "sixHearts2": "NA",
+                        "sevenHearts": "After reaching seven hearts with Kent, he will send the player a recipe in the mail.",
+                        "sevenHearts2": "NA",
+                        "sevenHearts3": "NA",
+                        "eightHearts": "NA",
+                        "nineHearts": "NA",
+                        "tenHearts":"NA",
+                        "elevenHearts": "NA",
+                        "twelveHearts": "NA",
+                        "thirteenHearts": "NA",
+                        "fourteenHearts": "NA"
                     }]
                 },
                 {
@@ -2000,7 +2000,7 @@
                         "twelveHearts": "NA",
                         "thirteenHearts": "NA",
                         "fourteenHearts": "NA"
-}]
+                    }]
                 },
                 {
                     "name": "Kent",
@@ -2036,7 +2036,7 @@
                         "twelveHearts": "NA",
                         "thirteenHearts": "NA",
                         "fourteenHearts": "NA"
-}]
+                    }]
                 },
                 {
                     "name": "Krobus",
@@ -3223,7 +3223,7 @@
                         "twelveHearts": "NA",
                         "thirteenHearts": "NA",
                         "fourteenHearts": "NA"
-}]
+                    }]
                 },
                 {
                     "name": "Kent",
@@ -3259,7 +3259,7 @@
                         "twelveHearts": "NA",
                         "thirteenHearts": "NA",
                         "fourteenHearts": "NA"
-}]
+                    }]
                 },
                 {
                     "name": "Krobus",
@@ -4458,7 +4458,7 @@
                         "twelveHearts": "NA",
                         "thirteenHearts": "NA",
                         "fourteenHearts": "NA"
-}]
+                    }]
                 },
                 {
                     "name": "Kent",
@@ -4494,7 +4494,7 @@
                         "twelveHearts": "NA",
                         "thirteenHearts": "NA",
                         "fourteenHearts": "NA"
-}]
+                    }]
                 },
                 {
                     "name": "Krobus",
