@@ -11,4 +11,5 @@ import UIKit
 struct CharacterImageData {
     let characterImageName: String
     let characterNameLabel: String
+    let characterDetailsLabel: String
 }
