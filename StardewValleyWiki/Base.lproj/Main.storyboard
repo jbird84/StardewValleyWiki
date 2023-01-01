@@ -158,13 +158,13 @@
         <!--Character Details View Controller-->
         <scene sceneID="XSY-oz-6lw">
             <objects>
-                <viewController id="66d-zd-t5D" customClass="CharacterDetailsViewController" customModule="StardewValleyWiki" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="detailsVC" id="66d-zd-t5D" customClass="CharacterDetailsViewController" customModule="StardewValleyWiki" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="B21-B1-mNn">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="H7c-Pj-qi5">
-                                <rect key="frame" x="49.666666666666657" y="94" width="294" height="40"/>
+                                <rect key="frame" x="0.66666666666665719" y="94" width="392" height="40"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Pg9-ok-VgG">
                                         <rect key="frame" x="0.0" y="0.0" width="98" height="40"/>
@@ -211,18 +211,33 @@
                                             <action selector="giftsButtonTapped:" destination="66d-zd-t5D" eventType="touchUpInside" id="To4-CT-dQv"/>
                                         </connections>
                                     </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0Ss-Ik-jzj">
+                                        <rect key="frame" x="294" y="0.0" width="98" height="40"/>
+                                        <color key="backgroundColor" red="0.86274509803921573" green="0.1737051966554122" blue="0.27495266683910402" alpha="0.66520074500000004" colorSpace="custom" customColorSpace="displayP3"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="40" id="S4X-eO-ade"/>
+                                            <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="98" id="m6j-yd-XsG"/>
+                                        </constraints>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="plain" title="Hearts">
+                                            <color key="baseForegroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </buttonConfiguration>
+                                        <connections>
+                                            <action selector="heartsButtonTapped:" destination="66d-zd-t5D" eventType="touchUpInside" id="F5c-aP-Exi"/>
+                                        </connections>
+                                    </button>
                                 </subviews>
                             </stackView>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="E0X-35-TMR">
                                 <rect key="frame" x="0.0" y="149" width="393" height="703"/>
-                                <color key="backgroundColor" red="0.86657356699999999" green="0.96611279250000004" blue="0.40460043569999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <color key="backgroundColor" red="0.44433180179999998" green="0.96611279250000004" blue="0.93220395010000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                             </view>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="Qo4-7d-Rw8"/>
-                        <color key="backgroundColor" red="0.86657356696019594" green="0.96611279249191284" blue="0.40460043572187349" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <color key="backgroundColor" red="0.44433180180506943" green="0.96611279249191284" blue="0.9322039500647058" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                         <constraints>
                             <constraint firstItem="E0X-35-TMR" firstAttribute="top" secondItem="H7c-Pj-qi5" secondAttribute="bottom" constant="15" id="KFS-im-ToO"/>
-                            <constraint firstAttribute="bottom" secondItem="E0X-35-TMR" secondAttribute="bottom" id="KpM-IB-YA6"/>
+                            <constraint firstItem="Qo4-7d-Rw8" firstAttribute="bottom" secondItem="E0X-35-TMR" secondAttribute="bottom" constant="-34" id="KpM-IB-YA6"/>
                             <constraint firstItem="H7c-Pj-qi5" firstAttribute="centerX" secondItem="B21-B1-mNn" secondAttribute="centerX" id="V2A-20-d0g"/>
                             <constraint firstItem="H7c-Pj-qi5" firstAttribute="top" secondItem="Qo4-7d-Rw8" secondAttribute="top" constant="35" id="XwZ-Qz-HdY"/>
                             <constraint firstItem="E0X-35-TMR" firstAttribute="leading" secondItem="Qo4-7d-Rw8" secondAttribute="leading" id="pwO-Uc-H9I"/>
@@ -235,7 +250,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="RT7-iv-FGm" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2756" y="5"/>
+            <point key="canvasLocation" x="2754.9618320610684" y="4.9295774647887329"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="IDD-fY-r1L">

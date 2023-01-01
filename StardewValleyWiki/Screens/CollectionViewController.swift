@@ -105,11 +105,12 @@ extension CollectionViewController: UICollectionViewDelegate, UICollectionViewDa
                     cData = season.spring
                 }
             }
-            let vc = CharacterDetailsViewController()
+            let vc = storyboard?.instantiateViewController(withIdentifier: "detailsVC") as! CharacterDetailsViewController
             for characters in cData {
                 for character in characters.characters {
                     if character.name.capitalized == self.characters[indexPath.row].characterNameLabel.capitalized {
                         vc.character = character
+                        vc.characterDetailsImage = self.characters[indexPath.row].characterDetailsLabel
                         vc.title = character.name.capitalized
                         break
                     }
