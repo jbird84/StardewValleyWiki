@@ -122,7 +122,7 @@ class CharacterDetailsViewController: UIViewController {
         for button in buttons {
             button?.layer.cornerRadius = 10
         }
-        detailsButton.backgroundColor = UIColor(named: "detailSelectedBK")
+        detailsButton.backgroundColor = UIColor(named: "selectedButton")
     }
     
     private func setupcharacterDetailsImageView() {
@@ -157,7 +157,7 @@ class CharacterDetailsViewController: UIViewController {
         giftsButton.isSelected = giftsSelected
         
         if detailsButton.isSelected {
-            detailsButton.backgroundColor = UIColor(named: "detailSelectedBK")
+            detailsButton.backgroundColor = UIColor(named: "selectedButton")
             scheduleButton.backgroundColor = UIColor(named: "scheduleViewBK")
             giftsButton.backgroundColor = UIColor(named: "giftViewBK")
             heartsButton.backgroundColor = UIColor(named: "heartViewBK")
@@ -165,18 +165,18 @@ class CharacterDetailsViewController: UIViewController {
         if giftsButton.isSelected {
             detailsButton.backgroundColor = UIColor(named: "detailViewBK")
             scheduleButton.backgroundColor = UIColor(named: "scheduleViewBK")
-            giftsButton.backgroundColor = UIColor(named: "giftSelectedBK")
+            giftsButton.backgroundColor = UIColor(named: "selectedButton")
             heartsButton.backgroundColor = UIColor(named: "heartViewBK")
         }
         if heartsButton.isSelected {
             detailsButton.backgroundColor = UIColor(named: "detailViewBK")
             scheduleButton.backgroundColor = UIColor(named: "scheduleViewBK")
             giftsButton.backgroundColor = UIColor(named: "giftViewBK")
-            heartsButton.backgroundColor = UIColor(named: "heartSelectedBK")
+            heartsButton.backgroundColor = UIColor(named: "selectedButton")
         }
         if scheduleButton.isSelected {
             detailsButton.backgroundColor = UIColor(named: "detailViewBK")
-            scheduleButton.backgroundColor = UIColor(named: "scheduleSelectedBK")
+            scheduleButton.backgroundColor = UIColor(named: "selectedButton")
             giftsButton.backgroundColor = UIColor(named: "giftViewBK")
             heartsButton.backgroundColor = UIColor(named: "heartViewBK")
         }
