@@ -11,11 +11,16 @@ import SDWebImage
 class CharacterDetailsViewController: UIViewController {
     
     @IBOutlet weak var detailView: UIView!
+    @IBOutlet weak var detailsButton: UIButton!
+    @IBOutlet weak var scheduleButton: UIButton!
+    @IBOutlet weak var giftsButton: UIButton!
+    @IBOutlet weak var heartsButton: UIButton!
+    
     
     let characterDetailsImageView = UIImageView()
     var character: Character = Character(name: "", schedule: [], birthday: "", gifts: [], heart_events: [])
     var characterDetailsImage = ""
-
+    
     //Schedule
     var scheduleImages = [UIImage]()
     let swipeScheduleView = UIImageView()
@@ -56,13 +61,14 @@ class CharacterDetailsViewController: UIViewController {
     let heart12 = UILabel()
     let heart13 = UILabel()
     let heart14 = UILabel()
-
+    
     
     override func viewDidLoad() {
         super.viewDidLoad()
         setupcharacterDetailsImageView()
         detailView.backgroundColor = .clear
-        print("Schedule: \(scheduleImages.count)")
+        view.backgroundColor = UIColor(named: "detailViewBK")
+        setupButtons()
     }
     
     override func viewWillAppear(_ animated: Bool) {
@@ -70,6 +76,7 @@ class CharacterDetailsViewController: UIViewController {
     }
     
     @IBAction func birthdayButtonTapped(_ sender: Any) {
+        checkForSelected(heartSelected: false, detailsSelected: true, scheduleSelected: false, giftsSelected: false)
         view.backgroundColor = UIColor(named: "detailViewBK")
         setupcharacterDetailsImageView()
         characterDetailsImageView.isHidden = false
@@ -80,7 +87,7 @@ class CharacterDetailsViewController: UIViewController {
     
     
     @IBAction func scheduleButtonTapped(_ sender: Any) {
-        print("Schedule: \(scheduleImages.count)")
+        checkForSelected(heartSelected: false, detailsSelected: false, scheduleSelected: true, giftsSelected: false)
         swipeScheduleView.isHidden = false
         characterDetailsImageView.isHidden = true
         heartStackView.isHidden = true
@@ -89,6 +96,7 @@ class CharacterDetailsViewController: UIViewController {
     }
     
     @IBAction func giftsButtonTapped(_ sender: Any) {
+        checkForSelected(heartSelected: false, detailsSelected: false, scheduleSelected: false, giftsSelected: true)
         characterDetailsImageView.isHidden = true
         swipeScheduleView.isHidden = true
         heartStackView.isHidden = true
@@ -99,6 +107,7 @@ class CharacterDetailsViewController: UIViewController {
     
     
     @IBAction func heartsButtonTapped(_ sender: Any) {
+        checkForSelected(heartSelected: true, detailsSelected: false, scheduleSelected: false, giftsSelected: false)
         characterDetailsImageView.isHidden = true
         swipeScheduleView.isHidden = true
         heartStackView.isHidden = false
@@ -106,6 +115,14 @@ class CharacterDetailsViewController: UIViewController {
         view.backgroundColor = UIColor(named: "heartViewBK")
         getHeartEvents()
         setupHeartEventStackView()
+    }
+    
+    private func setupButtons() {
+        let buttons = [detailsButton, scheduleButton, giftsButton, heartsButton]
+        for button in buttons {
+            button?.layer.cornerRadius = 10
+        }
+        detailsButton.backgroundColor = UIColor(named: "detailSelectedBK")
     }
     
     private func setupcharacterDetailsImageView() {
@@ -121,16 +138,48 @@ class CharacterDetailsViewController: UIViewController {
         view.backgroundColor = UIColor(named: "scheduleViewBK")
         let swipeRight = UISwipeGestureRecognizer(target: self, action: #selector(respondToSwipeGesture))
         swipeRight.direction = UISwipeGestureRecognizer.Direction.right
-            self.detailView.addGestureRecognizer(swipeRight)
-
+        self.detailView.addGestureRecognizer(swipeRight)
+        
         let swipeLeft = UISwipeGestureRecognizer(target: self, action: #selector(respondToSwipeGesture))
         swipeLeft.direction = UISwipeGestureRecognizer.Direction.left
-            self.detailView.addGestureRecognizer(swipeLeft)
+        self.detailView.addGestureRecognizer(swipeLeft)
         
         swipeScheduleView.frame = detailView.bounds
         detailView.addSubview(swipeScheduleView)
         swipeScheduleView.image = scheduleImages[0]
         swipeScheduleView.contentMode = .scaleAspectFit
+    }
+    
+    private func checkForSelected(heartSelected: Bool, detailsSelected: Bool, scheduleSelected: Bool, giftsSelected: Bool) {
+        heartsButton.isSelected = heartSelected
+        detailsButton.isSelected = detailsSelected
+        scheduleButton.isSelected = scheduleSelected
+        giftsButton.isSelected = giftsSelected
+        
+        if detailsButton.isSelected {
+            detailsButton.backgroundColor = UIColor(named: "detailSelectedBK")
+            scheduleButton.backgroundColor = UIColor(named: "scheduleViewBK")
+            giftsButton.backgroundColor = UIColor(named: "giftViewBK")
+            heartsButton.backgroundColor = UIColor(named: "heartViewBK")
+        }
+        if giftsButton.isSelected {
+            detailsButton.backgroundColor = UIColor(named: "detailViewBK")
+            scheduleButton.backgroundColor = UIColor(named: "scheduleViewBK")
+            giftsButton.backgroundColor = UIColor(named: "giftSelectedBK")
+            heartsButton.backgroundColor = UIColor(named: "heartViewBK")
+        }
+        if heartsButton.isSelected {
+            detailsButton.backgroundColor = UIColor(named: "detailViewBK")
+            scheduleButton.backgroundColor = UIColor(named: "scheduleViewBK")
+            giftsButton.backgroundColor = UIColor(named: "giftViewBK")
+            heartsButton.backgroundColor = UIColor(named: "heartSelectedBK")
+        }
+        if scheduleButton.isSelected {
+            detailsButton.backgroundColor = UIColor(named: "detailViewBK")
+            scheduleButton.backgroundColor = UIColor(named: "scheduleSelectedBK")
+            giftsButton.backgroundColor = UIColor(named: "giftViewBK")
+            heartsButton.backgroundColor = UIColor(named: "heartViewBK")
+        }
     }
     
     private func setupGifts() {
@@ -218,7 +267,7 @@ class CharacterDetailsViewController: UIViewController {
     
     private func getHeartEvents() {
         for heart in character.heart_events {
-
+            
             applyBoldFormatting(to: heart2, text: "2 hearts: \n\(heart.twoHearts)", boldRange: NSRange(location: 0, length: 10))
             applyBoldFormatting(to: heart3, text: "3 hearts: \n\(heart.threeHearts)", boldRange: NSRange(location: 0, length: 10))
             applyBoldFormatting(to: heart3a, text: "3 heartA: \n\(heart.threeHearts2)", boldRange: NSRange(location: 0, length: 10))
@@ -241,7 +290,7 @@ class CharacterDetailsViewController: UIViewController {
     }
     private func removeEmptyHeartEvents() {
         let heartEvents = [heart2, heart3, heart3a, heart4, heart5, heart6, heart6a, heart7, heart7a, heart7b, heart8, heart9, heart10, heart11, heart12, heart13, heart14
-            ]
+        ]
         for heart in heartEvents {
             heart.textColor = UIColor(named: "heartEventColor")
             guard let text = heart.text else { return }
@@ -269,20 +318,20 @@ class CharacterDetailsViewController: UIViewController {
     }
     
     @objc func respondToSwipeGesture(gesture: UIGestureRecognizer) {
-
+        
         if let swipeGesture = gesture as? UISwipeGestureRecognizer {
-
-
+            
+            
             switch swipeGesture.direction {
             case UISwipeGestureRecognizer.Direction.left:
                 if currentImage == scheduleImages.count - 1 {
                     currentImage = 0
-
+                    
                 }else{
                     currentImage += 1
                 }
                 swipeScheduleView.image = scheduleImages[currentImage]
-
+                
             case UISwipeGestureRecognizer.Direction.right:
                 if currentImage == 0 {
                     currentImage = scheduleImages.count - 1

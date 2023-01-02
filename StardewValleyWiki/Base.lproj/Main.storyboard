@@ -11,7 +11,7 @@
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="StardewValleyWiki" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Stardew_Valley" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -143,7 +143,7 @@
         <!--Collection View Controller-->
         <scene sceneID="AJq-h7-Dy0">
             <objects>
-                <viewController storyboardIdentifier="CollectionViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="Yse-OZ-cOA" customClass="CollectionViewController" customModule="StardewValleyWiki" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="CollectionViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="Yse-OZ-cOA" customClass="CollectionViewController" customModule="Stardew_Valley" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="eTk-u8-pH6">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -158,16 +158,16 @@
         <!--Character Details View Controller-->
         <scene sceneID="XSY-oz-6lw">
             <objects>
-                <viewController storyboardIdentifier="detailsVC" id="66d-zd-t5D" customClass="CharacterDetailsViewController" customModule="StardewValleyWiki" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="detailsVC" id="66d-zd-t5D" customClass="CharacterDetailsViewController" customModule="Stardew_Valley" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="B21-B1-mNn">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="H7c-Pj-qi5">
-                                <rect key="frame" x="0.66666666666665719" y="94" width="392" height="40"/>
+                            <stackView opaque="NO" contentMode="scaleToFill" spacing="4" translatesAutoresizingMaskIntoConstraints="NO" id="H7c-Pj-qi5">
+                                <rect key="frame" x="-5.6666666666666572" y="94" width="404.33333333333326" height="40"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Pg9-ok-VgG">
-                                        <rect key="frame" x="0.0" y="0.0" width="98" height="40"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="98.333333333333329" height="40"/>
                                         <color key="backgroundColor" red="0.85440994179511009" green="0.56659001980598178" blue="0.86093777418136597" alpha="0.66520074503311255" colorSpace="custom" customColorSpace="displayP3"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="40" id="EqO-Cb-vfp"/>
@@ -178,11 +178,11 @@
                                             <color key="baseForegroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         </buttonConfiguration>
                                         <connections>
-                                            <action selector="birthdayButtonTapped:" destination="66d-zd-t5D" eventType="touchUpInside" id="Hn2-iQ-AwY"/>
+                                            <action selector="birthdayButtonTapped:" destination="66d-zd-t5D" eventType="touchUpInside" id="UfF-tD-bSy"/>
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="k8W-RQ-Qcj">
-                                        <rect key="frame" x="98" y="0.0" width="98" height="40"/>
+                                        <rect key="frame" x="102.33333333333334" y="0.0" width="98" height="40"/>
                                         <color key="backgroundColor" red="0.86093777418136597" green="0.48683773709603129" blue="0.44083190759865681" alpha="0.66520074503311255" colorSpace="custom" customColorSpace="displayP3"/>
                                         <constraints>
                                             <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="98" id="pPL-1b-OiU"/>
@@ -193,11 +193,11 @@
                                             <color key="baseForegroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         </buttonConfiguration>
                                         <connections>
-                                            <action selector="scheduleButtonTapped:" destination="66d-zd-t5D" eventType="touchUpInside" id="33b-2s-1e1"/>
+                                            <action selector="scheduleButtonTapped:" destination="66d-zd-t5D" eventType="touchUpInside" id="g63-Aa-Vf9"/>
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1dI-Eo-DAS">
-                                        <rect key="frame" x="196" y="0.0" width="98" height="40"/>
+                                        <rect key="frame" x="204.33333333333331" y="0.0" width="98" height="40"/>
                                         <color key="backgroundColor" red="0.31083222413400013" green="0.86093777418136597" blue="0.73116317265760578" alpha="0.66520074503311255" colorSpace="custom" customColorSpace="displayP3"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="40" id="K5E-YO-Pvz"/>
@@ -208,12 +208,12 @@
                                             <color key="baseForegroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         </buttonConfiguration>
                                         <connections>
-                                            <action selector="giftsButtonTapped:" destination="66d-zd-t5D" eventType="touchUpInside" id="To4-CT-dQv"/>
+                                            <action selector="giftsButtonTapped:" destination="66d-zd-t5D" eventType="touchUpInside" id="hxz-3k-d2U"/>
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0Ss-Ik-jzj">
-                                        <rect key="frame" x="294" y="0.0" width="98" height="40"/>
-                                        <color key="backgroundColor" red="0.86274509803921573" green="0.1737051966554122" blue="0.27495266683910402" alpha="0.66520074500000004" colorSpace="custom" customColorSpace="displayP3"/>
+                                        <rect key="frame" x="306.33333333333337" y="0.0" width="98" height="40"/>
+                                        <color key="backgroundColor" red="0.86093777419999995" green="0.1737051966554122" blue="0.27495266683910402" alpha="0.66520074500000004" colorSpace="custom" customColorSpace="displayP3"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="40" id="S4X-eO-ade"/>
                                             <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="98" id="m6j-yd-XsG"/>
@@ -223,7 +223,7 @@
                                             <color key="baseForegroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         </buttonConfiguration>
                                         <connections>
-                                            <action selector="heartsButtonTapped:" destination="66d-zd-t5D" eventType="touchUpInside" id="F5c-aP-Exi"/>
+                                            <action selector="heartsButtonTapped:" destination="66d-zd-t5D" eventType="touchUpInside" id="lGD-Ut-Bvs"/>
                                         </connections>
                                     </button>
                                 </subviews>
@@ -246,6 +246,10 @@
                     </view>
                     <connections>
                         <outlet property="detailView" destination="E0X-35-TMR" id="HEQ-fV-AB5"/>
+                        <outlet property="detailsButton" destination="Pg9-ok-VgG" id="gWC-A1-vUD"/>
+                        <outlet property="giftsButton" destination="1dI-Eo-DAS" id="az2-9m-Zrt"/>
+                        <outlet property="heartsButton" destination="0Ss-Ik-jzj" id="KTM-cJ-2hE"/>
+                        <outlet property="scheduleButton" destination="k8W-RQ-Qcj" id="eyg-IK-l2h"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="RT7-iv-FGm" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
