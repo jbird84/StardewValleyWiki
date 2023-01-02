@@ -46,7 +46,7 @@
 		DA1220C9295B0D1000877D72 /* Calendar.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Calendar.storyboard; sourceTree = "<group>"; };
 		DA1220CB295B0F9300877D72 /* CalendarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarViewController.swift; sourceTree = "<group>"; };
 		DA1220CD295B2E7100877D72 /* Characters.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Characters.json; sourceTree = "<group>"; };
-		DA690CA22955F33300A7BB64 /* StardewValleyWiki.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StardewValleyWiki.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DA690CA22955F33300A7BB64 /* Stardew Valley.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Stardew Valley.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DA690CA52955F33400A7BB64 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DA690CA72955F33400A7BB64 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		DA690CA92955F33400A7BB64 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -153,7 +153,7 @@
 		DA690CA32955F33300A7BB64 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				DA690CA22955F33300A7BB64 /* StardewValleyWiki.app */,
+				DA690CA22955F33300A7BB64 /* Stardew Valley.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -180,9 +180,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		DA690CA12955F33300A7BB64 /* StardewValleyWiki */ = {
+		DA690CA12955F33300A7BB64 /* Stardew Valley */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = DA690CB62955F33500A7BB64 /* Build configuration list for PBXNativeTarget "StardewValleyWiki" */;
+			buildConfigurationList = DA690CB62955F33500A7BB64 /* Build configuration list for PBXNativeTarget "Stardew Valley" */;
 			buildPhases = (
 				DA690C9E2955F33300A7BB64 /* Sources */,
 				DA690C9F2955F33300A7BB64 /* Frameworks */,
@@ -192,13 +192,13 @@
 			);
 			dependencies = (
 			);
-			name = StardewValleyWiki;
+			name = "Stardew Valley";
 			packageProductDependencies = (
 				DAF19D6529626AC700CE17C5 /* SDWebImage */,
 				DAF19D6729626AC700CE17C5 /* SDWebImageMapKit */,
 			);
 			productName = StardewValleyWiki;
-			productReference = DA690CA22955F33300A7BB64 /* StardewValleyWiki.app */;
+			productReference = DA690CA22955F33300A7BB64 /* Stardew Valley.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -232,7 +232,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				DA690CA12955F33300A7BB64 /* StardewValleyWiki */,
+				DA690CA12955F33300A7BB64 /* Stardew Valley */,
 			);
 		};
 /* End PBXProject section */
@@ -477,7 +477,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		DA690CB62955F33500A7BB64 /* Build configuration list for PBXNativeTarget "StardewValleyWiki" */ = {
+		DA690CB62955F33500A7BB64 /* Build configuration list for PBXNativeTarget "Stardew Valley" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				DA690CB72955F33500A7BB64 /* Debug */,
