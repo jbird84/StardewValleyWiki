@@ -76,8 +76,7 @@ class CharacterDetailsViewController: UIViewController {
     }
     
     @IBAction func birthdayButtonTapped(_ sender: Any) {
-        checkForSelected(heartSelected: false, detailsSelected: true, scheduleSelected: false, giftsSelected: false)
-        view.backgroundColor = UIColor(named: "detailViewBK")
+        checkForSelected(heartSelected: false, detailsSelected: true, scheduleSelected: false, giftsSelected: false, bkGrdColor: "detailViewBK")
         setupcharacterDetailsImageView()
         characterDetailsImageView.isHidden = false
         swipeScheduleView.isHidden = true
@@ -87,7 +86,7 @@ class CharacterDetailsViewController: UIViewController {
     
     
     @IBAction func scheduleButtonTapped(_ sender: Any) {
-        checkForSelected(heartSelected: false, detailsSelected: false, scheduleSelected: true, giftsSelected: false)
+        checkForSelected(heartSelected: false, detailsSelected: false, scheduleSelected: true, giftsSelected: false, bkGrdColor: "scheduleViewBK")
         swipeScheduleView.isHidden = false
         characterDetailsImageView.isHidden = true
         heartStackView.isHidden = true
@@ -96,23 +95,21 @@ class CharacterDetailsViewController: UIViewController {
     }
     
     @IBAction func giftsButtonTapped(_ sender: Any) {
-        checkForSelected(heartSelected: false, detailsSelected: false, scheduleSelected: false, giftsSelected: true)
+        checkForSelected(heartSelected: false, detailsSelected: false, scheduleSelected: false, giftsSelected: true, bkGrdColor: "giftViewBK")
         characterDetailsImageView.isHidden = true
         swipeScheduleView.isHidden = true
         heartStackView.isHidden = true
         giftsStackView.isHidden = false
-        view.backgroundColor = UIColor(named: "giftViewBK")
         setupGifts()
     }
     
     
     @IBAction func heartsButtonTapped(_ sender: Any) {
-        checkForSelected(heartSelected: true, detailsSelected: false, scheduleSelected: false, giftsSelected: false)
+        checkForSelected(heartSelected: true, detailsSelected: false, scheduleSelected: false, giftsSelected: false, bkGrdColor: "heartViewBK")
         characterDetailsImageView.isHidden = true
         swipeScheduleView.isHidden = true
         heartStackView.isHidden = false
         giftsStackView.isHidden = true
-        view.backgroundColor = UIColor(named: "heartViewBK")
         getHeartEvents()
         setupHeartEventStackView()
     }
@@ -135,7 +132,6 @@ class CharacterDetailsViewController: UIViewController {
     }
     
     private func setupSchedule() {
-        view.backgroundColor = UIColor(named: "scheduleViewBK")
         let swipeRight = UISwipeGestureRecognizer(target: self, action: #selector(respondToSwipeGesture))
         swipeRight.direction = UISwipeGestureRecognizer.Direction.right
         self.detailView.addGestureRecognizer(swipeRight)
@@ -148,13 +144,16 @@ class CharacterDetailsViewController: UIViewController {
         detailView.addSubview(swipeScheduleView)
         swipeScheduleView.image = scheduleImages[0]
         swipeScheduleView.contentMode = .scaleAspectFit
+        swipeScheduleView.anchor(top: detailView.topAnchor, leading: detailView.leadingAnchor, trailing: detailView.trailingAnchor, paddingTop: 0, paddingLeading: 0, paddingTrailing: 0)
     }
     
-    private func checkForSelected(heartSelected: Bool, detailsSelected: Bool, scheduleSelected: Bool, giftsSelected: Bool) {
+    private func checkForSelected(heartSelected: Bool, detailsSelected: Bool, scheduleSelected: Bool, giftsSelected: Bool, bkGrdColor: String) {
         heartsButton.isSelected = heartSelected
         detailsButton.isSelected = detailsSelected
         scheduleButton.isSelected = scheduleSelected
         giftsButton.isSelected = giftsSelected
+        
+        view.backgroundColor = UIColor(named: bkGrdColor)
         
         if detailsButton.isSelected {
             detailsButton.backgroundColor = UIColor(named: "selectedButton")
@@ -185,10 +184,10 @@ class CharacterDetailsViewController: UIViewController {
     private func setupGifts() {
         let giftLabels = [loveLabel, likeLabel, neutralLabel, hateLabel]
         let giftDetailLabels = [loveLabelDetails, likeLabelDetails, neutralLabelDetails, hateLabelDetails]
-        let stackviews = [loveStackView, likeStackView, neutralStackView, hateStackView]
         
         for details in giftDetailLabels {
             details.numberOfLines = 0
+            details.translatesAutoresizingMaskIntoConstraints = false
         }
         
         for gift in giftLabels {
@@ -208,29 +207,19 @@ class CharacterDetailsViewController: UIViewController {
         neutralLabel.text = "Gifts I Am Neutral About"
         hateLabel.text = "Gifts I Hate"
         
-        loveStackView.addArrangedSubview(loveLabel)
-        loveStackView.addArrangedSubview(loveLabelDetails)
-        likeStackView.addArrangedSubview(likeLabel)
-        likeStackView.addArrangedSubview(likeLabelDetails)
-        neutralStackView.addArrangedSubview(neutralLabel)
-        neutralStackView.addArrangedSubview(neutralLabelDetails)
-        hateStackView.addArrangedSubview(hateLabel)
-        hateStackView.addArrangedSubview(hateLabelDetails)
         giftsStackView.frame = detailView.bounds
         detailView.addSubview(giftsStackView)
+    
+        giftsStackView.addArrangedSubview(loveLabel)
+        giftsStackView.addArrangedSubview(loveLabelDetails)
+        giftsStackView.addArrangedSubview(likeLabel)
+        giftsStackView.addArrangedSubview(likeLabelDetails)
+        giftsStackView.addArrangedSubview(neutralLabel)
+        giftsStackView.addArrangedSubview(neutralLabelDetails)
+        giftsStackView.addArrangedSubview(hateLabel)
+        giftsStackView.addArrangedSubview(hateLabelDetails)
         
-        for stackview in stackviews {
-            stackview.spacing = 5
-            stackview.axis = .vertical
-            stackview.alignment = .leading
-            stackview.distribution = .fillProportionally
-        }
-        
-        giftsStackView.addArrangedSubview(loveStackView)
-        giftsStackView.addArrangedSubview(likeStackView)
-        giftsStackView.addArrangedSubview(neutralStackView)
-        giftsStackView.addArrangedSubview(hateStackView)
-        giftsStackView.spacing = 10
+        giftsStackView.spacing = 5
         giftsStackView.axis = .vertical
         giftsStackView.alignment = .leading
         giftsStackView.distribution = .fillProportionally
