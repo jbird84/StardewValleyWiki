@@ -6,6 +6,7 @@
 //
 
 import UIKit
+import SDWebImage
 
 class CharacterDetailsViewController: UIViewController {
     
@@ -15,6 +16,11 @@ class CharacterDetailsViewController: UIViewController {
     var character: Character = Character(name: "", schedule: [], birthday: "", gifts: [], heart_events: [])
     var characterDetailsImage = ""
 
+    //Schedule
+    var scheduleImages = [UIImage]()
+    let swipeScheduleView = UIImageView()
+    var currentImage = 0
+    
     //Gifts
     let giftsStackView = UIStackView()
     let loveStackView = UIStackView()
@@ -54,28 +60,37 @@ class CharacterDetailsViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        
         setupcharacterDetailsImageView()
         detailView.backgroundColor = .clear
-        
+        print("Schedule: \(scheduleImages.count)")
     }
     
-    
+    override func viewWillAppear(_ animated: Bool) {
+        getImagesFromURL()
+    }
     
     @IBAction func birthdayButtonTapped(_ sender: Any) {
         view.backgroundColor = UIColor(named: "detailViewBK")
         setupcharacterDetailsImageView()
         characterDetailsImageView.isHidden = false
+        swipeScheduleView.isHidden = true
         heartStackView.isHidden = true
         giftsStackView.isHidden = true
     }
     
     
     @IBAction func scheduleButtonTapped(_ sender: Any) {
+        print("Schedule: \(scheduleImages.count)")
+        swipeScheduleView.isHidden = false
+        characterDetailsImageView.isHidden = true
+        heartStackView.isHidden = true
+        giftsStackView.isHidden = true
+        setupSchedule()
     }
     
     @IBAction func giftsButtonTapped(_ sender: Any) {
         characterDetailsImageView.isHidden = true
+        swipeScheduleView.isHidden = true
         heartStackView.isHidden = true
         giftsStackView.isHidden = false
         view.backgroundColor = UIColor(named: "giftViewBK")
@@ -85,6 +100,7 @@ class CharacterDetailsViewController: UIViewController {
     
     @IBAction func heartsButtonTapped(_ sender: Any) {
         characterDetailsImageView.isHidden = true
+        swipeScheduleView.isHidden = true
         heartStackView.isHidden = false
         giftsStackView.isHidden = true
         view.backgroundColor = UIColor(named: "heartViewBK")
@@ -99,6 +115,22 @@ class CharacterDetailsViewController: UIViewController {
         characterDetailsImageView.center = detailView.center
         characterDetailsImageView.image = image
         characterDetailsImageView.contentMode = .scaleAspectFill
+    }
+    
+    private func setupSchedule() {
+        view.backgroundColor = UIColor(named: "scheduleViewBK")
+        let swipeRight = UISwipeGestureRecognizer(target: self, action: #selector(respondToSwipeGesture))
+        swipeRight.direction = UISwipeGestureRecognizer.Direction.right
+            self.detailView.addGestureRecognizer(swipeRight)
+
+        let swipeLeft = UISwipeGestureRecognizer(target: self, action: #selector(respondToSwipeGesture))
+        swipeLeft.direction = UISwipeGestureRecognizer.Direction.left
+            self.detailView.addGestureRecognizer(swipeLeft)
+        
+        swipeScheduleView.frame = detailView.bounds
+        detailView.addSubview(swipeScheduleView)
+        swipeScheduleView.image = scheduleImages[0]
+        swipeScheduleView.contentMode = .scaleAspectFit
     }
     
     private func setupGifts() {
@@ -218,6 +250,48 @@ class CharacterDetailsViewController: UIViewController {
             } else {
                 heart.numberOfLines = 0
                 heart.isHidden = false
+            }
+        }
+    }
+    
+    func getImagesFromURL() {
+        let manager = SDWebImageManager.shared
+        for url in character.schedule {
+            manager.loadImage(with: URL(string: url), options: .continueInBackground, progress: nil) { [weak self] image, _, error, _, _, _ in
+                guard let this = self else { return }
+                if let image = image {
+                    this.scheduleImages.append(image)
+                } else {
+                    print(error ?? "Something Bad Happened Getting the Image")
+                }
+            }
+        }
+    }
+    
+    @objc func respondToSwipeGesture(gesture: UIGestureRecognizer) {
+
+        if let swipeGesture = gesture as? UISwipeGestureRecognizer {
+
+
+            switch swipeGesture.direction {
+            case UISwipeGestureRecognizer.Direction.left:
+                if currentImage == scheduleImages.count - 1 {
+                    currentImage = 0
+
+                }else{
+                    currentImage += 1
+                }
+                swipeScheduleView.image = scheduleImages[currentImage]
+
+            case UISwipeGestureRecognizer.Direction.right:
+                if currentImage == 0 {
+                    currentImage = scheduleImages.count - 1
+                }else{
+                    currentImage -= 1
+                }
+                swipeScheduleView.image = scheduleImages[currentImage]
+            default:
+                break
             }
         }
     }

@@ -27,6 +27,8 @@
 		DA690CAD2955F33400A7BB64 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DA690CAB2955F33400A7BB64 /* Main.storyboard */; };
 		DA690CAF2955F33500A7BB64 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DA690CAE2955F33500A7BB64 /* Assets.xcassets */; };
 		DA690CB22955F33500A7BB64 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DA690CB02955F33500A7BB64 /* LaunchScreen.storyboard */; };
+		DAF19D6629626AC700CE17C5 /* SDWebImage in Frameworks */ = {isa = PBXBuildFile; productRef = DAF19D6529626AC700CE17C5 /* SDWebImage */; };
+		DAF19D6829626AC700CE17C5 /* SDWebImageMapKit in Frameworks */ = {isa = PBXBuildFile; productRef = DAF19D6729626AC700CE17C5 /* SDWebImageMapKit */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -59,6 +61,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DAF19D6829626AC700CE17C5 /* SDWebImageMapKit in Frameworks */,
+				DAF19D6629626AC700CE17C5 /* SDWebImage in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -189,6 +193,10 @@
 			dependencies = (
 			);
 			name = StardewValleyWiki;
+			packageProductDependencies = (
+				DAF19D6529626AC700CE17C5 /* SDWebImage */,
+				DAF19D6729626AC700CE17C5 /* SDWebImageMapKit */,
+			);
 			productName = StardewValleyWiki;
 			productReference = DA690CA22955F33300A7BB64 /* StardewValleyWiki.app */;
 			productType = "com.apple.product-type.application";
@@ -217,6 +225,9 @@
 				Base,
 			);
 			mainGroup = DA690C992955F33300A7BB64;
+			packageReferences = (
+				DAF19D6429626AC700CE17C5 /* XCRemoteSwiftPackageReference "SDWebImage" */,
+			);
 			productRefGroup = DA690CA32955F33300A7BB64 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -476,6 +487,30 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		DAF19D6429626AC700CE17C5 /* XCRemoteSwiftPackageReference "SDWebImage" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SDWebImage/SDWebImage";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		DAF19D6529626AC700CE17C5 /* SDWebImage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = DAF19D6429626AC700CE17C5 /* XCRemoteSwiftPackageReference "SDWebImage" */;
+			productName = SDWebImage;
+		};
+		DAF19D6729626AC700CE17C5 /* SDWebImageMapKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = DAF19D6429626AC700CE17C5 /* XCRemoteSwiftPackageReference "SDWebImage" */;
+			productName = SDWebImageMapKit;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = DA690C9A2955F33300A7BB64 /* Project object */;
 }
