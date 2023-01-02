@@ -142,7 +142,12 @@ class CharacterDetailsViewController: UIViewController {
         
         swipeScheduleView.frame = detailView.bounds
         detailView.addSubview(swipeScheduleView)
-        swipeScheduleView.image = scheduleImages[0]
+        if scheduleImages.count > 0 {
+            swipeScheduleView.image = scheduleImages[0]
+        } else {
+            showAlert(title: "Unable To Get Schedule", withMessage: "The sever that host the schduled images seems to be down. Please try again later.")
+        }
+        
         swipeScheduleView.contentMode = .scaleAspectFit
         swipeScheduleView.anchor(top: detailView.topAnchor, leading: detailView.leadingAnchor, trailing: detailView.trailingAnchor, paddingTop: 0, paddingLeading: 0, paddingTrailing: 0)
     }
@@ -332,6 +337,15 @@ class CharacterDetailsViewController: UIViewController {
                 break
             }
         }
+    }
+    
+    func showAlert(title: String, withMessage: String) {
+        var dialogMessage = UIAlertController(title: title, message: withMessage, preferredStyle: .alert)
+        // Create OK button with action handler
+        let ok = UIAlertAction(title: "OK", style: .cancel, handler: { (action) -> Void in
+           })
+        dialogMessage.addAction(ok)
+        self.present(dialogMessage, animated: true, completion: nil)
     }
     
     func applyBoldFormatting(to label: UILabel, text: String, boldRange: NSRange) {

@@ -11,6 +11,7 @@ var mainSeason = ""
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var selectASeason: UILabel!
     @IBOutlet weak var springButton: UIButton!
     @IBOutlet weak var summerButton: UIButton!
     @IBOutlet weak var fallButton: UIButton!
@@ -19,14 +20,15 @@ class ViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        setupTitleLabel()
+        navigationController?.navigationBar.tintColor = .white
         setupView()
         setupButtons()
     }
     
     private func setupView() {
         let gradientLayer = CAGradientLayer()
-        gradientLayer.colors = [UIColor.black.cgColor, UIColor.white.cgColor]
+        gradientLayer.colors = [UIColor.systemPurple.cgColor, UIColor.systemMint.cgColor]
         gradientLayer.locations = [0, 1]
         gradientLayer.frame = view.bounds
         view.layer.insertSublayer(gradientLayer, at: 0)
@@ -38,6 +40,14 @@ class ViewController: UIViewController {
         UIHelper.setupGradient(button: fallButton, color1: UIColor.white.cgColor, color2: UIColor.brown.cgColor)
         UIHelper.setupGradient(button: winterButton, color1: UIColor.white.cgColor, color2: UIColor.blue.cgColor)
         UIHelper.setupGradient(button: calendarButton, color1: UIColor.white.cgColor, color2: UIColor.systemPurple.cgColor)
+    }
+    
+    private func setupTitleLabel() {
+        selectASeason.textColor = .white
+        selectASeason.font = .systemFont(ofSize: 38, weight: .bold)
+        selectASeason.shadowColor = .gray
+        selectASeason.shadowOffset = CGSize(width: 1, height: 1)
+        selectASeason.layer.shadowRadius = 5
     }
     
     

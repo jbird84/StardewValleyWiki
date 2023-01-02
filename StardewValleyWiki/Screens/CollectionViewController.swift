@@ -65,7 +65,7 @@ class CollectionViewController: UIViewController {
         view.addSubview(collectionView)
         collectionView.delegate = self
         collectionView.dataSource = self
-        collectionView.backgroundColor = .systemBackground
+        collectionView.backgroundColor = .gray
         collectionView.register(CollectionViewCell.self, forCellWithReuseIdentifier: K.ReusableIdentifier.collectionCell)
     }
     
